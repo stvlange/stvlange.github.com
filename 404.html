@@ -1,0 +1,45 @@
+---
+layout: base
+title: Page not found &mdash; Simon Pascal Klein &mdash; Graphic &amp; web design professional
+---
+        <div id="header" class="center">
+            <div class="article-logo floatLeft">
+                <h1>
+				    <a href="/" title="Return to homepage" tabindex="0" accesskey="H">
+				        <span class="hoverline">kle</span><span class="middot">&middot;</span>p<span class="hoverline">as</span>
+				    </a>
+                </h1>
+            </div>
+            <div class="hero floatRight colSix">
+                <p class="moin">Oh no! Skip to <a href="/" rel="home" title="Go back to the homepage" tabindex="0">&sect; Index</a> or straight to <a href="/#notebook" title="Skip straight to the latest article" tabindex="0" accesskey="L">&sect; Latest article</a>.</p>
+			</div>
+		</div> <!-- /#header.center -->
+		{% include nav.html %}
+		<div id="notebook" class="center clear">
+            <div class="page-content colEight">
+        		<h2 class="error">Page not found&thinsp;&mdash;&thinsp;404</h2>
+        		<script>
+                    $('document').ready(function() {
+                        $("h2").animate({ backgroundColor: "white" }, 4000);
+                    });
+                </script>
+                <p class="moin">Sorry, the page you queried for isn&rsquo;t at this location; it could have been misplaced.</p>
+                <p class="note">If it&rsquo;s likely to be my mistake or notably you were linked here from somewhere on-site (within klepas.org) please <a ref="email" href="mailto:klepas@klepas.org" title="Email Simon Pascal Klein">give me heads up about it</a> so I can correct the error.</p>
+                <p>In the mean time please use the navigation or try searching for what you&rsquo;re after:</p>
+                <div class="sitesearch sitesearch404">
+                    <!-- Google Custom Search Element -->
+                    <form action="http://www.google.com/cse" class="center_column" />
+                    <fieldset>
+                        <input type="hidden" name="cx" value="012236898957532950839:9eegq1vhwts" />
+                        <input type="hidden" name="ie" value="UTF-8" />
+                        <input id="search" class="text-input" type="text" name="q" size="35" tabindex="0" accesskey="S" />
+                        <input id="searchsubmit" type="submit" name="sa" value="Search this site" tabindex="0" />
+                    </fieldset>
+                </div> <!-- /.sitesearch -->
+                <ul>
+                    <li><a href="/" rel="home" title="Go back to the homepage">&sect; Index</a></li>
+                    <li><a href="/" title="View the notebook archives">&sect; Archives</a></li>
+                    <li><a href="/sitemap" title="View the Sitemap">Sitemap</a></li>
+                </ul>
+            </div> <!-- /.page-content.colEight -->
+        </div> <!-- /#notebook.center.clear -->

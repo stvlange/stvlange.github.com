@@ -1,0 +1,46 @@
+---
+layout: base
+title: Stephen Lange&thinsp;&mdash;&thinsp;Dad, Dude, Dreamer
+---
+        {% include header-home.html %}
+		{% include nav.html %}
+		{% include cover.html %}
+        {% for post in site.posts limit:1 %}
+		<div id="notebook" class="center clear">
+			<div class="page-nav-top">
+                {% if post.previous %}
+				    <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ post.previous.url }}/#notebook" title="View {{ post.previous.title }}">&larr; View previous article</a></span>
+				{% endif %}
+				{% if post.next %}
+				    <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ post.next.url }}/#notebook" title="View {{ post.next.title }}">View next article &rarr;</a></span>
+                {% endif %}
+            </div> <!-- /.page-nav-top -->
+            <div class="entry-content colEight">
+                <h2 class="clear">
+                    <a href="{{ post.url }}/#notebook" title="{{ post.title }}">
+                        {{ post.title }}
+                        </a>
+                    </h2>
+                <span class="date" title="{{ post.date | date_to_xmlschema }}">
+                    <span class="published">Published&thinsp;&bull;</span>
+                    <span class="day">{{ post.date | date: '%d' }}</span>
+                    <span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>
+                    <span class="year">{{ post.date | date: '%Y' }}</span>
+                </span>
+                {{ post.content }}
+                <div class="meta">
+                    <!-- <span class="pdf">Download a <a href="{{ post.url }}.pdf" title="Download a PDF, printer-friendly copy of this article"><acronym title="Portable Document Format">PDF</acronym>, printer-friendly version of this article</a>.</span> -->
+                    <span class="permalink">For referencing: <a href="{{ post.url }}" title="[Permalink] {{ post.title }}">permalink to this article</a>.</span>
+                </div> <!-- /.meta -->
+            </div> <!-- /.entry-content.colEight -->
+            <div class="page-nav-bottom">
+                {% if post.previous %}
+				    <span class="page-nav-item floatLeft"><a class="internal" rel="prev"  href="{{ post.previous.url }}/#notebook" title="View {{ post.previous.title }}">&larr; View previous article</a></span>
+				{% endif %}
+				{% if post.next %}
+				    <span class="page-nav-item floatRight"><a class="internal" rel="next"  href="{{ post.next.url }}/#notebook" title="View {{ post.next.title }}">View next article &rarr;</a></span>
+                {% endif %}
+            </div> <!-- /.page-nav-bottom -->
+        </div> <!-- /#notebook.center.clear -->
+        {% endfor %}
+        {% include portfolio.html %}
