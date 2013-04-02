@@ -170,6 +170,26 @@ div#container {
 				border: none;
 				background-color: white;
 				}
+	h1.alt {
+		position: relative;
+		text-align: left;
+		line-height: 1;
+		font-size: 4.4em;
+		font-weight: normal;
+		font-style: normal;
+		text-transform: lowercase;
+		margin-bottom: 0.375em; /* 24 */
+		letter-spacing: 0.031em; /* 2 */
+		}
+	h1.alt, h1.alt a span.italic { font-style: italic; }
+		h1.alt a span.middot { color: #666; }
+		h1.alt a:hover span.hoverline { border-bottom: 1px solid #999; }
+		h1.alt a { color: #bb0000; }
+			h1.alt a:hover, h1.alt a:active, h1.alt a:focus {
+				color: #333;
+				border: none;
+				background-color: white;
+				}
 	div.hero { width: 54.4em; /* Seven columns */ padding-top: 3.6em; }
 		div.hero p.moin {
 			font-size: 2em;
@@ -185,30 +205,6 @@ div#container {
 				}
 		div.hero p { font-size: 1.6em; color: #333; }
 
-    div.article-logo-alt {
-        padding: 2.4em 0 4.8em 0;
-        
-	h1 {
-		position: relative;
-		text-align: left;
-		line-height: 1;
-		font-size: 4.4em;
-		font-weight: normal;
-		font-style: normal;
-		text-transform: lowercase;
-		margin-bottom: 0.375em; /* 24 */
-		letter-spacing: 0.031em; /* 2 */
-		}
-	h1, h1 a span.italic { font-style: italic; }
-		h1 a span.middot { color: #666; }
-		h1 a:hover span.hoverline { border-bottom: 1px solid #999; }
-		h1 a { color: #bb0000; }
-			h1 a:hover, h1 a:active, h1 a:focus {
-				color: #333;
-				border: none;
-				background-color: white;
-				}
-	}
 
 /*	Navigation elements
 
