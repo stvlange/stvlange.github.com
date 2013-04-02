@@ -187,7 +187,7 @@ div#container {
 
     div.article-logo-alt {
         padding: 2.4em 0 4.8em 0;
-        }
+        
 	h1 {
 		position: relative;
 		text-align: left;
@@ -208,21 +208,7 @@ div#container {
 				border: none;
 				background-color: white;
 				}
-	div.hero { width: 54.4em; /* Seven columns */ padding-top: 3.6em; }
-		div.hero p.moin {
-			font-size: 2em;
-			margin-bottom: 1em;
-			letter-spacing: 0.025em; /* 0.5 */
-			word-spacing: 0.05em; /* 1 */
-			color: #111;
-			text-align: left;
-			}
-			div.hero p.moin span.amp {
-				font-size: 1.05em; /* 22 */
-				line-height: 0.909; /* Back to 20 */
-				}
-		div.hero p { font-size: 1.6em; color: #333; }
-
+	}
 
 /*	Navigation elements
 
