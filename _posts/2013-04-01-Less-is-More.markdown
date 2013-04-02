@@ -10,7 +10,7 @@ I might even go so far a saying that repeatedly getting a word document to look 
 
 One of the things that drew me to using the ruby based Jekyll parsing program for this site is that it used what is called markup for formatting.  As I write this post I am looking at what essentially is a plain text screen that will be transformed during the building of this site with the Jekyll system.
 
-# My Introduction to LaTex
+## My Introduction to LaTex
 
 This process is not new.  Years ago I was introduced to a product called LaTex which is used extensively in the college research venue.  Like Jekyll LaTex using a text based input that makes use of markup tags to indicate formatting options.  A template is used which the user chooses and when processed the output file is typeset into the specified template.
 
@@ -26,7 +26,7 @@ I say that not in an elitist way, I love the command line but if you ask me to l
 
 The road into corporate America for LaTex is one that I believe will always remain closed.  People need to be able to collaborate, files authored today need to be editable by someone with the necessary skill-set in a year, five years, etc.  That's just not going to happen outside of an academic environment despite the beautiful documents it can create.
 
-# The Joy of LaTex-Like Blogging
+## The Joy of LaTex-Like Blogging
 
 Given me professed love-fest for LaTex is it any surprise that I like Jekyll?  It's simple, its fast (no database needed to generate views on the fly like WordPress), and it's secure.  My workflow couldn't be easier, I can either edit the file locally and upload it to github for rendering, or use the github web interface to create the file and paste in the contents.
 
