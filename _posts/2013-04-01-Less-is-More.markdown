@@ -18,7 +18,7 @@ I say typeset because unlike justification in Word the resulting text looks like
 
 For me, I initially used LaTex for a slightly different reason.  I had a ton of documentation to do, and I needed to bang it out quickly and have it consistently look the same.  I didn't have time to deal with layout, i needed to focus on content, and LaTex made that possible.  And the results were truly impressive.
 
-####"That's great!" you say, "Is it easy?" you ask.
+#####"That's great!" you say, "Is it easy?" you ask.
 
 In a word no.  What you see is what you get (WYSIWYG) has crippled the typical users ability to easily assimilate this type of system.  People want instant gratification.  Don't want to troubleshoot why a document compile run through pdftex failed because of a coding error.  It's just not worth their time. 
 
