@@ -4,22 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>Simon Pascal Klein</title>
-    <link href="http://klepas.org/atom.xml" rel="self"/>
-    <link href="http://klepas.org/"/>
+    <title>Stephen Lange</title>
+    <link href="http://stephenlange.org/atom.xml" rel="self"/>
+    <link href="http://stephenlange.org/"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://klepas.org/</id>
+    <id>http://stephenlange.org/</id>
     <author>
-        <name>Simon Pascal Klein</name>
-        <email>klepas@klepas.org</email>
+        <name>Stephen Lange</name>
+        <email>stvlange@gmail.com</email>
     </author>
  
     {% for post in site.posts limit: 10 %}
     <entry>
         <title>{{ post.title | xml_escape }}</title>
-        <link href="http://klepas.org{{ post.url }}"/>
+        <link href="http://stephenlange.org{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://klepas.org{{ post.id }}</id>
+        <id>http://stephenlange.org{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
     {% endfor %}
