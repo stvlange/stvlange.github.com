@@ -17,22 +17,22 @@ In a nutshell, pivot tables (or pivot charts) let you dynamically slice up and v
 
 After inserting the pivot table you will need to tell it what fields to popular in the table.  Items put in the rows area dictate the group and sub-grouping (if multiple values are selected) of the row data.  In this example the row group included the "LOCATION" field with a sub-grouping of the "TEAM" field.  Since we are trying to find out how much of each kind of meatball to buy, our column heading for the pivot will be "SPICE LEVEL".  Finally, since we need to know how many meatballs to buy, our value section will be "Count of MEATBALLS". 
 
-<img src="/images/pivot-table-field-list.png">
+<center><img src="/images/pivot-table-field-list.png"></center>
 
 Once you have selected the fields to display the pivot table will be dynamically build.  With the above field list choices, and with all of the fields collapsed, our pivot looks now looks like the table below.
 
-<img src="/images/meatball-pivot.png">
+<center><img src="/images/meatball-pivot.png"></center>
 
 If we were to expand out one of the sections we would be able to see the breakout of meatballs and types by department area.
 
-<img src="/images/meatball-slicers.png">
+<center><img src="/images/meatball-slicers.png"></center>
 
 Something that should jump out of you immediately are the boxes that surround the table.  These are called "Slicers" and allow us to easily filter what data is displayed.  For example, if we only wanted to see the Canada Meatball data for just the open systems and windows group, we would simply select the slicer data fields to display.
 
-<img src="/images/meatball-slicers2.png">
+<center><img src="/images/meatball-slicers2.png"></center>
 
 Or by changing the order of the field list fields we can easily change the grouping of data at a high level. 
 
-<img src="/images/meatball-slicers3.png">
+<center><img src="/images/meatball-slicers3.png"></center>
 
 Hopefully you have seen the power of pivot tables and the flexibility that slicers offer.  In every one of these examples the data sheet has never been changed.  I really find pivot tables and slicers to be a great lightweight alternative to using Access or another database.  I personally can't stand working in Microsoft Access, so for me learning about pivot tables and slicers was a huge revelation.  As always there are some great tutorials out there on pivot tables that are only a Google search away.
