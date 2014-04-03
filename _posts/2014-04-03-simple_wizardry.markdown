@@ -16,11 +16,11 @@ Once the file was massaged into submission, Excel was used for creation of the p
 
 In a nutshell, pivot tables (or pivot charts) let you dynamically slice up and visually display your table data quickly and easily in any number of combinations or groups.  Let's look at an example.  The fictional widget company is planning on serving a spaghetti and meatball dinner to all of its employees.  They have put together a table indicates the employee's meatball preference (mild or spicy).  Since this is an international company they have data for their international offices, and have included everyone's department area in the collected data.
 
-When creating the pivot table first grouping chosen for the rows was "LOCATION" followed by "TEAM".  Since we are trying to find out how much of each kind of meatball to buy, our column heading for the pivot will be "SPICE LEVEL".  Finally, since we need to know how many meatballs to buy, our value section will be "Count of MEATBALLS". 
+After inserting the pivot table you will need to tell it what fields to popular in the table.  Items put in the rows area dictate the group and sub-grouping (if multiple values are selected) of the row data.  In this example the row group included the "LOCATION" field with a sub-grouping of the "TEAM" field.  Since we are trying to find out how much of each kind of meatball to buy, our column heading for the pivot will be "SPICE LEVEL".  Finally, since we need to know how many meatballs to buy, our value section will be "Count of MEATBALLS". 
 
 <img src="/images/pivot-table-field-list.png">
 
-With the above field list choices, and with all of the fields collapsed, our pivot looks like this:
+Once you have selected the fields to display the pivot table will be dynamically build.  With the above field list choices, and with all of the fields collapsed, our pivot looks now looks like the table below.
 
 <img src="/images/meatball-pivot.png">
 
@@ -28,9 +28,7 @@ If we were to expand out one of the sections we would be able to see the breakou
 
 <img src="/images/meatball-slicers.png">
 
-Something that should jump out of you immediately are the boxes that surround the table.  These are called "Slicers" and allow us to easily filter what data is displayed.  
-
-For example, if we only wanted to see the Canada Meatball data for just the open systems and windows group, we would simply select the slicer data fields to display.
+Something that should jump out of you immediately are the boxes that surround the table.  These are called "Slicers" and allow us to easily filter what data is displayed.  For example, if we only wanted to see the Canada Meatball data for just the open systems and windows group, we would simply select the slicer data fields to display.
 
 <img src="/images/meatball-slicers2.png">
 
