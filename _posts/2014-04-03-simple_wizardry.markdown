@@ -68,7 +68,7 @@ published: yes
         span.result { color: #4881D6; }
 </style>
 
-<p class="prelude">Mast year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn't take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data. 
+<p class="prelude">Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn't take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data. 
 
 Being able to leverage a script and common Linux commands like fgrep, sed, awk, cut and csvfix just made more sense than trying to do what needed to be done in excel with a decent sized (1GB+) CSV file.  At the time the validity of the data was also in question, so having a clearly documented and repeatable process that wasn't prone to human error made a lot of sense.
 
