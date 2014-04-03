@@ -36,6 +36,4 @@ Or by changing the order of the field list fields we can easily change the group
 
 <img src="/images/meatball-slicers3.png">
 
-Hopefully you have seen the power of pivot tables and the flexibility that slicers offer.  In every one of these examples the data sheet has never been changed.  I really find pivot tables and slicers to be a great lightweight alternative to using Access or another database.  I personally can't stand working in Microsoft Access, so for me learning about pivot tables and slicers was a huge revelation.
-
-As always there are some great tutorials out there that are just a Google search away.  Ciao for now!
+Hopefully you have seen the power of pivot tables and the flexibility that slicers offer.  In every one of these examples the data sheet has never been changed.  I really find pivot tables and slicers to be a great lightweight alternative to using Access or another database.  I personally can't stand working in Microsoft Access, so for me learning about pivot tables and slicers was a huge revelation.  As always there are some great tutorials out there on pivot tables that are only a Google search away.
