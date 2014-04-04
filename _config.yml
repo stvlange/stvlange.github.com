@@ -1,3 +1,6 @@
 ---
 pygments: true
 permalink: /:title
+comments:
+  provider: disqus
+    short_name: stephenlange
