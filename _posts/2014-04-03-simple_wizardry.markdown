@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Pivot Table Wizard
-comments: True
 published: yes
 ---
 Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn't take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data. 
