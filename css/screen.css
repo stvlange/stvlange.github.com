@@ -55,8 +55,8 @@ body {
 	}
 
 div#disqus_thread {
-        margin: 0 auto 0 auto;
         padding: 4.8em 0 4.8em 0;
+        margin: 4.8em 0 4.8em 0;
         background-color: white;
         text-align: left;
         width: 96em; /* 960 minus the gutters (48 on each side). */
