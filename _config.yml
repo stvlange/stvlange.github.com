@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Stephen Lange
   avatar: bio-photo.jpg
-  bio: "Welcome weary traveler.  What twists and turns have led you to my door?  Worry not, you are welcome here.  Stay as long as you like.  Like most people my Work and Home Life tend to keep me pretty busy, but from time to time I do like to share my thoughts with others. This site is my way of doing just that."
+  bio: "Welcome weary traveler.  What twists and turns have led you to my door?  Worry not, you are welcome here.  Stay as long as you like.  <p>Like most people my Work and Home Life tend to keep me pretty busy, but from time to time I do like to share my thoughts with others. This site is my way of doing just that."
   email: stvlange@gmail.com
   disqus-shortname:
   twitter: #username
