@@ -1,0 +1,54 @@
+---
+layout: post
+title: Life Without Computers
+published: yes
+---
+
+Children of the late 60's and 70's such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.  
+
+### Enter the Video Game
+It must have been around 1974 (Pong came out in 1972) when my friend's family got pong.  I can remember only having a passing interest in the game.  It was black and white while my toys had color.  And it required dexterity that I woefully lacked.
+
+In 1976 the Atari 2600 came out and with it color.  The initial price of Atari according to Wikipedia was a whopping $199.00.  I think it is safe to assume that my parents didn't buy our Atari until later when the price was more affordable.  You have to remember, spending $199 on what my parents would have regarded as a toy would never have happened.
+
+And with Atari, my world changed.  Most likely my age had something to do with it.  Maybe it was because it had color, or that I could to find treasure (Adventure), or pilot a ship and blow up asteroids (Asteroids).  It wasn't long before I had developed tendonitis from playing Asteroids so much.  By then I was hooked.  My love affair with video games would continue to this day.  While I rarely play due to time and family commitments, I still love the ability to immerse into another reality.  
+
+Video games when combined with an active and developed imagination can produce an alternate reality as real as actual reality.  Back then the effect was generated more by our own minds (let's face it, graphics back then were brutal).  With today's systems and the systems of tomorrow whose graphics are visually close to reality, the mental requirement to attain the same level of immersion is much less.  For a person with an active imagination this only makes that immersion more potent.  It wasn't until much later that I would find out how potent they could be.
+
+### Shall We Play a Game?
+These first words, uttered by the iconic W.O.P.R. computer in Wargames fuelled my desire for computers.  Computers until that point were nothing more than an AV oddity seen occasionally in school and with crappy software.
+
+Gaining anything more than a passing internet in computers was difficult with the limited time we had to actually touch the one and only computer we had a school.  Tinkering was highly discouraged given that the teachers knew about as much about the computer as we did.
+
+But when I saw Wargames my imagination ran wild.  The concept of dialing into a computer seemed exotic and exciting to me.  And so, after much saving of my paper route money, I was able to purchase a Texas Instruments 99/4A.  I can remember going to Sears with my Father to look at them.  Neither of us had a clue what to buy.  We didn't have the internet to look up reviews and magazines were not readily available in our area.
+
+In the end I found myself trying to decide between a computer with a membrane keyboard and one with keys (the TI), my Dad didn't like the membrane keys which had already wore through in the store so I bought the TI99/4A and Hunt the Wumpus.
+
+In general I didn't do much with the TI99/4A.  I mostly played hunt the Wumpus and on occasion tried to type in program code from a TI99/4A magazine.  Things like syntax and keyboard errors were somewhat beyond me at that point and remarkably my code never ran.  For a short period of time my buddy Paul and I tinkered around with saving data to a cassette recorder that had an input the TI could use.  I think the word that best describes the process is "Hinky".
+
+### A Online Cowboy is Born
+From there I moved up to a Commodore 64 with a 1521 Disk drive (5.25" baby!), and finally -- a 300 Baud Modem.  This "Advanced" piece of hardware plugged directly into the phone and didn't need a coupler like in Wargames.  Oh did I feel elite.
+
+Now what? How I made the jump from buying a modem to actually dialing into somewhere I can't recall.  I must have read about it in a magazine and used a number of a bulletin board service (BBS) listed in the magazine.  Back then we didn't have anything like unlimited calling, calls >5 miles cost money and I can recall being chastised a lot over phone charges.
+
+I began to use my modem to download games for the Commodore 64 and had many times when my all-night download to get a game that was maybe 500k in size would be corrupted by my Mom picking up the phone to place a call.  
+
+Eventually I made the next logical leap at that time to a mighty Packard-Bell with a 286 processor.  My modem started getting faster as well, going from 300 to 1200, to 2400, to 9600, to 14400, to 19200, etc.  Mind you we the actual throughput at the zenith was only around 4-5k per second.  
+
+I won't bore you with all of my BBS day exploits, but suffice it to say I did eventually get my own phone number, ran a number of BBS's myself, was part of the FidoNet network with linked people in forums across the globe which was amazing for the time.
+
+### DARPA & Me
+What I still smile about to this day is one thing in particular.  Somehow I managed to find a 800 number for an online system run by an organization called DARPA.  I had no idea what it was at that time, hell it had an 800 number! A free call. If I had known at the time that DARPA stood for "Defense Advanced Research Projects Agency" I imagine I would have been even more excited to call.
+
+I registered using the name of the BBS I was running at that time -- The Shrine of Learning.  Yes, it was a lame name but at the time I am sure I thought it was the shit.  My access didn't let me get to anything interesting, but eventually I started to receive at my home a monthly or quarterly newsletter from DARPA addressed to the Shrine of Learning.
+
+My Dad continued to get this newsletter for what I believe was almost twenty years before it eventually stopped.  I can just imagine the administrator who finally did some maintenance on the mailing list and was like:  "What the F^$%$ is the Shrine of Learning"?  Delete.
+
+By the time I reached college in 1988 I had my first taste of a real word processor (WordStar) and computers slowly took on more functionality.
+
+### The Next Generation
+Fast forward to today and the computer and mobile landscape would have been something out of Star Trek back when I first got into computers.  I have a tween son and an almost five year old daughter that are already more proficient and doing more advanced computer work (PowerPoint presentations, word documents, etc.) then I did in college.
+
+How will the computer landscape look when they are 20, 30, 40?  And more importantly, will I be able to adapt to the changes that will come or will I look at computers with a distrustful eye?  Since I work in IT I hope that I will be able to rise to the occasion.
+
+My children have never known a time in their life without computers, without DVR's, without 24x7 cartoons.  I find contracting the two time periods fascinating.  I know this post is rambling but I hope those that have stuck with me have enjoyed the read.  As always if you have a comment please email me at stvlange(at)gmail(dot)com.
