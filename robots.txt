@@ -1,0 +1,4 @@
+Sitemap: http://stephenlange.org/sitemap.xml
+ 
+User-agent: *
+Disallow: /images/
