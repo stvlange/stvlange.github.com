@@ -6,7 +6,9 @@ categories: Musings
 tags: [1984, Big Brother, Government, Monitoring, NSA, Google, Facebook]
 comments: yes
 image:
-  feature:
+  feature: texture-feature-05.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
 
 One of my favorite books is George Orwell's 1984.  As a reader that is drawn to darker dystopian and apocalyptic works, 1984 is equally fascinating and horrifying. And yet, given the confirmed level (Snowden) of monitoring we face by our government in the name of "Security" we are as a whole, remarkably indifferent.

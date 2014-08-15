@@ -6,7 +6,9 @@ categories: Musings
 tags: [Computers, Youth, Atari, Video Games]
 comments: yes
 image:
-  feature:
+  feature: texture-feature-05.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
 
 Children of the late 60's and 70's such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.

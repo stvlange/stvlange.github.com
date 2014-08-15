@@ -6,7 +6,9 @@ categories: Musings
 tags: [LaTex, Word, Microsoft, Minimal, WYSIWYG, Jekyll]
 comments: yes
 image:
-  feature:
+  feature: texture-feature-05.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
 
 As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.

@@ -6,7 +6,9 @@ categories: Tips
 tags: [excel, pivot, table]
 comments: yes
 image:
-  feature:
+  feature: texture-feature-05.jpg
+  credit: Texture Lovers
+  creditlink: http://texturelovers.com
 ---
 Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn't take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data.
 
