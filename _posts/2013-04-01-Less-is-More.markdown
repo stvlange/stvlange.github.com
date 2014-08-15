@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Less is More
-published: yes
+modified: 2013-04-01
+categories: Musings
+tags: [LaTex, Word, Microsoft, Minimal, WYSIWYG, Jekyll]
+comments: yes
+image:
+  feature:
 ---
 
-As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.  
+As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.
 
 I might even go so far a saying that repeatedly getting a word document to look the same can be a challenge.  As I said earlier this doesn't doom Word, it's a great application, it's just being realistic.
 
@@ -20,7 +25,7 @@ For me, I initially used LaTex for a slightly different reason.  I had a ton of 
 
 ####"That's great!" you say, "Is it easy?" you ask.
 
-In a word no.  What you see is what you get (WYSIWYG) has crippled the typical users ability to easily assimilate this type of system.  People want instant gratification.  Don't want to troubleshoot why a document compile run through pdftex failed because of a coding error.  It's just not worth their time. 
+In a word no.  What you see is what you get (WYSIWYG) has crippled the typical users ability to easily assimilate this type of system.  People want instant gratification.  Don't want to troubleshoot why a document compile run through pdftex failed because of a coding error.  It's just not worth their time.
 
 I say that not in an elitist way, I love the command line but if you ask me to learn emacs I would laugh and say "Hell no, I am  vi man".  How is that different from someone not wanting to learn LaTex? It really isn't.
 
