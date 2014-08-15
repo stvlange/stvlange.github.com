@@ -3,7 +3,6 @@ layout: post
 title: Pivot Table Wizard
 modified: 2014-04-03
 categories: Tips
-excerpt:
 tags: [excel, pivot, table]
 comments: yes
 image:
