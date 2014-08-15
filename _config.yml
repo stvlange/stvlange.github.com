@@ -34,15 +34,15 @@ owner:
   twitter: #username
   facebook: #username
   google:
-    plus: #username
+    plus: stvlange
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #stvlange
+  github: stvlange
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: stvlange
   instagram: #username
   lastfm: #username
   tumblr: #username
