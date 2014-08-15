@@ -23,6 +23,10 @@ This process is not new.  Years ago I was introduced to a product called LaTex w
 
 I say typeset because unlike justification in Word the resulting text looks like it was professionally typeset in a book.  In fact LaTex is often used for book publishing.  Interestingly enough, this is not the driving function that draws so many academics to using LaTex -- it is the scientific/mathematic formula capabilities that make every other application pale in comparison.
 
+<figure>
+    <a href="/images/latex.jpg"><img src="/images/latex.jpg"></a>
+</figure>
+
 For me, I initially used LaTex for a slightly different reason.  I had a ton of documentation to do, and I needed to bang it out quickly and have it consistently look the same.  I didn't have time to deal with layout, i needed to focus on content, and LaTex made that possible.  And the results were truly impressive.
 
 ####"That's great!" you say, "Is it easy?" you ask.
