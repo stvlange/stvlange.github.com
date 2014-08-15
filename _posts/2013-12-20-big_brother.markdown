@@ -19,6 +19,9 @@ One of my favorite books is George Orwell's 1984.  As a reader that is drawn to 
 
 This quote has become our reality.  A reality not of the government's making but our own.  A gilded cage  built on a desire for faster and more accessible lives. In 1984 the telescreen was a requirement for every party member.  In our world, the government works through more overt yet equally intrusive channels.
 
+![George Orwell - 1984]({{ site.url }}/images/1984.jpg)
+{: .image-pull-right}
+
 Why then does the government's intrusion not piss more people off for longer periods of time?  For example, I have a good idea of some of the data sources that the government is leeching information about me off.  Why don't I shut them down?  I don't after all have to use Facebook, or Google+.
 
 Ultimately the reason I don't shut things down is the same reason that I think most people don't -- Convenience.
