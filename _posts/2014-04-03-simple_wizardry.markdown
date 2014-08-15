@@ -6,7 +6,7 @@ categories: Tips
 tags: [excel, pivot, table]
 comments: yes
 image:
-  feature: texture-feature-05.jpg
+  feature: texture-feature-04.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

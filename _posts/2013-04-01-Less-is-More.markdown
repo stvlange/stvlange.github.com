@@ -6,7 +6,7 @@ categories: Musings
 tags: [LaTex, Word, Microsoft, Minimal, WYSIWYG, Jekyll]
 comments: yes
 image:
-  feature: texture-feature-05.jpg
+  feature: texture-feature-01.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---

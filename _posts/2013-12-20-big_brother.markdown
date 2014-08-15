@@ -6,7 +6,7 @@ categories: Musings
 tags: [1984, Big Brother, Government, Monitoring, NSA, Google, Facebook]
 comments: yes
 image:
-  feature: texture-feature-05.jpg
+  feature: texture-feature-03.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
 ---
