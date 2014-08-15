@@ -5,7 +5,7 @@ modified:
 categories: Tips
 excerpt:
 tags: [excel, pivot, table]
-comment: yes
+comments: yes
 image:
   feature:
 published: yes
