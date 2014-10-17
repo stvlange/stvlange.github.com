@@ -225,63 +225,47 @@ ul.posts {
   }*/
 
 
-  blockquote{
-    display:block;
-    background: #fff;
-    padding: 15px 20px 15px 45px;
-    margin: 0 0 20px;
-    position: relative;
+  /* CSS Style Blockquote By Spice Up Your Blog */
 
-    /*Font*/
-    font-family: Georgia, serif;
-    font-size: 16px;
-    line-height: 1.2;
-    color: #666;
-    text-align: justify;
-
-    /*Borders - (Optional)*/
-    border-left: 15px solid #c76c0c;
-    border-right: 2px solid #c76c0c;
-
-    /*Box Shadow - (Optional)*/
-    -moz-box-shadow: 2px 2px 15px #ccc;
-    -webkit-box-shadow: 2px 2px 15px #ccc;
-    box-shadow: 2px 2px 15px #ccc;
+  blockquote {
+  color:rgb(255,150,100);
+  font-family:georgia, serif;
+  font-size:32px;
+  line-height:1.2;
+  text-align:center;
+  padding:24px 60px;
+  margin:0 120px;
+  margin-bottom:18px;
+  border:solid 1px rgb(220,220,220);
+  position:relative;
   }
 
-  blockquote::before{
-    content: "\201C"; /*Unicode for Left Double Quote*/
-
-    /*Font*/
-    font-family: Georgia, serif;
-    font-size: 60px;
-    font-weight: bold;
-    color: #999;
-
-    /*Positioning*/
-    position: absolute;
-    left: 10px;
-    top:5px;
+  blockquote:before,
+  blockquote:after {
+  position:absolute;
+  width:48px;
+  height:48px;
+  content:".";
+  font-size:0;
   }
 
-  blockquote::after{
-    /*Reset to make sure*/
-    content: "";
+  blockquote:before {
+  background-image:url('http://i.imgur.com/uoHCjSK.png');
+  top:0;
+  left:0;
   }
 
-  blockquote a{
-    text-decoration: none;
-    background: #eee;
-    cursor: pointer;
-    padding: 0 3px;
-    color: #c76c0c;
+  blockquote:after {
+  background-image:url('http://i.imgur.com/m3HnqqU.png');
+  bottom:0;
+  right:0;
   }
 
-  blockquote a:hover{
-   color: #666;
+  .author {
+  display:block;
+  text-align:right;
+  font-size:18px;
+  padding:4px;
+  color:rgb(150,150,150);
+  font-style:italic;
   }
-
-  blockquote em{
-    font-style: italic;
-  }
-
