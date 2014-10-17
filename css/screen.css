@@ -230,13 +230,13 @@ ul.posts {
   blockquote {
   color:rgb(255,150,100);
   font-family:georgia, serif;
-  font-size:32px;
+  font-size:18px;
   line-height:1.2;
   text-align:left;
   padding:24px 60px;
   margin:0 220px;
   margin-bottom:18px;
-  border:solid 1px rgb(220,220,220);
+  border:solid 1px rgb(440,440,440);
   position:relative;
   }
 
