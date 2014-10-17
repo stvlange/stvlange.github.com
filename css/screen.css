@@ -198,14 +198,14 @@ ul.posts {
 
 
   blockquote {
-      /* background-color: #9786c6; */
+      background-color: #9786c6;
       border-left: 1em solid #5236a0;
       margin: 1.5em 0 1.5em;
       padding: 1em 1.5em 0 2.5em;
       position: relative;
   }
   blockquote:before {
-    /* color: #392570; */
+    color: #392570;
     content: "\201C";
     font-size: 5em;
     position:absolute;
@@ -215,7 +215,7 @@ ul.posts {
   }
 
   blockquote:after {
-    /* color: #392570; */
+    color: #392570;
     content: "\201D";
     font-size: 5em;
     position:absolute;
