@@ -16,6 +16,7 @@ I read a quote today that really hit home:
 >By the deep sea, and music in its roar:
 >I love not man the less, but Nature more.
 >― George Gordon Byron
+>
 
 I found myself thinking about hikes I have been on in the past, either by myself or with others.  I always found myself decompressing when out in the woods.  I physically feel better, my eyes, ears and mind are more relaxed.  Subconsciously our bodies crave the quiet.  I call it "Quiet Deprivation".
 
