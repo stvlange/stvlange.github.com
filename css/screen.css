@@ -219,7 +219,7 @@ ul.posts {
     content: "\201D";
     font-size: 5em;
     position:absolute;
-    right:-5px;
+    right:-4px;
     bottom: -0.1em;
     line-height: 0.1em;
   }
