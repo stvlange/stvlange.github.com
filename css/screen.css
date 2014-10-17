@@ -232,9 +232,9 @@ ul.posts {
   font-family:georgia, serif;
   font-size:32px;
   line-height:1.2;
-  text-align:center;
+  text-align:left;
   padding:24px 60px;
-  margin:0 120px;
+  margin:0 220px;
   margin-bottom:18px;
   border:solid 1px rgb(220,220,220);
   position:relative;
