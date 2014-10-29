@@ -82,7 +82,7 @@ ol, ol li {
   padding: 15px 20px 15px 45px;
   margin: 0 0 20px;
   position: relative;
-
+  font-weight: bold;
   /*Font*/
   /*font-family: Georgia, serif;
   font-size: 14px;
