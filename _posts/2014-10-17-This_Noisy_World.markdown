@@ -10,11 +10,11 @@ Some might call me a hypocrite for pondering such things because I work all day 
 
 I read a quote today that really hit home:
 
->There is a pleasure in the pathless woods,
->There is a rapture on the lonely shore,
->There is society, where none intrudes,
->By the deep sea, and music in its roar:
->I love not man the less, but Nature more.
+>There is a pleasure in the pathless woods,<br>
+>There is a rapture on the lonely shore,<br>
+>There is society, where none intrudes,<br>
+>By the deep sea, and music in its roar:<br>
+>I love not man the less, but Nature more.<br>
 >~George Gordon Byron
 
 I found myself thinking about hikes I have been on in the past, either by myself or with others.  I always found myself decompressing when out in the woods.  I physically feel better, my eyes, ears and mind are more relaxed.  Subconsciously our bodies crave the quiet.  I call it "Quiet Deprivation".
