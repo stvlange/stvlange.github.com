@@ -84,9 +84,9 @@ ol, ol li {
   position: relative;
 
   /*Font*/
-  font-family: Georgia, serif;
+  /*font-family: Georgia, serif;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.2;*/
   color: #666;
   text-align: justify;
 
