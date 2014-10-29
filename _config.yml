@@ -1,2 +1,26 @@
-markdown: rdiscount
-pygments: true
+title:            Random Thoughts
+description:      Opinions, Commentary and Random Thoughts of Stephen Lange.
+url:              http://stephenlange.org.
+signoff:          Stephen Lange
+disqus_shortname: cyberpunkdad # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://stephenlange.org
+    external:     true
+  - name:         Email
+    url:          mailto:stvlange@gmail.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/stvlange
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart

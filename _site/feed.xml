@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random Thoughts</title>
+    <description>Opinions, Commentary and Random Thoughts of Stephen Lange.</description>
+    <link>http://stephenlange.org.</link>
+    <atom:link href="http://stephenlange.org./feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>This Noisy World</title>
+        <description>&lt;p&gt;One of the things that I find concerning is the effect that noise and light pollution is having us all. This auditory and visual sandpaper is slowly grinding us down.&lt;/p&gt;
+
+&lt;p&gt;Some might call me a hypocrite for pondering such things because I work all day in front of a computer and find myself glued to my phone all too often, but I would that this is more of an revelation that anything else.&lt;/p&gt;
+
+&lt;p&gt;I read a quote today that really hit home:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There is a pleasure in the pathless woods,&lt;br&gt;
+There is a rapture on the lonely shore,&lt;br&gt;
+There is society, where none intrudes,&lt;br&gt;
+By the deep sea, and music in its roar:&lt;br&gt;
+I love not man the less, but Nature more.&lt;br&gt;
+&lt;span class=&quot;author&quot;&gt;~George Gordon Byron&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I found myself thinking about hikes I have been on in the past, either by myself or with others.  I always found myself decompressing when out in the woods.  I physically feel better, my eyes, ears and mind are more relaxed.  Subconsciously our bodies crave the quiet.  I call it &amp;ldquo;Quiet Deprivation&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;But nature isn&amp;rsquo;t quiet, true it has symphony of sounds, but their noise isn&amp;rsquo;t detrimental.  They don&amp;rsquo;t affect us in the same way that manufactured audio and video does.  Our eyes don&amp;rsquo;t grow weary from looking at a babbling brook like they do from starting at a phone screen for two hours.&lt;/p&gt;
+
+&lt;p&gt;Lately I have found myself yearning for the quiet of the woods.  In my car I find myself turning off the radio more and more often.  The blackness of night is a welcome friend. It&amp;rsquo;s time to find a lonely shore to explore.  Who wants to come with?&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://stephenlange.org./2014/10/17/This_Noisy_World/</link>
+        <guid isPermaLink="true">http://stephenlange.org./2014/10/17/This_Noisy_World/</guid>
+      </item>
+    
+      <item>
+        <title>Pivot Table Wizard</title>
+        <description>&lt;p&gt;Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn&amp;rsquo;t take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data.&lt;/p&gt;
+
+&lt;p&gt;Being able to leverage a script and common Linux commands like fgrep, sed, awk, cut and csvfix just made more sense than trying to do what needed to be done in excel with a decent sized (1GB+) CSV file.  At the time the validity of the data was also in question, so having a clearly documented and repeatable process that wasn&amp;rsquo;t prone to human error made a lot of sense.&lt;/p&gt;
+
+&lt;p&gt;Once the file was massaged into submission, Excel was used for creation of the pivot table and slicers.   Before we go any further it only makes sense to define what a pivot table is.  According to Wikipedia:&lt;/p&gt;
+
+&lt;blockquote cite=&quot;Wikipedia&quot;&gt;
+&amp;ldquo;In data processing, a pivot table is a data summarization tool found in data visualization programs such as spreadsheets or business intelligence software. Among other functions, a pivot-table can automatically sort, count total or give the average of the data stored in one table or spreadsheet.&amp;rdquo;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In a nutshell, pivot tables (or pivot charts) let you dynamically slice up and visually display your table data quickly and easily in any number of combinations or groups.  Let&amp;rsquo;s look at an example.  The fictional widget company is planning on serving a spaghetti and meatball dinner to all of its employees.  They have put together a table indicates the employee&amp;rsquo;s meatball preference (mild or spicy).  Since this is an international company they have data for their international offices, and have included everyone&amp;rsquo;s department area in the collected data.&lt;/p&gt;
+
+&lt;p&gt;After inserting the pivot table you will need to tell it what fields to popular in the table.  Items put in the rows area dictate the group and sub-grouping (if multiple values are selected) of the row data.  In this example the row group included the &amp;ldquo;LOCATION&amp;rdquo; field with a sub-grouping of the &amp;ldquo;TEAM&amp;rdquo; field.  Since we are trying to find out how much of each kind of meatball to buy, our column heading for the pivot will be &amp;ldquo;SPICE LEVEL&amp;rdquo;.  Finally, since we need to know how many meatballs to buy, our value section will be &amp;ldquo;Count of MEATBALLS&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/pivot-table-field-list.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have selected the fields to display the pivot table will be dynamically build.  With the above field list choices, and with all of the fields collapsed, our pivot looks now looks like the table below.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/meatball-pivot.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;If we were to expand out one of the sections we would be able to see the breakout of meatballs and types by department area.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/meatball-slicers.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Something that should jump out of you immediately are the boxes that surround the table.  These are called &amp;ldquo;Slicers&amp;rdquo; and allow us to easily filter what data is displayed.  For example, if we only wanted to see the Canada Meatball data for just the open systems and windows group, we would simply select the slicer data fields to display.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/meatball-slicers2.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Or by changing the order of the field list fields we can easily change the grouping of data at a high level.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/meatball-slicers3.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Hopefully you have seen the power of pivot tables and the flexibility that slicers offer.  In every one of these examples the data sheet has never been changed.  I really find pivot tables and slicers to be a great lightweight alternative to using Access or another database.  I personally can&amp;rsquo;t stand working in Microsoft Access, so for me learning about pivot tables and slicers was a huge revelation.  As always there are some great tutorials out there on pivot tables that are only a Google search away.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Apr 2014 00:00:00 -0500</pubDate>
+        <link>http://stephenlange.org./tips/2014/04/03/simple_wizardry/</link>
+        <guid isPermaLink="true">http://stephenlange.org./tips/2014/04/03/simple_wizardry/</guid>
+      </item>
+    
+      <item>
+        <title>The 1984 Roadmap</title>
+        <description>&lt;p&gt;One of my favorite books is George Orwell&amp;rsquo;s 1984.  As a reader that is drawn to darker dystopian and apocalyptic works, 1984 is equally fascinating and horrifying. And yet, given the confirmed level (Snowden) of monitoring we face by our government in the name of &amp;ldquo;Security&amp;rdquo; we are as a whole, remarkably indifferent.&lt;/p&gt;
+
+&lt;blockquote cite=&quot;George Orwell&quot;&gt;
+    &lt;p&gt;&amp;ldquo;There was of course no way of knowing whether you were being watched at any given moment. How often, or on what system, the Thought Police plugged in on any individual wire was guesswork. It was even conceivable that they watched everybody all the time. But at any rate they could plug in your wire whenever they wanted to. You had to live—did live, from habit that became instinct—in the assumption that every sound you made was overheard, and, except in darkness, every movement scrutinized.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This quote has become our reality.  A reality not of the government&amp;rsquo;s making but our own.  A gilded cage  built on a desire for faster and more accessible lives. In 1984 the telescreen was a requirement for every party member.  In our world, the government works through more overt yet equally intrusive channels.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/1984.jpg&quot;&gt;&lt;img src=&quot;/images/1984.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;George Orwell - 1984&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Why then does the government&amp;rsquo;s intrusion not piss more people off for longer periods of time?  For example, I have a good idea of some of the data sources that the government is leeching information about me off.  Why don&amp;rsquo;t I shut them down?  I don&amp;rsquo;t after all have to use Facebook, or Google+.&lt;/p&gt;
+
+&lt;p&gt;Ultimately the reason I don&amp;rsquo;t shut things down is the same reason that I think most people don&amp;rsquo;t &amp;ndash; Convenience.&lt;/p&gt;
+
+&lt;p&gt;And in the end, at least in my own case, I&amp;rsquo;m pretty boring.  If the government wants to collect my drivel, the occasional zing I make about a neighbor or politician isn&amp;rsquo;t really worth much in the grand scheme of things.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Dec 2013 00:00:00 -0600</pubDate>
+        <link>http://stephenlange.org./musings/2013/12/20/big_brother/</link>
+        <guid isPermaLink="true">http://stephenlange.org./musings/2013/12/20/big_brother/</guid>
+      </item>
+    
+      <item>
+        <title>Life Without Computers</title>
+        <description>&lt;p&gt;Children of the late 60&amp;rsquo;s and 70&amp;rsquo;s such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.&lt;/p&gt;
+
+&lt;h3&gt;Enter the Video Game&lt;/h3&gt;
+
+&lt;p&gt;It must have been around 1974 (Pong came out in 1972) when my friend&amp;rsquo;s family got pong.  I can remember only having a passing interest in the game.  It was black and white while my toys had color.  And it required dexterity that I woefully lacked.&lt;/p&gt;
+
+&lt;p&gt;In 1976 the Atari 2600 came out and with it color.  The initial price of Atari according to Wikipedia was a whopping $199.00.  I think it is safe to assume that my parents didn&amp;rsquo;t buy our Atari until later when the price was more affordable.  You have to remember, spending $199 on what my parents would have regarded as a toy would never have happened.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/atari.jpg&quot;&gt;&lt;img src=&quot;/images/atari.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Atari 2600&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And with Atari, my world changed.  Most likely my age had something to do with it.  Maybe it was because it had color, or that I could to find treasure (Adventure), or pilot a ship and blow up asteroids (Asteroids).  It wasn&amp;rsquo;t long before I had developed tendonitis from playing Asteroids so much.  By then I was hooked.  My love affair with video games would continue to this day.  While I rarely play due to time and family commitments, I still love the ability to immerse into another reality.&lt;/p&gt;
+
+&lt;p&gt;Video games when combined with an active and developed imagination can produce an alternate reality as real as actual reality.  Back then the effect was generated more by our own minds (let&amp;rsquo;s face it, graphics back then were brutal).  With today&amp;rsquo;s systems and the systems of tomorrow whose graphics are visually close to reality, the mental requirement to attain the same level of immersion is much less.  For a person with an active imagination this only makes that immersion more potent.  It wasn&amp;rsquo;t until much later that I would find out how potent they could be.&lt;/p&gt;
+
+&lt;h3&gt;Shall We Play a Game?&lt;/h3&gt;
+
+&lt;p&gt;These first words, uttered by the iconic W.O.P.R. computer in Wargames fuelled my desire for computers.  Computers until that point were nothing more than an AV oddity seen occasionally in school and with crappy software.&lt;/p&gt;
+
+&lt;p&gt;Gaining anything more than a passing internet in computers was difficult with the limited time we had to actually touch the one and only computer we had a school.  Tinkering was highly discouraged given that the teachers knew about as much about the computer as we did.&lt;/p&gt;
+
+&lt;p&gt;But when I saw Wargames my imagination ran wild.  The concept of dialing into a computer seemed exotic and exciting to me.  And so, after much saving of my paper route money, I was able to purchase a Texas Instruments 99/4A.  I can remember going to Sears with my Father to look at them.  Neither of us had a clue what to buy.  We didn&amp;rsquo;t have the internet to look up reviews and magazines were not readily available in our area.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/ti994a.jpg&quot;&gt;&lt;img src=&quot;/images/ti994a.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Ti99/4a&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the end I found myself trying to decide between a computer with a membrane keyboard and one with keys (the TI), my Dad didn&amp;rsquo;t like the membrane keys which had already wore through in the store so I bought the TI99/4A and Hunt the Wumpus.&lt;/p&gt;
+
+&lt;p&gt;In general I didn&amp;rsquo;t do much with the TI99/4A.  I mostly played hunt the Wumpus and on occasion tried to type in program code from a TI99/4A magazine.  Things like syntax and keyboard errors were somewhat beyond me at that point and remarkably my code never ran.  For a short period of time my buddy Paul and I tinkered around with saving data to a cassette recorder that had an input the TI could use.  I think the word that best describes the process is &amp;ldquo;Hinky&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3&gt;A Online Cowboy is Born&lt;/h3&gt;
+
+&lt;p&gt;From there I moved up to a Commodore 64 with a 1521 Disk drive (5.25&amp;quot; baby!), and finally &amp;ndash; a 300 Baud Modem.  This &amp;ldquo;Advanced&amp;rdquo; piece of hardware plugged directly into the phone and didn&amp;rsquo;t need a coupler like in Wargames.  Oh did I feel elite.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/commodore-64.jpg&quot;&gt;&lt;img src=&quot;/images/commodore-64.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Commodore 64&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now what? How I made the jump from buying a modem to actually dialing into somewhere I can&amp;rsquo;t recall.  I must have read about it in a magazine and used a number of a bulletin board service (BBS) listed in the magazine.  Back then we didn&amp;rsquo;t have anything like unlimited calling, calls &amp;gt;5 miles cost money and I can recall being chastised a lot over phone charges.&lt;/p&gt;
+
+&lt;p&gt;I began to use my modem to download games for the Commodore 64 and had many times when my all-night download to get a game that was maybe 500k in size would be corrupted by my Mom picking up the phone to place a call.&lt;/p&gt;
+
+&lt;p&gt;Eventually I made the next logical leap at that time to a mighty Packard-Bell with a 286 processor.  My modem started getting faster as well, going from 300 to 1200, to 2400, to 9600, to 14400, to 19200, etc.  Mind you we the actual throughput at the zenith was only around 4-5k per second.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;rsquo;t bore you with all of my BBS day exploits, but suffice it to say I did eventually get my own phone number, ran a number of BBS&amp;rsquo;s myself, was part of the FidoNet network with linked people in forums across the globe which was amazing for the time.&lt;/p&gt;
+
+&lt;h3&gt;DARPA &amp;amp; Me&lt;/h3&gt;
+
+&lt;p&gt;What I still smile about to this day is one thing in particular.  Somehow I managed to find a 800 number for an online system run by an organization called DARPA.  I had no idea what it was at that time, hell it had an 800 number! A free call. If I had known at the time that DARPA stood for &amp;ldquo;Defense Advanced Research Projects Agency&amp;rdquo; I imagine I would have been even more excited to call.&lt;/p&gt;
+
+&lt;p&gt;I registered using the name of the BBS I was running at that time &amp;ndash; The Shrine of Learning.  Yes, it was a lame name but at the time I am sure I thought it was the shit.  My access didn&amp;rsquo;t let me get to anything interesting, but eventually I started to receive at my home a monthly or quarterly newsletter from DARPA addressed to the Shrine of Learning.&lt;/p&gt;
+
+&lt;p&gt;My Dad continued to get this newsletter for what I believe was almost twenty years before it eventually stopped.  I can just imagine the administrator who finally did some maintenance on the mailing list and was like:  &amp;ldquo;What the F^$%$ is the Shrine of Learning&amp;rdquo;?  Delete.&lt;/p&gt;
+
+&lt;p&gt;By the time I reached college in 1988 I had my first taste of a real word processor (WordStar) and computers slowly took on more functionality.&lt;/p&gt;
+
+&lt;h3&gt;The Next Generation&lt;/h3&gt;
+
+&lt;p&gt;Fast forward to today and the computer and mobile landscape would have been something out of Star Trek back when I first got into computers.  I have a tween son and an almost five year old daughter that are already more proficient and doing more advanced computer work (PowerPoint presentations, word documents, etc.) then I did in college.&lt;/p&gt;
+
+&lt;p&gt;How will the computer landscape look when they are 20, 30, 40?  And more importantly, will I be able to adapt to the changes that will come or will I look at computers with a distrustful eye?  Since I work in IT I hope that I will be able to rise to the occasion.&lt;/p&gt;
+
+&lt;p&gt;My children have never known a time in their life without computers, without DVR&amp;rsquo;s, without 24x7 cartoons.  I find contracting the two time periods fascinating.  I know this post is rambling but I hope those that have stuck with me have enjoyed the read.  As always if you have a comment please email me at stvlange(at)gmail(dot)com.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 13 Apr 2013 00:00:00 -0500</pubDate>
+        <link>http://stephenlange.org./musings/2013/04/13/Then.vs.Now/</link>
+        <guid isPermaLink="true">http://stephenlange.org./musings/2013/04/13/Then.vs.Now/</guid>
+      </item>
+    
+      <item>
+        <title>Less is More</title>
+        <description>&lt;p&gt;As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.&lt;/p&gt;
+
+&lt;p&gt;I might even go so far a saying that repeatedly getting a word document to look the same can be a challenge.  As I said earlier this doesn&amp;rsquo;t doom Word, it&amp;rsquo;s a great application, it&amp;rsquo;s just being realistic.&lt;/p&gt;
+
+&lt;p&gt;One of the things that drew me to using the ruby based Jekyll parsing program for this site is that it used what is called markup for formatting.  As I write this post I am looking at what essentially is a plain text screen that will be transformed during the building of this site with the Jekyll system.&lt;/p&gt;
+
+&lt;h3&gt;My Introduction to LaTex&lt;/h3&gt;
+
+&lt;p&gt;This process is not new.  Years ago I was introduced to a product called LaTex which is used extensively in the college research venue.  Like Jekyll LaTex using a text based input that makes use of markup tags to indicate formatting options.  A template is used which the user chooses and when processed the output file is typeset into the specified template.&lt;/p&gt;
+
+&lt;p&gt;I say typeset because unlike justification in Word the resulting text looks like it was professionally typeset in a book.  In fact LaTex is often used for book publishing.  Interestingly enough, this is not the driving function that draws so many academics to using LaTex &amp;ndash; it is the scientific/mathematic formula capabilities that make every other application pale in comparison.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/latex.jpg&quot;&gt;&lt;img src=&quot;/images/latex.jpg&quot;&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For me, I initially used LaTex for a slightly different reason.  I had a ton of documentation to do, and I needed to bang it out quickly and have it consistently look the same.  I didn&amp;rsquo;t have time to deal with layout, i needed to focus on content, and LaTex made that possible.  And the results were truly impressive.&lt;/p&gt;
+
+&lt;h4&gt;&amp;ldquo;That&amp;rsquo;s great!&amp;rdquo; you say, &amp;ldquo;Is it easy?&amp;rdquo; you ask.&lt;/h4&gt;
+
+&lt;p&gt;In a word no.  What you see is what you get (WYSIWYG) has crippled the typical users ability to easily assimilate this type of system.  People want instant gratification.  Don&amp;rsquo;t want to troubleshoot why a document compile run through pdftex failed because of a coding error.  It&amp;rsquo;s just not worth their time.&lt;/p&gt;
+
+&lt;p&gt;I say that not in an elitist way, I love the command line but if you ask me to learn emacs I would laugh and say &amp;ldquo;Hell no, I am  vi man&amp;rdquo;.  How is that different from someone not wanting to learn LaTex? It really isn&amp;rsquo;t.&lt;/p&gt;
+
+&lt;p&gt;The road into corporate America for LaTex is one that I believe will always remain closed.  People need to be able to collaborate, files authored today need to be editable by someone with the necessary skill-set in a year, five years, etc.  That&amp;rsquo;s just not going to happen outside of an academic environment despite the beautiful documents it can create.&lt;/p&gt;
+
+&lt;h3&gt;The Joy of LaTex-Like Blogging&lt;/h3&gt;
+
+&lt;p&gt;Given me professed love-fest for LaTex is it any surprise that I like Jekyll?  It&amp;rsquo;s simple, its fast (no database needed to generate views on the fly like WordPress), and it&amp;rsquo;s secure.  My workflow couldn&amp;rsquo;t be easier, I can either edit the file locally and upload it to github for rendering, or use the github web interface to create the file and paste in the contents.&lt;/p&gt;
+
+&lt;p&gt;Is it flashy? No.  Is it functional? Highly in my opinion.  This template, which is a modification of one used by Klepas, is visually stunning to read.  I&amp;rsquo;ve forgone a lot of the bloggy widgets, adds, and comments.  Honestly if you want to comment on something just email me.  This conveniently eliminates spam completely.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s about it.  If you find yourself at all intrigued about LaTex, are a writer of someone who wants to self-publish, definitely check into it.  You don&amp;rsquo;t need to have a Linux system to run in (there are Windows and OSX versions available.  It might just be what you are looking for.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2013 00:00:00 -0500</pubDate>
+        <link>http://stephenlange.org./musings/2013/04/01/Less-is-More/</link>
+        <guid isPermaLink="true">http://stephenlange.org./musings/2013/04/01/Less-is-More/</guid>
+      </item>
+    
+  </channel>
+</rss>
