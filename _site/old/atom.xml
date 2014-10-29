@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Random Thoughts</title>
-    <description>Opinions, Commentary and Random Thoughts of Stephen Lange.</description>
-    <link>http://stephenlange.org.</link>
-    <atom:link href="http://stephenlange.org./feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>This Noisy World</title>
-        <description>&lt;p&gt;One of the things that I find concerning is the effect that noise and light pollution is having us all. This auditory and visual sandpaper is slowly grinding us down.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Stephen Lange</title>
+ <link href="http://stephenlange.org/atom.xml" rel="self"/>
+ <link href="http://stephenlange.org/"/>
+ <updated>2014-10-29T12:54:12-05:00</updated>
+ <id>http://stephenlange.org/</id>
+ <author>
+   <name>Stephen Lange</name>
+   <email>stvlange@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>This Noisy World</title>
+   <link href="http://stephenlange.org/old/2014/10/17/This_Noisy_World/"/>
+   <updated>2014-10-17T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/old/2014/10/17/This_Noisy_World</id>
+   <content type="html">&lt;p&gt;One of the things that I find concerning is the effect that noise and light pollution is having us all. This auditory and visual sandpaper is slowly grinding us down.&lt;/p&gt;
 
 &lt;p&gt;Some might call me a hypocrite for pondering such things because I work all day in front of a computer and find myself glued to my phone all too often, but I would that this is more of an revelation that anything else.&lt;/p&gt;
 
@@ -28,15 +37,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;But nature isn&amp;rsquo;t quiet, true it has symphony of sounds, but their noise isn&amp;rsquo;t detrimental.  They don&amp;rsquo;t affect us in the same way that manufactured audio and video does.  Our eyes don&amp;rsquo;t grow weary from looking at a babbling brook like they do from starting at a phone screen for two hours.&lt;/p&gt;
 
 &lt;p&gt;Lately I have found myself yearning for the quiet of the woods.  In my car I find myself turning off the radio more and more often.  The blackness of night is a welcome friend. It&amp;rsquo;s time to find a lonely shore to explore.  Who wants to come with?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 17 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./old/2014/10/17/This_Noisy_World/</link>
-        <guid isPermaLink="true">http://stephenlange.org./old/2014/10/17/This_Noisy_World/</guid>
-      </item>
-    
-      <item>
-        <title>This Noisy World</title>
-        <description>&lt;p&gt;One of the things that I find concerning is the effect that noise and light pollution is having us all. This auditory and visual sandpaper is slowly grinding us down.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>This Noisy World</title>
+   <link href="http://stephenlange.org/2014/10/17/This_Noisy_World/"/>
+   <updated>2014-10-17T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/2014/10/17/This_Noisy_World</id>
+   <content type="html">&lt;p&gt;One of the things that I find concerning is the effect that noise and light pollution is having us all. This auditory and visual sandpaper is slowly grinding us down.&lt;/p&gt;
 
 &lt;p&gt;Some might call me a hypocrite for pondering such things because I work all day in front of a computer and find myself glued to my phone all too often, but I would that this is more of an revelation that anything else.&lt;/p&gt;
 
@@ -56,15 +65,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;But nature isn&amp;rsquo;t quiet, true it has symphony of sounds, but their noise isn&amp;rsquo;t detrimental.  They don&amp;rsquo;t affect us in the same way that manufactured audio and video does.  Our eyes don&amp;rsquo;t grow weary from looking at a babbling brook like they do from starting at a phone screen for two hours.&lt;/p&gt;
 
 &lt;p&gt;Lately I have found myself yearning for the quiet of the woods.  In my car I find myself turning off the radio more and more often.  The blackness of night is a welcome friend. It&amp;rsquo;s time to find a lonely shore to explore.  Who wants to come with?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 17 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./2014/10/17/This_Noisy_World/</link>
-        <guid isPermaLink="true">http://stephenlange.org./2014/10/17/This_Noisy_World/</guid>
-      </item>
-    
-      <item>
-        <title>Pivot Table Wizard</title>
-        <description>&lt;p&gt;Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn&amp;rsquo;t take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pivot Table Wizard</title>
+   <link href="http://stephenlange.org/tips/2014/04/03/simple_wizardry/"/>
+   <updated>2014-04-03T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/tips/2014/04/03/simple_wizardry</id>
+   <content type="html">&lt;p&gt;Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn&amp;rsquo;t take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data.&lt;/p&gt;
 
 &lt;p&gt;Being able to leverage a script and common Linux commands like fgrep, sed, awk, cut and csvfix just made more sense than trying to do what needed to be done in excel with a decent sized (1GB+) CSV file.  At the time the validity of the data was also in question, so having a clearly documented and repeatable process that wasn&amp;rsquo;t prone to human error made a lot of sense.&lt;/p&gt;
 
@@ -97,15 +106,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/meatball-slicers3.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Hopefully you have seen the power of pivot tables and the flexibility that slicers offer.  In every one of these examples the data sheet has never been changed.  I really find pivot tables and slicers to be a great lightweight alternative to using Access or another database.  I personally can&amp;rsquo;t stand working in Microsoft Access, so for me learning about pivot tables and slicers was a huge revelation.  As always there are some great tutorials out there on pivot tables that are only a Google search away.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Apr 2014 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./tips/2014/04/03/simple_wizardry/</link>
-        <guid isPermaLink="true">http://stephenlange.org./tips/2014/04/03/simple_wizardry/</guid>
-      </item>
-    
-      <item>
-        <title>Pivot Table Wizard</title>
-        <description>&lt;p&gt;Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn&amp;rsquo;t take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pivot Table Wizard</title>
+   <link href="http://stephenlange.org/old/tips/2014/04/03/simple_wizardry/"/>
+   <updated>2014-04-03T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/old/tips/2014/04/03/simple_wizardry</id>
+   <content type="html">&lt;p&gt;Last year I found myself thrust into a data analysis project at work.  There was a decent amount of data, and a lot of noise to wade through and ultimately weeded out.  It didn&amp;rsquo;t take me long to realize that my time working with this data would be a lot less painful if I were to put together a few scripts to manipulate the data.&lt;/p&gt;
 
 &lt;p&gt;Being able to leverage a script and common Linux commands like fgrep, sed, awk, cut and csvfix just made more sense than trying to do what needed to be done in excel with a decent sized (1GB+) CSV file.  At the time the validity of the data was also in question, so having a clearly documented and repeatable process that wasn&amp;rsquo;t prone to human error made a lot of sense.&lt;/p&gt;
 
@@ -138,15 +147,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/meatball-slicers3.png&quot;&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Hopefully you have seen the power of pivot tables and the flexibility that slicers offer.  In every one of these examples the data sheet has never been changed.  I really find pivot tables and slicers to be a great lightweight alternative to using Access or another database.  I personally can&amp;rsquo;t stand working in Microsoft Access, so for me learning about pivot tables and slicers was a huge revelation.  As always there are some great tutorials out there on pivot tables that are only a Google search away.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Apr 2014 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./old/tips/2014/04/03/simple_wizardry/</link>
-        <guid isPermaLink="true">http://stephenlange.org./old/tips/2014/04/03/simple_wizardry/</guid>
-      </item>
-    
-      <item>
-        <title>The 1984 Roadmap</title>
-        <description>&lt;p&gt;One of my favorite books is George Orwell&amp;rsquo;s 1984.  As a reader that is drawn to darker dystopian and apocalyptic works, 1984 is equally fascinating and horrifying. And yet, given the confirmed level (Snowden) of monitoring we face by our government in the name of &amp;ldquo;Security&amp;rdquo; we are as a whole, remarkably indifferent.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The 1984 Roadmap</title>
+   <link href="http://stephenlange.org/musings/2013/12/20/big_brother/"/>
+   <updated>2013-12-20T00:00:00-06:00</updated>
+   <id>http://stephenlange.org/musings/2013/12/20/big_brother</id>
+   <content type="html">&lt;p&gt;One of my favorite books is George Orwell&amp;rsquo;s 1984.  As a reader that is drawn to darker dystopian and apocalyptic works, 1984 is equally fascinating and horrifying. And yet, given the confirmed level (Snowden) of monitoring we face by our government in the name of &amp;ldquo;Security&amp;rdquo; we are as a whole, remarkably indifferent.&lt;/p&gt;
 
 &lt;blockquote cite=&quot;George Orwell&quot;&gt;
     &lt;p&gt;&amp;ldquo;There was of course no way of knowing whether you were being watched at any given moment. How often, or on what system, the Thought Police plugged in on any individual wire was guesswork. It was even conceivable that they watched everybody all the time. But at any rate they could plug in your wire whenever they wanted to. You had to live—did live, from habit that became instinct—in the assumption that every sound you made was overheard, and, except in darkness, every movement scrutinized.&amp;rdquo;&lt;/p&gt;
@@ -164,15 +173,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;Ultimately the reason I don&amp;rsquo;t shut things down is the same reason that I think most people don&amp;rsquo;t &amp;ndash; Convenience.&lt;/p&gt;
 
 &lt;p&gt;And in the end, at least in my own case, I&amp;rsquo;m pretty boring.  If the government wants to collect my drivel, the occasional zing I make about a neighbor or politician isn&amp;rsquo;t really worth much in the grand scheme of things.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Dec 2013 00:00:00 -0600</pubDate>
-        <link>http://stephenlange.org./musings/2013/12/20/big_brother/</link>
-        <guid isPermaLink="true">http://stephenlange.org./musings/2013/12/20/big_brother/</guid>
-      </item>
-    
-      <item>
-        <title>The 1984 Roadmap</title>
-        <description>&lt;p&gt;One of my favorite books is George Orwell&amp;rsquo;s 1984.  As a reader that is drawn to darker dystopian and apocalyptic works, 1984 is equally fascinating and horrifying. And yet, given the confirmed level (Snowden) of monitoring we face by our government in the name of &amp;ldquo;Security&amp;rdquo; we are as a whole, remarkably indifferent.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The 1984 Roadmap</title>
+   <link href="http://stephenlange.org/old/musings/2013/12/20/big_brother/"/>
+   <updated>2013-12-20T00:00:00-06:00</updated>
+   <id>http://stephenlange.org/old/musings/2013/12/20/big_brother</id>
+   <content type="html">&lt;p&gt;One of my favorite books is George Orwell&amp;rsquo;s 1984.  As a reader that is drawn to darker dystopian and apocalyptic works, 1984 is equally fascinating and horrifying. And yet, given the confirmed level (Snowden) of monitoring we face by our government in the name of &amp;ldquo;Security&amp;rdquo; we are as a whole, remarkably indifferent.&lt;/p&gt;
 
 &lt;blockquote cite=&quot;George Orwell&quot;&gt;
     &lt;p&gt;&amp;ldquo;There was of course no way of knowing whether you were being watched at any given moment. How often, or on what system, the Thought Police plugged in on any individual wire was guesswork. It was even conceivable that they watched everybody all the time. But at any rate they could plug in your wire whenever they wanted to. You had to live—did live, from habit that became instinct—in the assumption that every sound you made was overheard, and, except in darkness, every movement scrutinized.&amp;rdquo;&lt;/p&gt;
@@ -190,15 +199,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;Ultimately the reason I don&amp;rsquo;t shut things down is the same reason that I think most people don&amp;rsquo;t &amp;ndash; Convenience.&lt;/p&gt;
 
 &lt;p&gt;And in the end, at least in my own case, I&amp;rsquo;m pretty boring.  If the government wants to collect my drivel, the occasional zing I make about a neighbor or politician isn&amp;rsquo;t really worth much in the grand scheme of things.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Dec 2013 00:00:00 -0600</pubDate>
-        <link>http://stephenlange.org./old/musings/2013/12/20/big_brother/</link>
-        <guid isPermaLink="true">http://stephenlange.org./old/musings/2013/12/20/big_brother/</guid>
-      </item>
-    
-      <item>
-        <title>Life Without Computers</title>
-        <description>&lt;p&gt;Children of the late 60&amp;rsquo;s and 70&amp;rsquo;s such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Life Without Computers</title>
+   <link href="http://stephenlange.org/old/musings/2013/04/13/Then.vs.Now/"/>
+   <updated>2013-04-13T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/old/musings/2013/04/13/Then.vs.Now</id>
+   <content type="html">&lt;p&gt;Children of the late 60&amp;rsquo;s and 70&amp;rsquo;s such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.&lt;/p&gt;
 
 &lt;h3&gt;Enter the Video Game&lt;/h3&gt;
 
@@ -266,15 +275,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;How will the computer landscape look when they are 20, 30, 40?  And more importantly, will I be able to adapt to the changes that will come or will I look at computers with a distrustful eye?  Since I work in IT I hope that I will be able to rise to the occasion.&lt;/p&gt;
 
 &lt;p&gt;My children have never known a time in their life without computers, without DVR&amp;rsquo;s, without 24x7 cartoons.  I find contracting the two time periods fascinating.  I know this post is rambling but I hope those that have stuck with me have enjoyed the read.  As always if you have a comment please email me at stvlange(at)gmail(dot)com.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 13 Apr 2013 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./old/musings/2013/04/13/Then.vs.Now/</link>
-        <guid isPermaLink="true">http://stephenlange.org./old/musings/2013/04/13/Then.vs.Now/</guid>
-      </item>
-    
-      <item>
-        <title>Life Without Computers</title>
-        <description>&lt;p&gt;Children of the late 60&amp;rsquo;s and 70&amp;rsquo;s such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Life Without Computers</title>
+   <link href="http://stephenlange.org/musings/2013/04/13/Then.vs.Now/"/>
+   <updated>2013-04-13T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/musings/2013/04/13/Then.vs.Now</id>
+   <content type="html">&lt;p&gt;Children of the late 60&amp;rsquo;s and 70&amp;rsquo;s such as myself are unique in that we are the last generation to know life without computers.  A smaller subset of this group is the last to remember life without video games.  I was born in 1969 and happen to fall into both groups.&lt;/p&gt;
 
 &lt;h3&gt;Enter the Video Game&lt;/h3&gt;
 
@@ -342,15 +351,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;How will the computer landscape look when they are 20, 30, 40?  And more importantly, will I be able to adapt to the changes that will come or will I look at computers with a distrustful eye?  Since I work in IT I hope that I will be able to rise to the occasion.&lt;/p&gt;
 
 &lt;p&gt;My children have never known a time in their life without computers, without DVR&amp;rsquo;s, without 24x7 cartoons.  I find contracting the two time periods fascinating.  I know this post is rambling but I hope those that have stuck with me have enjoyed the read.  As always if you have a comment please email me at stvlange(at)gmail(dot)com.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 13 Apr 2013 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./musings/2013/04/13/Then.vs.Now/</link>
-        <guid isPermaLink="true">http://stephenlange.org./musings/2013/04/13/Then.vs.Now/</guid>
-      </item>
-    
-      <item>
-        <title>Less is More</title>
-        <description>&lt;p&gt;As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Less is More</title>
+   <link href="http://stephenlange.org/old/musings/2013/04/01/Less-is-More/"/>
+   <updated>2013-04-01T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/old/musings/2013/04/01/Less-is-More</id>
+   <content type="html">&lt;p&gt;As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.&lt;/p&gt;
 
 &lt;p&gt;I might even go so far a saying that repeatedly getting a word document to look the same can be a challenge.  As I said earlier this doesn&amp;rsquo;t doom Word, it&amp;rsquo;s a great application, it&amp;rsquo;s just being realistic.&lt;/p&gt;
 
@@ -383,15 +392,15 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;Is it flashy? No.  Is it functional? Highly in my opinion.  This template, which is a modification of one used by Klepas, is visually stunning to read.  I&amp;rsquo;ve forgone a lot of the bloggy widgets, adds, and comments.  Honestly if you want to comment on something just email me.  This conveniently eliminates spam completely.&lt;/p&gt;
 
 &lt;p&gt;So that&amp;rsquo;s about it.  If you find yourself at all intrigued about LaTex, are a writer of someone who wants to self-publish, definitely check into it.  You don&amp;rsquo;t need to have a Linux system to run in (there are Windows and OSX versions available.  It might just be what you are looking for.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Apr 2013 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./old/musings/2013/04/01/Less-is-More/</link>
-        <guid isPermaLink="true">http://stephenlange.org./old/musings/2013/04/01/Less-is-More/</guid>
-      </item>
-    
-      <item>
-        <title>Less is More</title>
-        <description>&lt;p&gt;As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Less is More</title>
+   <link href="http://stephenlange.org/musings/2013/04/01/Less-is-More/"/>
+   <updated>2013-04-01T00:00:00-05:00</updated>
+   <id>http://stephenlange.org/musings/2013/04/01/Less-is-More</id>
+   <content type="html">&lt;p&gt;As someone that uses Microsoft Word on a daily basis there is a lot to be said about what Word is capable of doing.  But ask any graphic designer what their opinion of Word is and there is a good chance you will hear a number of French words.  The reason for this scorn is because Word for all it is, is not the best at layout.&lt;/p&gt;
 
 &lt;p&gt;I might even go so far a saying that repeatedly getting a word document to look the same can be a challenge.  As I said earlier this doesn&amp;rsquo;t doom Word, it&amp;rsquo;s a great application, it&amp;rsquo;s just being realistic.&lt;/p&gt;
 
@@ -424,11 +433,8 @@ I love not man the less, but Nature more.&lt;br&gt;
 &lt;p&gt;Is it flashy? No.  Is it functional? Highly in my opinion.  This template, which is a modification of one used by Klepas, is visually stunning to read.  I&amp;rsquo;ve forgone a lot of the bloggy widgets, adds, and comments.  Honestly if you want to comment on something just email me.  This conveniently eliminates spam completely.&lt;/p&gt;
 
 &lt;p&gt;So that&amp;rsquo;s about it.  If you find yourself at all intrigued about LaTex, are a writer of someone who wants to self-publish, definitely check into it.  You don&amp;rsquo;t need to have a Linux system to run in (there are Windows and OSX versions available.  It might just be what you are looking for.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Apr 2013 00:00:00 -0500</pubDate>
-        <link>http://stephenlange.org./musings/2013/04/01/Less-is-More/</link>
-        <guid isPermaLink="true">http://stephenlange.org./musings/2013/04/01/Less-is-More/</guid>
-      </item>
-    
-  </channel>
-</rss>
+</content>
+ </entry>
+ 
+
+</feed>
