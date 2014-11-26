@@ -4,9 +4,9 @@ title: This Noisy World
 modified: 2014-10-17
 comments: yes
 ---
-One of the things that concerns me is noise and light polution. To me it feels like the auditory and visual equivalent of sandpaper, and I feel like it is slowly grinding us down.
+One of the things that concerns me is noise and light polution. The auditory and visual equivalent of sandpaper, noise and light polution is slowly grinding us all down.
 
-Sitting in front of a computer all day for work, I would have thought that I would have built up a major tollerance to it, but that really isn't the case.  I find myself looking forward/longing to/for situations free this kind of polution.  This might explain why I love forests and hiking so much.
+Sitting in front of a computer all day for work, I really thought that I would be immune to the effects of N/L Polution, but that really isn't the case.  I find myself looking forward/longing to/for situations free this kind of polution.  This might explain why I love forests and hiking so much.
 
 I read a quote today that really hit home:
 
