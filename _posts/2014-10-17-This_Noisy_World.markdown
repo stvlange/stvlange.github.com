@@ -4,9 +4,9 @@ title: This Noisy World
 modified: 2014-10-17
 comments: yes
 ---
-One of the things that I find concerning is the effect that noise and light pollution is having us all. This auditory and visual sandpaper is slowly grinding us down.
+One of the things that concerns me is noise and light polution. To me it feels like the auditory and visual equivalent of sandpaper, and I feel like it is slowly grinding us down.
 
-Some might call me a hypocrite for pondering such things because I work all day in front of a computer and find myself glued to my phone all too often, but I would that this is more of an revelation that anything else.
+Sitting in front of a computer all day for work, I would have thought that I would have built up a major tollerance to it, but that really isn't the case.  I find myself looking forward/longing to/for situations free this kind of polution.  This might explain why I love forests and hiking so much.
 
 I read a quote today that really hit home:
 
@@ -17,8 +17,5 @@ I read a quote today that really hit home:
 >I love not man the less, but Nature more.<br>
 >~George Gordon Byron
 
-I found myself thinking about hikes I have been on in the past, either by myself or with others.  I always found myself decompressing when out in the woods.  I physically feel better, my eyes, ears and mind are more relaxed.  Subconsciously our bodies crave the quiet.  I call it "Quiet Deprivation".
+This made me think about all the hikes I have done over the years either alone or with others.  It's almost like a decompression chamber out there in the woods.  When I am out there I physically feel better, my eyes, ears and mind are more relaxed.  I think subconsciously we crave quiet because of the technology saturated world we live in today.
 
-But nature isn't quiet, true it has symphony of sounds, but their noise isn't detrimental.  They don't affect us in the same way that manufactured audio and video does.  Our eyes don't grow weary from looking at a babbling brook like they do from starting at a phone screen for two hours.
-
-Lately I have found myself yearning for the quiet of the woods.  In my car I find myself turning off the radio more and more often.  The blackness of night is a welcome friend. It's time to find a lonely shore to explore.  Who wants to come with?
