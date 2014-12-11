@@ -6,7 +6,7 @@ comments: yes
 ---
 One of the things that concerns me is noise and light polution. The auditory and visual equivalent of sandpaper, noise and light polution is slowly grinding us all down.
 
-Sitting in front of a computer all day for work, I really thought that I would be immune to the effects of N/L Polution, but that really isn't the case.  I find myself looking forward/longing to/for situations free this kind of polution.  This might explain why I love forests and hiking so much.
+Sitting in front of a computer all day for work, I really thought that I would be immune to the effects of N/L Polution.  However, I find myself all too often looking forward to bein in a dark quiet room. This might explain why I love forests and hiking so much.
 
 I read a quote today that really hit home:
 
@@ -17,5 +17,5 @@ I read a quote today that really hit home:
 >I love not man the less, but Nature more.<br>
 >~George Gordon Byron
 
-This made me think about all the hikes I have done over the years either alone or with others.  It's almost like a decompression chamber out there in the woods.  When I am out there I physically feel better, my eyes, ears and mind are more relaxed.  I think subconsciously we crave quiet because of the technology saturated world we live in today.
+This made me think about all the hikes I have done over the years.  Just being outside in nature, away from civilization has a therapeutic value.  Even in small doses, say working outside in your yard on a sunny, pleasant day can make you feel good.  We physically feel better, we naturally relax.  I will try and make it a point of spending more time outside in the future.
 
