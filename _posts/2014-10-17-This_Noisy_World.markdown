@@ -19,5 +19,5 @@ But, when we spend time without technology (outside or inside) our focus isn't f
 >I love not man the less, but Nature more.<br>
 >~George Gordon Byron
 
-This made me think about all the hikes I have done over the years.  Just being outside in nature, away from civilization has a therapeutic value.  Even in small doses, say working outside in your yard on a sunny, pleasant day can make you feel good.  We physically feel better, we naturally relax.  I will try and make it a point of spending more time outside in the future.
+Just being outside in nature, away from civilization has a therapeutic value.  Even in small doses, say working outside in your yard on a sunny, pleasant day can make you feel good.  We physically feel better, we naturally relax.  I know this to be true -- when I am outside, I feel better.  I will try and make it a point of spending more time outside in the future.
 
