@@ -8,6 +8,6 @@ Last night my son came running down the stairs sounds like a herd of elephants. 
 
 I had a suspicion that was confirmed when I saw where the vehicles were focused on -- Our next door neighbor's house.  We knew that the husband had some heart related health problems but a change in lifestyle seemed to be keeping those problem at bay.
 
-I would later learn that he passed away that night in his chair.  He looked to be asleep, his wife and children were there.  My wife and I were both in shock.  I know in that instant we both thought about the pain and suffering that Lois and her children were going through.  I know we both envisioned how we would feel if this tragedy has befallen our family.
+I would later learn that he passed away that night in his chair.  He looked to be asleep, his wife and children were there.  My wife and I were both in shock.  I know in that instant we both thought about the pain and suffering that their family must was going through.  I know we both envisioned how we would feel if this tragedy has befallen our family.
 
 This sucks is so many ways.  My thoughts and prayers go out to them tonight.
