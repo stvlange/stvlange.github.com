@@ -1,4 +1,10 @@
-# StephenLange.org
+# My Little Corner of the Interwebz
 
-**[stephenlange.org](http://stephenlange.org)** is the personal Blog of Stephen Lange.
+## Start Hacking
+```
+# Install the deps
+bundle install
 
+# Run the server
+jeykll server
+```

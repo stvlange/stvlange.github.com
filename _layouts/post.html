@@ -1,32 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta content='{{ page.title }} - {{ site.title }}' property='og:title' />
-    <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
+    <link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
   </head>
   <body>
-    {% include header.html %}
-    <div id='container'>
-			{% include pages.html %}
-      <div class="content">
-        <section class='post'>
-          <h1 class="upcase">
-            <div class='date'>{{ page.date | date_to_string }}</div>
-            {{ page.title }}
-          </h1>
-          {{ content }}
-          {% include signoff.html %}
 
-
-        </section>
-      </div>
-      {% if page.share == 'y' %}
-        {% include share.html %}
-      {% endif %}
-
-      {% if page.disqus == 'y' %}
-        {% include disqus.html %}
-      {% endif %}
+    <div class="container">
+      <article class="post">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: '%B %-d, %Y' }}</time>
+        {{ content }}
+        {% include twitter.html %}
+      </article>
     </div>
+
+    {% include js.html %}
   </body>
 </html>
+

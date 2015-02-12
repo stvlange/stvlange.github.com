@@ -1,0 +1,17 @@
+.twitter-follow-button {
+  float: right;
+}
+
+// iPhone 5 and smaller
+@media(max-width: 320px) {
+  .be-social-lg {
+    display: none;
+  }
+}
+
+// iPhone 6 and above
+@media(min-width: 321px) {
+  .be-social-sm {
+    display: none;
+  }
+}
