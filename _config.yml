@@ -1,32 +1,5 @@
-# Permalink
-permalink: /posts/:title/
-
-# Setup
-title: Stephen Lange
-url: "http://stephenlange.org/"
-basename: ""
-
-description: >
-  Stephen Lange's Mutterings & Musings
-
-author:
-  name: Stephen Lange
-  email: stvlange@gmail.com
-
-# Build settings
-markdown: kramdown
-sass:
-  sass_dir: _scss
-  style: compressed
-
-# Custom Vars
-github:
-  repo: https://github.com/stvlange/stvlange.github.com
-
-# Custom Vars
-handle: stvlange
-
-gems:
-  - jemoji
-  - jekyll-mentions
-
+# General Jekyll Config
+highlighter: pygments
+url: http://stephenlange.org
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
