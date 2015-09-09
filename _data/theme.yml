@@ -1,0 +1,29 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#3498db'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: stvlange
+  #bitbucket: 
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
+  twitter: stvlange
+  #facebook: 
+  #tumblr: 
+  linkedin: stvlange
+  #gplus: 
+  #gravatar: stvlange
+
+# "Hi, I'm _______"
+name: Stephen Lange
+email: stvlange@gmail.com
+tagline: "Never trust atoms, they make up everything."
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: 
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true
