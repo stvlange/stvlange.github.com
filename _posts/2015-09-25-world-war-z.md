@@ -5,8 +5,7 @@ categories:
 - Book Review
 ---
 ## <i class="fa fa-book fa-lg"></i> RATING: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-Length: 342 pages
-
+Length: 342 pages<br>
 Link: <a href="http://www.amazon.com/World-War-Oral-History-Zombie/dp/0307346617">Amazon</a>
 
 I'd like to take a moment to talk about the book "World War Z: An Oral History of the Zombie War" by Max Brooks.  Before the name conjures up memories of the terrible Brad Pitt movie, listen to me when I say that the books only relation to the book is in title alone.  The book is what I wished the movie would be, but isn't that usually the case?
