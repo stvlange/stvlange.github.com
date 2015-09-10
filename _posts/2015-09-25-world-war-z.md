@@ -6,4 +6,4 @@ categories:
 ---
 
 
-# <i class="fa fa-book fa-3x"></i> fa-3x
+# <i class="fa fa-book fa-2x"></i> fa-2x
