@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Book Review] World War Z
+title: (BOOK REVIEW) World War Z
 categories:
 - Book Review
 ---
@@ -9,3 +9,4 @@ categories:
 # <i class="fa fa-book fa-lg"></i> fa-lg
 gggg
 gggg
+eeee
