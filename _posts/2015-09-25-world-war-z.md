@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (BOOK REVIEW) World War Z
+title: World War Z
 categories:
 - Book Review
 ---
