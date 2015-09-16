@@ -52,6 +52,8 @@ Now, just because I was tracking out course on my iPhone and our exact distance 
 
 The weather was perfect, a nice semi-crisp morning that blossomed into a pleasant mid 70's day.  About 1/2 mile into our trip we stopped at a nice spot by the river.  Rocket took the opportunity to explore.  I was really happy that he was wearing the harness, giving him a helping hand was much easier thanks to it. 
 
+![Rocket River Fun](/assets/dog.png)
+
 The best part of the hike was the time I had alone with Mia.  We talked about a lot of things, and being outside and alone, there weren't a lot of distractions aside from nature itself.  We took frequent breaks to drink water.  I've decided I really need to invest in a portable bowl of some kind, the plastic bowl I had for Rocket just didn't meet my needs.
 
 Before I knew it the hike was over.  I wouldn't trade that time for anything and I look forward to doing it again soon.
