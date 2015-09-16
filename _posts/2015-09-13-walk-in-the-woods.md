@@ -6,7 +6,7 @@ categories:
 ---
 ## <i class="fa fa-leaf fa-lg"></i> Unwinding Outside with Mia & Rocket
 
-On Sunday morning while my wife, mother-in-law and son headed out to see the new Robert Redford adaptation of Bill Bryson's book "A Walk in the Woods: Rediscovering America on the Appalachian Trail (Official Guides to the Appalachian Trail)", I loaded up my daughter Mia and our family dog Rocket into the car and headed for the trails of <a href="http://www.oswegolandparkdistrict.org/Trails-Parks/Saw-Wee-Kee-Park.htm">Saw Wee Kee</a> park.
+On Sunday morning while my wife, mother-in-law and son headed out to see the new Robert Redford adaptation of Bill Bryson's book "A Walk in the Woods: Rediscovering America on the Appalachian Trail", I loaded up my daughter Mia and our family dog Rocket into the car and headed for the trails of <a href="http://www.oswegolandparkdistrict.org/Trails-Parks/Saw-Wee-Kee-Park.htm">Saw Wee Kee</a> park.
 
 Since I have already read Bryson's book, I didn't really mind missing the movie, and it gave me a nice opportunity to do something with Mia.  The irony of going for a walk while they went to sit and watch a movie *about* going on a walk was not lost on me.
 
