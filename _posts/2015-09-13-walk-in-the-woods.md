@@ -11,6 +11,7 @@ On Sunday morning while my wife, mother-in-law and son headed out to see the new
 Since I have already read Bryson's book, I didn't really mind missing the movie, and it gave me a nice opportunity to do something with Mia.  The irony of going for a walk while they went to sit and watch a movie *about* going on a walk was not lost on me.
 
 Going for a hike can be a great experience if you spend a few minutes preparing for the hike.  For this hike I packed my backpack with:
+
 * First Aid Kit
 * Bottled Water (5)
 * Trail Snacks
@@ -22,6 +23,7 @@ Going for a hike can be a great experience if you spend a few minutes preparing 
 * Plastic Bowl for Dog Water/Food Consumption
 
 Mia's Setup:
+
 * Long lightweight pants
 * Long Sleeve lightweight T-shirt
 * Zipup Lightweight Hoodie
@@ -32,6 +34,7 @@ I would have preferred to have hiking boots for her, but sadly that was not the 
 I know wearing pants and a long sleeve t-shirt may seem like overkill, but I know how prolific the poison ivy can be on these trails.  That little bit of extra protection can really help.
 
 Rocket's Setup:
+
 * Ruffwear <a href="http://www.ruffwear.com/Web-Master-Pro-Harness?sc=2&category=1131">Web Master Pro</a> Harness
 
 I am a big fan of the Ruffwear product line.  I have spent more time that I would like to admit scouring the web for harness reviews and advice and every single time I would find myself being funnelled to this company. 
