@@ -37,8 +37,8 @@ I know wearing pants and a long sleeve t-shirt may seem like overkill, but I kno
 
 **Rocket's Setup:**
 
- * Ruffwear (Web Master Pro)[http://www.ruffwear.com/Web-Master-Pro-Harness?sc=2&category=1131] Harness
-
+ * Ruffwear [Web Master Pro](http://www.ruffwear.com/Web-Master-Pro-Harness?sc=2&category=1131) Harness
+ 
 I am a big fan of the Ruffwear product line.  I have spent more time that I would like to admit scouring the web for harness reviews and advice and every single time I would find myself being funnelled to this company. 
 
 A few weeks ago while on REI I hapilly saw that they carried the Web Master Pro harness, and since I have a REI dividend to spend it wasn't long until the harness arrived.  I could not be happier.  The construction and attention to detail is amazing.  It was exactly the level of quality I would expect to see from a more expensive than average harness.
