@@ -3,3 +3,7 @@ highlighter: pygments
 url: http://stephenlange.org
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+gems:
+  - jekyll-sitemap
+  
