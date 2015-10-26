@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: pygments
-url: http://www.stephenlange.org
+url: http://stephenlange.org
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
