@@ -22,16 +22,16 @@
         width: 100%;
     }
 
-    &::after {
-        display: block;
-        position: absolute;
-        top: $banner-height;
-        left: $banner-border-offset;
-        content: "";
-        background: #443E40;
-        height: $banner-border-width;
-        width: $banner-width - ($banner-border-offset* 2);
-    }
+    //&::after {
+    //    display: block;
+    //    position: absolute;
+    //    top: $banner-height;
+    //    left: $banner-border-offset;
+    //    content: "";
+    //    background: #443E40;
+    //    height: $banner-border-width;
+    //    width: $banner-width - ($banner-border-offset* 2);
+    //}
 
     @include min-breakpoint($image-splitting-breakpoint) {
         margin-bottom: $banner-margin;
