@@ -1,12 +1,4 @@
-<div class="disclaimer">
-  {% if site.data.theme.show_disclaimer %}
-  <p>
-    The postings on this site are my own and don't necessarily represent my 
-    employer’s positions, strategies or opinions.
-  </p>
-  {% endif %}
-
-  <p>
-    © {{ site.data.theme.name }}, 2015 &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
-  </p>
-</div>
+<footer id="footer">
+    <p>Your Host: <strong><a href="{{ site.author_link }}" target="_blank">{{ site.author }}</a></strong></p>
+    <p class="legal">{{ site.author_description }}</p>
+</footer>
