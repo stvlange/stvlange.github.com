@@ -12,7 +12,7 @@ categories: Aurelius reflection stoic
 ## Tolerance & Patience with Others
 Reading this quote really makes me reflect on the times I have fallen short of these principals. I can think of many examples where my intolerance has negatively affected me in work and family situations.
 
-As a parent I have memories of situations where I could have been more patient and tolerant with my son and daughter. These memories both shame and motivate me to be a better person, to be a better Father. 
+{% marginfigure 'mf-id-1' 'assets/img/tolerance.png' %}As a parent I have memories of situations where I could have been more patient and tolerant with my son and daughter. These memories both shame and motivate me to be a better person, to be a better Father. 
 
 The risk here for parents who either can't or won't learn to be patient and tolerant is that you run the risk of changing forever how your children view you as a person. We have all heard of kids cutting off contact with their parents. This happens for good reasons, and being an intolerant asshole is definitely one of them.
 
