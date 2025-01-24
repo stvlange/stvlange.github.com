@@ -5,9 +5,9 @@ date:   2025-01-23 20:45:00
 categories: home radio ham
 ---
 
-{% marginfigure 'mf-id-1' 'assets/img/operator.png' %}{% newthought 'Resurrecting my interest in ham radio' %} wasn't originally on my 2025 bucket list, but recently I've had an itch to get back into the hobby.<!--more-->  This time around, I decided to go about things a little differently.
+{% newthought 'Resurrecting my interest in ham radio' %} wasn't originally on my 2025 bucket list, but recently I've had an itch to get back into the hobby.<!--more-->  This time around, I decided to go about things a little differently.
 
-Back when I stopped actively doing the hobby two and a half years ago I had a my radio setup in my basement with an antenna in the back of the yard that I would put up and take down as needed.
+{% marginfigure 'mf-id-1' 'assets/img/operator.png' %}Back when I stopped actively doing the hobby two and a half years ago I had a my radio setup in my basement with an antenna in the back of the yard that I would put up and take down as needed.
 
 When I felt like using the radio, I would head outside and erect a telescoping fiberglass mast with an antenna that I built, head downstairs to listen and try to make some contacts, and then take the antenna down.
 
