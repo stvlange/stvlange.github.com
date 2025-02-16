@@ -11,7 +11,9 @@ categories: reflection snow
 
 At my next opportunity I quickly shot off a text message to her. "Fluffy snow outside now! Stop what you are doing, sit down on the couch and watch some snow. Don't miss it again!" 
 
-Her reply of "Perfect! Thank you." was all I needed to see. On my return to the house I was greeted with the sound of jazz music and a fire playing on the TV (we take what we can get). I quickly made a cup of lemon zinger tea and relaxed on the chaise lounger with a perfect view of the snow falling in our backyard.
+Her reply of "Perfect! Thank you." was all I needed to see. On my return to the house I was greeted with the sound of jazz music and a fire playing on the TV (we take what we can get). 
+
+I quickly made a cup of lemon zinger tea and relaxed on the chaise lounger with a perfect view of the snow falling in our backyard.
 
 My appreciation of snow isn't something new, its not a newly acquired taste gained as I make the unstopping march into old age. I've loved the snow ever since I was a boy.
 
