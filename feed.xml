@@ -1,31 +1,576 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Stephen Lange</title>
+    <description>stephenlange.org</description>
+    <link>/stvlange.github.com/</link>
+    <atom:link href="/stvlange.github.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 04 Mar 2025 22:54:21 -0600</pubDate>
+    <lastBuildDate>Tue, 04 Mar 2025 22:54:21 -0600</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Into the Crawlspace an Antioch Adventure</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Facing another week of arctic temperatures,&lt;/span&gt;  I found myself becoming increasingly concerned about the new well pump.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;What was the heater doing? Was it still working? Was the pump going to be destroyed and cost me another $1200? These questions and others flooded my brain in a non-stop barrage of worry.&lt;/p&gt;
+
+&lt;p&gt;At its zenith I made a decision to place the order for a YoLink hub and external temperature gauge. I would have it delivered to the Antioch house and head out after work to check on things.&lt;/p&gt;
+
+&lt;h2 id=&quot;antioch-insights&quot;&gt;Antioch Insights&lt;/h2&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/snow_house.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The trip out was uneventful, I was a bit surprised by how much snow there was in Antioch, much more than we saw down in Oswego. As always when I stepped in the house I was greeted with what initially felt like a nice consistent warmth.&lt;/p&gt;
+
+&lt;p&gt;First thing I did was check on the pump outside. Thankfully everything was running, and it felt like the heater was keeping it close to fifty degrees inside. My relief was short-lived however when I went inside to check the faucets.&lt;/p&gt;
+
+&lt;p&gt;The kitchen sink faucet barely had any cold water coming through. The bathtub initially had zero water pressure but after about thirty seconds came roaring through. No issue with the toilet, but the bathroom sink had zero cold water flowing. Great.&lt;/p&gt;
+
+&lt;p&gt;With nothing else to do I left the water in the kitchen and tub running on full blast, eventually scaling it back to around a pencil thin flow of water. I honestly was somewhat at a loss as to what to do.&lt;/p&gt;
+
+&lt;p&gt;Around this time I noticed that it actually felt a lot colder inside that I initially thought. The thermostat for the boiler was set to 68, but the inside temp was showing 55. I immediately cranked the thermostat up to 80 and left it there through the night. The thermostat would only increase to around 61 by morning.&lt;/p&gt;
+
+&lt;p&gt;Now I am normally someone who runs hot, I am a frequent blanket kicker off-er. Not that night. I slept in my clothes it felt that cold. By morning, I had hatched a plan.&lt;/p&gt;
+
+&lt;h2 id=&quot;boiler-service&quot;&gt;Boiler Service&lt;/h2&gt;
+
+&lt;p&gt;I would call the company that installed the boiler back and 2013 for a service call. Our first house had a boiler and I knew the importance of keeping the lined bled of air, however looking at &lt;em&gt;this&lt;/em&gt; system I realized I had no clue how to go about checking that. So a service call was scheduled.&lt;/p&gt;
+
+&lt;p&gt;I went about my day working remotely until the service technician arrived. The check went without any big gotchas being discovered. I learned that these lines had essentially auto-bleeder to prevent air buildup.&lt;/p&gt;
+
+&lt;p&gt;The thermostat was determined to be off by around seven degrees and was recommended to be replaced. I made a mental note to look into the YoLink thermostats. Before leaving the technician raised the boiler temperature by ten degrees which seemed to help a bit.&lt;/p&gt;
+
+&lt;p&gt;The technician said we might be losing temperature as the pipes run in the crawlspace due to the pipes not being insulated. With the bathroom sink cold tap still not working I decided it was time to visit the crawlspace.&lt;/p&gt;
+
+&lt;h2 id=&quot;crawlspace-adventure&quot;&gt;Crawlspace Adventure&lt;/h2&gt;
+
+&lt;p&gt;Keep in mind it was five degrees outside, I was in sweatpants and a flannel shirt, and only had a sweatshirt to layer on top. Talking with my wife we thought I might be able to use the hair drier on the bathroom pipes to maybe melt some of the ice.&lt;/p&gt;
+
+&lt;p&gt;So off to Ace Hardware I went to get an extension cord, and a second extension cord with a work-light on the end. After clearing away the snow from the back outside crawlspace entrance, I removed the window frame to go inside.&lt;/p&gt;
+
+&lt;p&gt;Having seen my neighbor Paul earlier, I made sure to take my iPhone with me in the event that I got stuck. At 6’4” and 275 I am not a small person. The crawlspace entrance looked tiny.&lt;/p&gt;
+
+&lt;p&gt;I quickly realized that I would need to put both armors out straight over my head and squeeze my way in while avoiding pipes and other detritus. Once inside there was no room to sit up, barely enough to crawl on my hands and knees.&lt;/p&gt;
+
+&lt;p&gt;What I saw didn’t fill me with joy. A mix match of different plumbing materials and piss poor attempts to add foam insulation to a pipe. What purpose I ask does adding foam insulation around one section of a pipe do when all the rest is left exposed? It does nothing.&lt;/p&gt;
+
+&lt;p&gt;Insulation was missing under the floor, no wonder the floors were so cold, and largely missing along the outside walls between the foundation and the floor. The to-do list was slowly growing.&lt;/p&gt;
+
+&lt;p&gt;Back to the matter at hand, I thankfully was very close to the bathroom sink pipes. I went to plug in the hair dryer to the work light end only to find I couldn’t plug it all the way in because of a plastic lip around the outlet.&lt;/p&gt;
+
+&lt;p&gt;Fabulous. Work-light was unplugged, dryer plugged into the extension cord and the iPhone flashlight was enabled. I can only imagine how I looked holding the dryer up in one hand and the iPhone in the other going back and forth over the pipe.&lt;/p&gt;
+
+&lt;p&gt;After around fifteen minutes shaking my head I found myself wondering – “Is this doing anything?” and “How would you know since you are here by yourself?” It’s in those moments when you have a clarity of what you should have done.&lt;/p&gt;
+
+&lt;p&gt;I should have checked that I could plug the damn dryer in. I should have moved the webcam into the bathroom pointed at the faucet, so I could check to see if any water was running with my iPhone. Shoulda, woulda, coulda.&lt;/p&gt;
+
+&lt;p&gt;Thus I decided to head back inside and take a look. Getting out was equally challenging but I emerged relatively unscathed. Heading inside and being met with a dry faucet only further increased my annoyance.&lt;/p&gt;
+
+&lt;h2 id=&quot;prepping-to-return-to-the-crawlspace&quot;&gt;Prepping to Return to the Crawlspace&lt;/h2&gt;
+
+&lt;p&gt;But I wasn’t ready to give up yet. I really didn’t want to leave for home with the faucet not working, so I decided to work on removing the plastic barrier that was preventing me from plugging in the dryer to the work-light plug.&lt;/p&gt;
+
+&lt;p&gt;Out came my utility knife and I explicitly thought – “Be really fucking careful, you could easily cut your finger…”&lt;/p&gt;
+
+&lt;p&gt;The first hard cut away without issue. Cutting away the second half required more effort and as the knife cut through with a significant amount of force I was unable to move my right index finger in time.&lt;/p&gt;
+
+&lt;p&gt;As soon as it made contact I knew I would need stitches. It was deep, in the shape of the letter “J” and it was bleeding profusely. I immediately wrapped it in a paper towel and applied pressure.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/finger.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Typing with one hand I let my wife know I was going to the ER with a cut and started the thirty-minute ride to the ER. Long story short, I ended up getting five stitches. My crawlspace adventure was over, and I accepted defeat that I would not be getting the sink working.&lt;/p&gt;
+
+&lt;h2 id=&quot;aftermath&quot;&gt;Aftermath&lt;/h2&gt;
+
+&lt;p&gt;Returning to the house I went into the bathroom to try the faucet one more time only to find it roaring to life with water. WTF but thankful it was working. I then got started on installing the YoLink Hub and outside temperature monitor.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/monitor.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Thankfully both were insanely easy to configure. I also decided to re-install the original heater into the pit (now with two heaters) adjusted down to the lowest setting. Figuring that if one heater died at least there would still be something heating it.&lt;/p&gt;
+
+&lt;p&gt;What I would find was that the monitor clearly showed the second heater kicking on and off keeping the pit between 49 and 58 degrees. Exhausted I headed back to Oswego.&lt;/p&gt;
+
+&lt;p&gt;I returned around a week later the night before I needed to go up and see my son the next day. The house felt warmer and the water was still running. I will be going up tomorrow to install the new thermostat before going to see my son again on Thursday.&lt;/p&gt;
+
+&lt;p&gt;If all goes as planned I will then have an inside thermometer I can monitor and control remotely. Small steps that hopefully will make a big difference in the end.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2025 16:21:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/Into-The-Crawlspace</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/Into-The-Crawlspace</guid>
+        
+        
+        <category>reflection</category>
+        
+        <category>crawlspace</category>
+        
+        <category>snow</category>
+        
+        <category>yolink</category>
+        
+        <category>injury</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>A Shared Appreciation for Falling Snow</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There is something sublime and simple about watching snow fall.&lt;/span&gt;  Whether it takes the form of large fluffy flakes or a furious winter storm, it never ceases to capture my attention.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/snow-house.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;And my wife feels the same way. Today while out running the errands of the day it started to snow, and not just any snow but the fluffy cotton candy snow that seems to fall way too slow for the size of the flakes.&lt;/p&gt;
+
+&lt;p&gt;At my next opportunity I quickly shot off a text message to her. “Fluffy snow outside now! Stop what you are doing, sit down on the couch and watch some snow. Don’t miss it again!”&lt;/p&gt;
+
+&lt;p&gt;Her reply of “Perfect! Thank you.” was all I needed to see. On my return to the house I was greeted with the sound of jazz music and a fire playing on the TV (we take what we can get).&lt;/p&gt;
+
+&lt;p&gt;I quickly made a cup of lemon zinger tea and relaxed on the chaise lounger with a perfect view of the snow falling in our backyard.&lt;/p&gt;
+
+&lt;p&gt;My appreciation of snow isn’t something new, its not a newly acquired taste gained as I make the unstopping march into old age. I’ve loved the snow ever since I was a boy.&lt;/p&gt;
+
+&lt;p&gt;My mother liked to tell people how upset I would get when the snow in the backyard was upset, usually by our dog but often by my sisters. What did I find so enchanting by that childhood winter wonderland?&lt;/p&gt;
+
+&lt;p&gt;Its hard for me to point to one thing. It had a certain timeless quality to it, a perfection of ice that covered everything underneath it, I still find it to be incredibly calming. The harder snowstorms take on an entirely different feel and appreciation.&lt;/p&gt;
+
+&lt;p&gt;Snow can be so transformative, for the landscape, for how we view the outside world and even for our own mental state. I don’t find snow to be bleak or harsh in any way.&lt;/p&gt;
+
+&lt;p&gt;And while I also love the cold (while my wife hates it), I am at least comforted to know that we share a common appreciation for watching it snow.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2025 16:21:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/A-Shared-Appreciation-for-Snow</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/A-Shared-Appreciation-for-Snow</guid>
+        
+        
+        <category>reflection</category>
+        
+        <category>snow</category>
+        
+      </item>
+    
+      <item>
+        <title>An Ice Fishing First</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Experiencing something for the first time&lt;/span&gt;  is something to be savored. &lt;!--more--&gt; Over time those experiences, what very often just as satisfying can become normalized.&lt;/p&gt;
+
+&lt;p&gt;Growing up we are surrounded by “first” opportunities, but as we age these opportunities start  to slow down, just as we begin to slow down. The challenge is to not let comfort and habit and routine further slow these opportunities.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/iceholes.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;This weekend my daughter and I both had an opportunity to try something new – Ice Fishing!&lt;/p&gt;
+
+&lt;p&gt;The week started out fairly innocuously, it was quiet and the normal mix of work and life activities. I try to keep an eye on events occurring up in the Antioch area, and on this occasion I learned of the Northern Illinois Conservation Club 65th Annual Ice Fishing Derby&lt;label for=&quot;sidenote-1&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://mynicc.org/&quot;&gt;mynicc.org&lt;/a&gt; &lt;/span&gt; .&lt;/p&gt;
+
+&lt;p&gt;Driving around the Chain O’Lakes I of course had seen people out on the ice fishing, some with only a chair, others with more elaborate setups. All appeared equally insane.&lt;/p&gt;
+
+&lt;p&gt;But I am always open to trying something new with my children and this seemed like the perfect opportunity. In my head I figured that there surely would be someone there that could drill a hole for us, all I would need to do was get a beginner ice fishing rod and reel.&lt;/p&gt;
+
+&lt;p&gt;One post to a Facebook Chain Fishing Group later and I had my confirmation that there 100% would be people that would gladly auger holes for us, and I even had an offer to let us borrow a fishing pole.&lt;/p&gt;
+
+&lt;p&gt;Now I am a fairly introverted person, I can be an extrovert when needed, but I prefer quiet and doing things on my own, but I found myself messaging Marty that made the offer to borrow a rod because I thought it would be more fun if we could both fish together.&lt;/p&gt;
+
+&lt;p&gt;Super bowl party prep took my son out as a participant so it would just be me and my daughter. We decided to head up to Antioch the night before to cut down on the driving and increase our sleep.&lt;/p&gt;
+
+&lt;p&gt;Come Saturday morning we bundled ourselves up in what we considered to be enough layers (it wasn’t) and headed over to the derby.&lt;/p&gt;
+
+&lt;p&gt;Walking out on the ice on Channel lake was a surreal experience, and one that we both didn’t realize would be as slippery as it was. We set ourselves up around 100 feet out from the Turtle Bay Marina block and I gave Marty a call.&lt;/p&gt;
+
+&lt;p&gt;“Be over in five minutes to pick you up” he replied to my text message. Pick us up? That was unexpected but I decided to see where it went. In no time Marty came driving up on the ice on what seemed like the biggest 4 wheeler I have ever seen, towing a sled with two seats on it.&lt;/p&gt;
+
+&lt;p&gt;“Hop on and I’ll pull you over to the camp” Marty said cheerfully. I’ll be honest it was a lot of fun riding that sled on the ice and before we knew it we were at the frozen over bay that is a popular hang out spot in the summer.&lt;/p&gt;
+
+&lt;p&gt;There we met Mike and his wife Lori and many others whose names escape me. This was a well established friends group that welcomes us into their ice camp with open arms.&lt;/p&gt;
+
+&lt;p&gt;First things first they insisted we put on ice spikes on our shoes. We had no idea such things were used for ice fishing. As they explained it Marty had been in the hospital with a concussion just a week ago and another shanty owner was currently in the hospital.&lt;/p&gt;
+
+&lt;p&gt;We immediately felt more safe moving on the ice. They then fed us breakfast burritos being warmed up on the ice. They would continue to feed us lunch (amazing hot chili and brats). I felt so unprepared and they were the polar opposite.&lt;/p&gt;
+
+&lt;p&gt;They opened their ice shanty up to us when we got cold (it was a balmy 60 degrees inside and felt like heavenly). Mike shared with me that they 100% would have made fun of me if I wasn’t in their group about my shoes (running shoes) and I readily agreed that they would have been right to do so.&lt;/p&gt;
+
+&lt;p&gt;A terrible decision on my part, my hiking boots being out of commission I thought that the extra socks would make up for it (they did not).&lt;/p&gt;
+
+&lt;p&gt;All in all my daughter and I had an absolute blast. I am sure we would have had fun if it was just the two of us, but we 100% would not have stayed out as long as we did (8am - 1:15pm). I caught zero fish and my daughter caught one nice bluegill. We considered it a total success.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/ice.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Having Fun at the Northern Illinois Conservation Club 65th Annual Ice Fishing Derby - Saturday, February 8, 2025&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the end we said our goodbyes, thanked everyone for their hospitality and Marty fired up the four wheeler to drive us back but not before giving us the rod and reel he had given us to use. What a fantastic memory, I sincerely hope that we have an opportunity to see this group again either this summer or back on the ice.&lt;/p&gt;
+
+&lt;p&gt;Next time with more appropriate footwear!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Feb 2025 13:25:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/ice-fishing</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/ice-fishing</guid>
+        
+        
+        <category>reflection</category>
+        
+        <category>ice</category>
+        
+        <category>fishing</category>
+        
+      </item>
+    
+      <item>
+        <title>The Modern Web Nightmare</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Browsing the Web today feels like an exercise in futility.&lt;/span&gt;  Readers are almost always under the constant assault of advertisements.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/gopher.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Don’t get me wrong, the web has always been filled with examples of annoyance. Anyone who suffered through the early days of the web will recall (possibly with some nostalgic &lt;em&gt;fondness&lt;/em&gt;) the days of blinking red text, under construction warnings and let’s just say “Geocities” and leave it at that.&lt;/p&gt;
+
+&lt;p&gt;But today, people’s monetization efforts have transformed the typical web browsing experience into an ad filled nightmare that just seems to be getting worse.&lt;/p&gt;
+
+&lt;p&gt;If it was just static advertisements, I might feel less vitriol towards the entire situation. Its the various types of pop-up advertisement techniques designed to maximize the readers focus not on the content, but on the advertisement that drives me really insane.&lt;/p&gt;
+
+&lt;p&gt;Click this miniscule “X” to close this ad. Sure. Nine times out of ten the “X” is either too small, taking you out of the page, or it’s not designed to actually close the ad at all leading one on more unexpected jumps and journeys.&lt;/p&gt;
+
+&lt;p&gt;The effect of which on browsing from a phone can often times be exponentially worse than a desktop.&lt;/p&gt;
+
+&lt;p&gt;I find myself wondering if the decision to ruin a web page with advertisements it ever really worth it for the vast majority of people publishing content on the web. Is it making these people rich? In most cases I imagine it isn’t.&lt;/p&gt;
+
+&lt;p&gt;The saying “to each his own”&lt;label for=&quot;sidenote-1&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;“Suum cuique” or “Unicuique suum”, is a Latin phrase often translated as “to each his own” or “may all get their due.” Suum cuique has been significant in the history of philosophy and as a motto. (&lt;a href=&quot;https://en.wikipedia.org/wiki/Suum_cuique#:~:text=The%20Latin%20phrase%20relates%20to,1%2C3%2D4&quot;&gt;LINK&lt;/a&gt;) &lt;/span&gt; aptly applies in this situation of course, but it’s exhausting for the reader, your intended audience.&lt;/p&gt;
+
+&lt;p&gt;Recently I rekindled my interest in a truly ancient internet technology called “gopher”.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-is-gopher&quot;&gt;So what is Gopher?&lt;/h2&gt;
+
+&lt;p&gt;In short, Gopher was the precursor to the modern web that everyone knows today.&lt;/p&gt;
+
+&lt;p&gt;It is in many ways a text based “web page” that can be browsed using the gopher protocol or via a conventional web browser using a site&lt;label for=&quot;sidenote-2&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sidenote-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Floodgap Gopher Server Web Interface (&lt;a href=&quot;https://gopher.floodgap.com/gopher/gw.lite&quot;&gt;LINK&lt;/a&gt;) &lt;/span&gt; that bridges the gap between the web and gopher.&lt;/p&gt;
+
+&lt;p&gt;Gopher was created by a team led by Mark P. McCahill at the University of Minnesota.&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt; &quot;The design of the Gopher protocol and user interface is menu-driven, and presented an alternative to the World Wide Web in its early stages, but ultimately fell into disfavor, yielding to Hypertext Transfer Protocol (HTTP). The Gopher ecosystem is often regarded as the effective predecessor of the World Wide Web.&quot;&lt;/p&gt;&lt;footer&gt;Wikipedia, &lt;cite&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gopher_(protocol)&quot;&gt;LINK&lt;/a&gt;&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;The effect, is unlikely anything you experience with the modern web, especially so if you browse gopher sites using a terminal and keyboard. But even if you are using a website to browse gopher sites, the experience is blissfully advertisement free.&lt;/p&gt;
+
+&lt;p&gt;What you see is what you get which is refreshing beyond belief.  And as someone who has authored his own gopher pages in the past, it couldn’t be simpler. All of your effort goes into the content text (with maybe some ASCII art thrown in for good measure).&lt;/p&gt;
+
+&lt;p&gt;Archaic? Maybe. But something I encourage people to check out when they have some time.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 30 Jan 2025 13:25:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/The-Modern-Web-Nightmare</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/The-Modern-Web-Nightmare</guid>
+        
+        
+        <category>reflection</category>
+        
+        <category>web</category>
+        
+        <category>internet</category>
+        
+      </item>
+    
+      <item>
+        <title>Rediscovering Radio (Part 1)</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Resurrecting my interest in ham radio&lt;/span&gt;  wasn’t originally on my 2025 bucket list, but recently I’ve had an itch to get back into the hobby.&lt;!--more--&gt;  This time around, I decided to go about things a little differently.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/operator.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Back when I stopped actively doing the hobby two and a half years ago I had a my radio setup in my basement with an antenna in the back of the yard that I would put up and take down as needed.&lt;/p&gt;
+
+&lt;p&gt;When I felt like using the radio, I would head outside and erect a telescoping fiberglass mast with an antenna that I built, head downstairs to listen and try to make some contacts, and then take the antenna down.&lt;/p&gt;
+
+&lt;p&gt;Setup of the antenna was always a pain but something I had to put up to avoid getting the HOA in my business and to avoid sparking spousal angst. And I was more than happy to take these extra steps, it was after all a hobby.&lt;/p&gt;
+
+&lt;h2 id=&quot;ham-radio-hiatus&quot;&gt;Ham Radio Hiatus&lt;/h2&gt;
+&lt;p&gt;Around that time we decided to have some landscaping done. Specifically we had eight evergreen trees planted, four on each side of the yard.&lt;/p&gt;
+
+&lt;p&gt;In talking to the landscapers I made it very clear where not to dig. I did not want my buried cable cut under any circumstances. Of course what happened? &lt;em&gt;They cut the cable.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Aside from royally pissing me off, this effectively suspended my ham radio fun, and over time and various life events (some good, some bad), I just never got around to fixing the cable issue.&lt;/p&gt;
+
+&lt;h2 id=&quot;renewed-interest&quot;&gt;Renewed Interest&lt;/h2&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/7300.jpg&quot; /&gt;&lt;br /&gt;ICOM 7300 HF Transceiver (&lt;a href=&quot;https://www.icomamerica.com/lineup/products/IC-7300/&quot;&gt;LINK)&lt;/a&gt;&lt;/span&gt;A few weeks ago I started to look into remote operation options for my ICOM-7300. Since July of this year I now have access to another property that just so happens isn’t in an HOA and has large mature/tall trees.&lt;/p&gt;
+
+&lt;p&gt;A double win in the ham radio book. Nobody to say “no” to a permanent antenna of some kind, and plenty of tall trees that antenna wires can be strung up in.&lt;/p&gt;
+
+&lt;p&gt;The challenge was how to make the radio something that I could use remotely? ICOM sells some pricey remote operations software for windows that costs I believe $199.00 and has fairly mixed reviews.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-wfview-open-source-solution&quot;&gt;The “wfview” Open Source Solution&lt;/h2&gt;
+&lt;p&gt;The alternative appears to be an open source project called “wfview”&lt;label for=&quot;wfview&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;wfview&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;wfview | Open Source interface for Icom and Kenwood transceivers (&lt;a href=&quot;https://wfview.org/&quot;&gt;LINK&lt;/a&gt;) &lt;/span&gt;. Basically if you have a PC running wfview connected to the 7300 via USB you can control everything on the radio from that computer.&lt;/p&gt;
+
+&lt;p&gt;The exciting thing is that if you have another copy of wfview running from a remote location, you can cannot remotely to the wfview connected to the radio and &lt;em&gt;operate the radio exactly as if you were where the radio is located.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If it works, it would allow me to permanently setup the radio at the remote house and use it whenever I wanted.&lt;/p&gt;
+
+&lt;h2 id=&quot;remote-server-setup&quot;&gt;Remote Server Setup&lt;/h2&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/pi-zero.jpg&quot; /&gt;&lt;br /&gt;My Raspberry Pi Zero (&lt;a href=&quot;https://www.raspberrypi.com/products/raspberry-pi-zero/&quot;&gt;LINK&lt;/a&gt;)&lt;/span&gt;To get up and running wfview can be setup on Windows, Mac OS or Linux. Since I didn’t have any spare desktops that I could dedicate to being the remote wfview server, I decided to try getting it setup on an old Raspberry PI Zero (512mb RAM) that I had been using at one point as a DNS server.&lt;/p&gt;
+
+&lt;p&gt;This required me to re-image the system, and then re-setup the Adafruit Mini TFT display board that displays key system details such as IP address, CPU load, Memory, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;remote-access-setup&quot;&gt;Remote Access Setup&lt;/h2&gt;
+&lt;p&gt;The Raspberry Pi Zero OS image comes with an version of VNC installed called “wayvnc” to make remote configuration of the Pi easier. I wanted to use this with a Linux VNC viewer on my Chrome OS Flex laptop called “Remmina”.&lt;/p&gt;
+
+&lt;p&gt;Remmina had issues dealing with the certificates that the Pi Zero setup making the connection impossible. Plus I really didn’t like the idea of opening VNC to the internet, so I decided to configure Remmina to tunnel VNC through SSH.&lt;/p&gt;
+
+&lt;p&gt;Once the SSH connection to the Pi Zero was established, I could then just connect to localhost since I was already connected to the Pi Zero.&lt;/p&gt;
+
+&lt;p&gt;It did require me to disable encryption in wayvnc and configure it to only listen on localhost, but that didn’t matter since I would be coming over an authenticated SSH connection.&lt;/p&gt;
+
+&lt;h2 id=&quot;installing-wfview-from-source&quot;&gt;Installing “wfview” from Source&lt;/h2&gt;
+
+&lt;p&gt;I then needed to get wfview installed on Pi Zero. Unfortunately the version that is available on the operating system that the Pi Zero runs on (Debian Bookworm), is significantly behind the current wfview release.&lt;/p&gt;
+
+&lt;p&gt;The maintainers of wfview make a nice install script available for Debian that installs essential requirements, downloads the latest version of the wfview code, and starts a make compile process.&lt;/p&gt;
+
+&lt;h2 id=&quot;abort-failure-to-compile&quot;&gt;Abort! Failure to Compile!&lt;/h2&gt;
+&lt;p&gt;Trying to compile wfview on the Pi Zero is not a fast process. And the process kept aborting. From various forum messages I read the issue seemed to be due to lack of memory and swap space.&lt;/p&gt;
+
+&lt;p&gt;Digging into the Pi config I saw that I could change the amount of memory dedicated to the GPU, so I scaled that down from 64 to 16 by editing the “/boot/firmware/config.txt” file as root changing the “gpu_mem” value.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;c&quot;&gt;# Change GPU memory&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# default is set to 64, comment below to return to default&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;gpu_mem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;16
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next I saw that the Pi Zero by default only had a 512MB swap file. This I upped to 2048 by editing the “/etc/dphys-swapfile” file as root and changing the value to 2048.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;c&quot;&gt;# set size to absolute value, leaving empty (default) then uses computed value&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#   you most likely don&apos;t want this, unless you have an special disk situation&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#CONF_SWAPSIZE=512&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;CONF_SWAPSIZE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2048
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next I updated the build script to change it from using “make -j2” to just “make” to try and help alleviate the CPU and memory availability&lt;/p&gt;
+
+&lt;h2 id=&quot;praying-i-can-make-it&quot;&gt;Praying I can “make” It&lt;/h2&gt;
+&lt;p&gt;With all these changes in place, I once again kicked off the build script and silently began to pray it would be enough.&lt;/p&gt;
+
+&lt;p&gt;Opening a second terminal window I fired up the “htop” command and sat watching the CPU being pegged at 100% and the memory jumping up and down getting dangerously close to the limit.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, the make process was able to complete and “wfview” was successfully installed on the Pi Zero!&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/wfview.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;The &amp;#8220;wfview&amp;#8221; Interface seen via VNC over SSH on the Pi Zero&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Next I need to configure wfview for the ICOM 7300 and confirm that I am able to control the 7300. Look for a “Part 2” on this in the near future.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Jan 2025 14:45:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/Rediscoverying-Radio</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/Rediscoverying-Radio</guid>
+        
+        
+        <category>home</category>
+        
+        <category>radio</category>
+        
+        <category>ham</category>
+        
+      </item>
+    
+      <item>
+        <title>Well That&apos;s Not Good</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Things started off according to plan&lt;/span&gt; , and quickly went off the rails this last Saturday.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The plan was to attend an Eagle Scout ceremony for a friends son who was in Cub Scouts and Boy Scouts with our son. It was a wonderful ceremony and they even very graciously called me out in a presentation for my time as his Cubmaster which brought back a flood of memories.&lt;/p&gt;
+
+&lt;p&gt;After the ceremony I drove up to Antioch to setup the Verizon Home Internet that I had picked up and replace the existing bathroom door knob with one that locked.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/blink.jpg&quot; /&gt;&lt;br /&gt;Blink Video Camera Test&lt;/span&gt;Setup of the home internet was a snap and the speeds it was getting were better than I expected. I had brought up a Blink camera from home that I configured before leaving and was feeling pretty good knowing I could take a look at things from our primary house if needed.&lt;/p&gt;
+
+&lt;h2 id=&quot;an-unexpected-turn&quot;&gt;An Unexpected Turn&lt;/h2&gt;
+&lt;p&gt;On my way to Menards I decided to get some dinner at a Mexican cantina I had been wanting to try. Great burrito.&lt;/p&gt;
+
+&lt;p&gt;Belly fully I headed off to Menards. On my way there I got a call from my wife, our daughter had gotten a flat tire. &lt;em&gt;Fantastic.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My wife told me not to come home, she would get one of our friends to help change it in the morning so I set off for Menards to get a new bathroom privacy knob.&lt;/p&gt;
+
+&lt;p&gt;The knob install went off without a hitch, but I ended up working on moving the strike plate to a position that the door could catch for a good thirty minutes or so.&lt;/p&gt;
+
+&lt;p&gt;Tired I decided to make a cup of coffee. I flipped the kitchen faucet on and… nothing. No water. “Oh Shit” I muttered to myself.&lt;/p&gt;
+
+&lt;h2 id=&quot;well-now-what&quot;&gt;“Well” Now What&lt;/h2&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/pump_outside.jpg&quot; /&gt;&lt;br /&gt;Outside the Pump “Room”&lt;/span&gt;The house is an older cottage, two bedrooms, one bath with a finished loft area. Small and cute, but with a crawlspace that is pure nightmare fuel and a water well in a covered outdoor pit.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/pump_inside.jpg&quot; /&gt;&lt;br /&gt;Inside the Pump “Room”&lt;/span&gt;We have never had a well, everything in the outdoor well pit is a mystery to us, I had no idea what to look for. A few YouTube searches later and I found myself outside proping the lid up and looking at things with a mini flashlight.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-4&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-4&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/pump_pressure.jpg&quot; /&gt;&lt;br /&gt;Pump Pressure at Zero&lt;/span&gt;The pump seemed to be running, but the pressure gauge was at zero. Not good, even a well noob like me could tell that was a problem. From my video review I knew to look for a fuse that could be the cause of the pressure issue.&lt;/p&gt;
+
+&lt;p&gt;The videos talked of two types, one with a manual bar on the outside that could be used to re-engage the internals breakers and if that was the issue cause the pressure to build&lt;/p&gt;
+
+&lt;p&gt;And another kind that didn’t have a bar and they advised to stay they hell away from. You can guess what we had. Thus began a series of calls to various local well and septic places, plumbers that listed well service as one of their specialties etc.&lt;/p&gt;
+
+&lt;p&gt;It was Saturday on a holiday weekend, and it was close to zero degrees outside, probably closer to minus ten out with the wind chill. Nobody was returning my call.&lt;/p&gt;
+
+&lt;p&gt;At around 11:20PM I got a text from the place I wanted to hear from saying that the on-call service person was likely asleep and I would hear from them in the morning. Well that’s not good, but ok.&lt;/p&gt;
+
+&lt;p&gt;So I went to bed fretting about the boiler blowing up, and in the morning around 9:45AM I heard back from “Eddie”.&lt;/p&gt;
+
+&lt;p&gt;Eddie sounded like a decent guy, as I explained the situation he wasn’t sure if he would be able to come out and door anything if he had to pull the pump. He explained it was a two man job and costs started at $3200.&lt;/p&gt;
+
+&lt;p&gt;I explained that I was had no idea what I was looking at, and could I go out and take/send him some photos. Eddie thought that was a good start, and within five minutes he got back to me.&lt;/p&gt;
+
+&lt;p&gt;Lucky for us, the type of well we have isn’t a deep water well that requires two people. As Eddie when through the list of what might be wrong, leading up to the worst case scenario of the pump being bad.&lt;/p&gt;
+
+&lt;p&gt;He explained that a pump replacement would be $1100. The lady from the other night had already told me the hourly labor charges, and as I calculated in my head that it would probably cost me close to $2000. But I had no choice, so I told Eddie to come on out and take a look.&lt;/p&gt;
+
+&lt;p&gt;Eddie said he would stop by the shop and pick up a pump just in case and then head over. Within thirty minutes his truck was pulling into our driveway. I showed Eddie the pump “room” and headed in to wait for the verdict.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-5&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-5&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/pump_crack.jpg&quot; /&gt;&lt;br /&gt;Pump Crack Identied&lt;/span&gt;Not five minutes when by when Eddie was back at the door with a picture of the cracked pump housing. Frozen water expansion was Eddie’s guess and later during the install when he was bleeding the line he showed me how quickly the water froze on his screwdriver.&lt;/p&gt;
+
+&lt;p&gt;As Eddie started to work on the replacement I asked him if he thought I should get a heater for inside the pit. He thought that was a good idea, so while he was working I headed out to Ace to pick up a ceramic utility heater.&lt;/p&gt;
+
+&lt;p&gt;On the way back I thought to myself, I need to text the neighbor across the street when I get back to let him know what’s going on. As I pulled up at the house, what do I see but the neighbor outside the pit talking to Eddie. LOL&lt;/p&gt;
+
+&lt;p&gt;In maybe an hour the water was restored, the heater setup and running, and Eddie was on his way to his next emergency. The one small win here was that the ending cost was only $1215. Still a lot of money, but better than I expected.&lt;/p&gt;
+
+&lt;p&gt;By then it was close to 2PM and I was exhausted from the stress of it all. So I called my son with Facetime and told him I wouldn’t be able to make it up to visit. He understood and we agreed to get together the following Sunday.&lt;/p&gt;
+
+&lt;p&gt;Going forward, now that I have Internet up there I am going to look into setting up a temperature and outlet monitor for the pump room.&lt;/p&gt;
+
+&lt;p&gt;The neighbor indicated that the previous owner had a heater in there, but it got destroyed when the circuit the sump pump was on got flipped and the heater was submerged.&lt;/p&gt;
+
+&lt;p&gt;Suffice it to say, the heater is &lt;em&gt;not&lt;/em&gt; on the same circuit with the pumps now. What a weekend to say the least.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 17 Jan 2025 14:45:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/Well-Thats-Not-Good</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/Well-Thats-Not-Good</guid>
+        
+        
+        <category>home</category>
+        
+        <category>repair</category>
+        
+      </item>
+    
+      <item>
+        <title>A Parent Never Stops Worrying</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;A few days ago I got a call&lt;/span&gt;  that would stop any parents heart.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Dad, there was an accident at work with the wood chipper”&lt;/em&gt; I heard my son say over the phone. My heart seemed to stop and the outside world faded out.&lt;/p&gt;
+
+&lt;p&gt;It was Wednesday night, and I wasn’t expecting a call from anyone much less my son.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Are you okay I asked as calmly as I could,”&lt;/em&gt; not knowing what to expect. I could tell from his voice that he was upset, maybe on the verge of losing it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“A branch I put in the wood chipper shot back and hit me in the face, breaking my jaw in two places”&lt;/em&gt; he replied.&lt;/p&gt;
+
+&lt;p&gt;My stress level that was at a ten out of an initial worry that he might have lost a hand at the mention of a wood chipper, or worse, reduced slightly to a nine.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Honey come up here!”&lt;/em&gt; I yelled down to my wife who was just heading out the door for an event. As I quickly relayed the information her stress level instance hit nine as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;they-never-stop-being-your-babies&quot;&gt;They Never Stop Being Your Babies&lt;/h2&gt;
+&lt;p&gt;I don’t care how old they get, they will always be your baby, will always be someone you worry if they are doing ok, if they are happy, if they are sad.&lt;/p&gt;
+
+&lt;p&gt;I feel the same way about our son who is twenty-three as I do about our daughter who is sixteen. In some ways we probably worry more because he’s on his own, he is an adult.&lt;/p&gt;
+
+&lt;p&gt;As we continued to talk to our son he explained he was at the hospital and being moved to a different hospital for surgery in the morning.&lt;/p&gt;
+
+&lt;p&gt;We quickly decided that his Mom would come up before the surgery, I was on call for work, and almost half way through a course of thirty radiation treatments, so it was agreed that I would hold down the fort.&lt;/p&gt;
+
+&lt;p&gt;To be honest we haven’t had a lot of luck lately with health issues, between my Mother-In-Law who lives with us falling down the stairs and breaking her foot to my supposed cyst removal on my temple turning out to be skin cancer, the hits have just kept on coming.&lt;/p&gt;
+
+&lt;p&gt;This was just the cherry on the top of everything. And with this being his first surgery ever, that stress level inched up to a respectable 9.2.&lt;/p&gt;
+
+&lt;h2 id=&quot;post-surgery&quot;&gt;Post-Surgery&lt;/h2&gt;
+
+&lt;p&gt;Thursday came and the surgery went without incident thankfully. His jaw wired shut, he is looking at at least two weeks of a puree diet. Naturally we wanted him to come home for his recovery.&lt;/p&gt;
+
+&lt;p&gt;But independence is something nobody likes to give up, and as an adult we knew we needed to respect his decision to stay at his flat.&lt;/p&gt;
+
+&lt;p&gt;We did insist that Mom would stay in a hotel on Friday and do some shopping and laundry to give him a chance to rest. Some fights you have to let Mom win after all.&lt;/p&gt;
+
+&lt;h2 id=&quot;wear-your-safety-equipment&quot;&gt;Wear Your Safety Equipment&lt;/h2&gt;
+&lt;p&gt;Since this was a workplace injury and he was wearing the required personal protective equipment (PPE) everything including his doctor mandated recovery will be paid for which is definitely a relief.&lt;/p&gt;
+
+&lt;p&gt;But more importantly, the PPE gear prevented this from being an even worse or fatal injury. If you work in a higher risk field let this post serve as a testiment to the benefits of wearing safety gear.&lt;/p&gt;
+
+&lt;h2 id=&quot;wisdom-gained&quot;&gt;Wisdom Gained&lt;/h2&gt;
+&lt;p&gt;Our fingers are crossed moving forward that his recovery goes well and without incident. I am positive that he will gain some wisdom from this event about safety and wood chipper operation. Because that’s really all that wisdom is, experience gained from life. Until next time.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 17 Jan 2025 14:45:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/A-Parent-Never-Stops-Worrying</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/A-Parent-Never-Stops-Worrying</guid>
+        
+        
+        <category>parenting</category>
+        
+        <category>reflection</category>
+        
+      </item>
+    
+      <item>
+        <title>Slow &amp; Steady Wins the Race</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Today I put together a lighted vanity&lt;/span&gt;  that we ordered for my mother-in-law’s bedroom.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/vanity.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;This would be a much needed space for her to get ready at and house her makeup and associated beauty supplies.&lt;/p&gt;
+
+&lt;p&gt;It took some time to get here, when I eventually was ready to put it together, excitement turned to disappointment – the lighted mirror was damaged, no destroyed during shipping. Ugg.&lt;/p&gt;
+
+&lt;p&gt;Thankfully it was on the very top of what looked to be an intricately packaged box, so I taped it back up and prepared to have a new box sent my way.&lt;/p&gt;
+
+&lt;p&gt;As it would turn out, the company said they would send a replacement mirror. So rather than wait, we decided to put as much of the vanity together that we could while we waited for the mirror.&lt;/p&gt;
+
+&lt;p&gt;This would turn out to be about 99% of the build much to out excitement. I thought I would record some of my observations regarding the build process.&lt;/p&gt;
+
+&lt;h2 id=&quot;avoid-overheating&quot;&gt;Avoid Overheating&lt;/h2&gt;
+&lt;p&gt;I started the build in a pair of heavy jeans and a flannel shirt. A perfect combo on this thirty-two degree day for an earlier outing to grocery shop. Terrible for building a vanity.&lt;/p&gt;
+
+&lt;p&gt;I quickly started to over heat and it was out with the flannel and jeans and in with a t-shirt and shorts. Ahhh.. Much, much better. Builds can be challenging enough, don’t make them worse by sweating your ass off.&lt;/p&gt;
+
+&lt;h2 id=&quot;banish-the-cat-assistant&quot;&gt;Banish the Cat Assistant&lt;/h2&gt;
+&lt;p&gt;Our one year old, and intensely curious cat Mr. Whiskers wanted to assist with the build. There was so much for him to check out, smell and assist with that the build times kept going up.&lt;/p&gt;
+
+&lt;p&gt;And less than twenty minutes into the build, I had to send him out to help Mom with Dinner prep.&lt;/p&gt;
+
+&lt;h2 id=&quot;organize-your-thoughts--materials&quot;&gt;Organize Your Thoughts &amp;amp; Materials&lt;/h2&gt;
+&lt;p&gt;What everyone quickly learns with complicated kit builds is to sort your materials into easily identified piles.&lt;/p&gt;
+
+&lt;p&gt;The little time it takes really makes finding what you need so much simpler when you really start to get entrenched in the build manual. In my case it also allowed me to get rid of the giant box the vanity shipped in.&lt;/p&gt;
+
+&lt;p&gt;Having space to do the build it critical, the more you are encumbered by the environment, the harder the build will be. In this build we went a step further and took down the bed down to the frame to give additional room for the building process.&lt;/p&gt;
+
+&lt;h2 id=&quot;slow-down-take-it-step-by-strep&quot;&gt;Slow Down, Take it Step by Strep&lt;/h2&gt;
+&lt;p&gt;Earlier today I put together a new office chair, it had five steps in total. It was easy to push through the build fairly quickly because the steps were so minimal.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/slow.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;With the vanity there were over sixty steps. This was the kind of build that I knew would only be possible if it was approached using a slow and steady wins the race pace.&lt;/p&gt;
+
+&lt;p&gt;So that’s what I did. And over the course of the next five plus hours the vanity slowly took shape. Each step fell into a simple process of evaluating the diagram, identifying the parts, prepping the parts and finally assembling the parts.&lt;/p&gt;
+
+&lt;p&gt;Step by step the vanity started to take shape. As I settled into the process I found myself mentally relaxing while my toll on my body got more intense. Who would have thought putting a piece of furniture together could make me feel so sore!&lt;/p&gt;
+
+&lt;p&gt;In the end the vanity was completed, with two annoying mistakes. Can you spot them in the photo? Rest assured the next day it was partially taken apart to flip the pieces around to the have the correct finished ends displayed.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jan 2025 08:00:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/Slow_and_Steady</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/Slow_and_Steady</guid>
+        
+        
+        <category>diy</category>
+        
+        <category>reflection</category>
+        
+      </item>
+    
+      <item>
+        <title>Patience &amp; Tolerance</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Patience &amp;amp; tolerance&lt;/span&gt;  were important ideals during the time of the stoics. Today these values are equally important. Marcus Aurelius had some thoughts on this topic.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt; &quot;Be tolerant with others and strict with yourself.&quot;&lt;/p&gt;&lt;footer&gt;Marcus Aurelius, &lt;cite&gt; &quot;Meditations&quot; &lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;tolerance--patience-with-others&quot;&gt;Tolerance &amp;amp; Patience with Others&lt;/h2&gt;
+&lt;p&gt;Reading this quote really makes me reflect on the times I have fallen short of these principals. I can think of many examples where my intolerance has negatively affected me in work and family situations.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/tolerance.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;As a parent I have memories of situations where I could have been more patient and tolerant with my son and daughter. These memories both shame and motivate me to be a better person, to be a better Father.&lt;/p&gt;
+
+&lt;p&gt;The risk here for parents who either can’t or won’t learn to be patient and tolerant is that you run the risk of changing forever how your children view you as a person. We have all heard of kids cutting off contact with their parents. This happens for good reasons, and being an intolerant asshole is definitely one of them.&lt;/p&gt;
+
+&lt;p&gt;Professionally you &lt;em&gt;also&lt;/em&gt; run the risk of forever being labelled an jerk or worse. I can think of at least two work associates who were perpetually going off the rails and being impatient. It forever tarnished how I viewed professionally.&lt;/p&gt;
+
+&lt;p&gt;The personality mode once cast can be a very difficult thing to change.&lt;/p&gt;
+
+&lt;h2 id=&quot;holding-yourself-to-a-standards&quot;&gt;Holding Yourself to a Standards&lt;/h2&gt;
+&lt;p&gt;Thus brings me to the later part of what Marcus was saying – strictness with self. The thing I love about those part of the quote is that it can be applied to one’s own tolerance but every other aspect of life as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mn-id-1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;A hallmark 2009 study on habit creation found that habits developed in a range of 18 to 254 days; participants reported taking an average of about 66 days to reliably incorporate one of three new daily activities &lt;em&gt;Scientific American (2024, January 24).&lt;/em&gt; &lt;a href=&quot;https://www.scientificamerican.com/article/how-long-does-it-really-take-to-form-a-habit&quot;&gt;How Long Does It Really Take to Form a Habit?&lt;/a&gt; Retrieved January 10, 2025. &lt;/span&gt;You have to be fastidious and strict to form good habits. They just don’t happen without active involvement on the part of the person seeking to form the habit. It takes time to form a habit.&lt;/p&gt;
+
+&lt;p&gt;I have many examples in my life where I started down a path of improvement but didn’t give it enough time to form a habit only to have myself slide back into old ways that in some cases were negative habits that I had formed over time.&lt;/p&gt;
+
+&lt;p&gt;Weight loss is one such example that I think a lot of people can relate to. You commit to healthy eating, improving your excerise and maybe even achieve your goals, only to find yourself back at your original weight or worse because you weren’t strict enough to maintain the new way of approaching the aspects of your life that govern your weight.&lt;/p&gt;
+
+&lt;h2 id=&quot;reflection--commitment&quot;&gt;Reflection &amp;amp; Commitment&lt;/h2&gt;
+&lt;p&gt;In closing, being tolerant and patient with others is an important goal for personal self improvement. Additionally being aware of our personal failures can provide an opportunity to reflect on areas where we have failed. And lastly, repetition is the key to building lasting habits. Don’t stop too soon or your hard work could end up being wasted.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jan 2025 10:00:00 -0600</pubDate>
+        <link>/stvlange.github.com/articles/25/patience-tolerance</link>
+        <guid isPermaLink="true">/stvlange.github.com/articles/25/patience-tolerance</guid>
+        
+        
+        <category>Aurelius</category>
+        
+        <category>reflection</category>
+        
+        <category>stoic</category>
+        
+      </item>
+    
   </channel>
 </rss>
