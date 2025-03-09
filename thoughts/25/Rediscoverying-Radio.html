@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rediscovering Radio (Part 1)</title>
+  <meta name="description" content="Resurrecting my interest in ham radio  wasn’t originally on my 2025 bucket list, but recently I’ve had an itch to get back into the hobby.">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+
+  <link rel="stylesheet" type="text/css" href="/stvlange.github.com/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/stvlange.github.com/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/stvlange.github.com/thoughts/25/Rediscoverying-Radio">
+
+  <link rel="alternate" type="application/rss+xml" title="Stephen Lange" href="/stvlange.github.com/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	    <!--- original: <a href="/stvlange.github.com/"><img class="badge" src="/stvlange.github.com/assets/img/badge_2.png" alt="CH"></a> --> 
+	<a href="/stvlange.github.com/"><img class="badge" src="/stvlange.github.com/assets/img/square.png" alt="SL"></a>
+	
+		
+  	
+		
+		    
+		      <a href="/stvlange.github.com/">stephenlange.org</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/stvlange.github.com/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/stvlange.github.com/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Rediscovering Radio (Part 1)</h1>
+<p class="subtitle">January 23, 2025</p>
+
+<p><span class="newthought">Resurrecting my interest in ham radio</span>  wasn’t originally on my 2025 bucket list, but recently I’ve had an itch to get back into the hobby.<!--more-->  This time around, I decided to go about things a little differently.</p>
+
+<p><label for="mf-id-1" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-1" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/stvlange.github.com/assets/img/operator.png" /><br /></span>Back when I stopped actively doing the hobby two and a half years ago I had a my radio setup in my basement with an antenna in the back of the yard that I would put up and take down as needed.</p>
+
+<p>When I felt like using the radio, I would head outside and erect a telescoping fiberglass mast with an antenna that I built, head downstairs to listen and try to make some contacts, and then take the antenna down.</p>
+
+<p>Setup of the antenna was always a pain but something I had to put up to avoid getting the HOA in my business and to avoid sparking spousal angst. And I was more than happy to take these extra steps, it was after all a hobby.</p>
+
+<h2 id="ham-radio-hiatus">Ham Radio Hiatus</h2>
+<p>Around that time we decided to have some landscaping done. Specifically we had eight evergreen trees planted, four on each side of the yard.</p>
+
+<p>In talking to the landscapers I made it very clear where not to dig. I did not want my buried cable cut under any circumstances. Of course what happened? <em>They cut the cable.</em></p>
+
+<p>Aside from royally pissing me off, this effectively suspended my ham radio fun, and over time and various life events (some good, some bad), I just never got around to fixing the cable issue.</p>
+
+<h2 id="renewed-interest">Renewed Interest</h2>
+<p><label for="mf-id-2" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-2" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/stvlange.github.com/assets/img/7300.jpg" /><br />ICOM 7300 HF Transceiver (<a href="https://www.icomamerica.com/lineup/products/IC-7300/">LINK)</a></span>A few weeks ago I started to look into remote operation options for my ICOM-7300. Since July of this year I now have access to another property that just so happens isn’t in an HOA and has large mature/tall trees.</p>
+
+<p>A double win in the ham radio book. Nobody to say “no” to a permanent antenna of some kind, and plenty of tall trees that antenna wires can be strung up in.</p>
+
+<p>The challenge was how to make the radio something that I could use remotely? ICOM sells some pricey remote operations software for windows that costs I believe $199.00 and has fairly mixed reviews.</p>
+
+<h2 id="the-wfview-open-source-solution">The “wfview” Open Source Solution</h2>
+<p>The alternative appears to be an open source project called “wfview”<label for="wfview" class="margin-toggle sidenote-number"></label><input type="checkbox" id="wfview" class="margin-toggle" /><span class="sidenote">wfview | Open Source interface for Icom and Kenwood transceivers (<a href="https://wfview.org/">LINK</a>) </span>. Basically if you have a PC running wfview connected to the 7300 via USB you can control everything on the radio from that computer.</p>
+
+<p>The exciting thing is that if you have another copy of wfview running from a remote location, you can cannot remotely to the wfview connected to the radio and <em>operate the radio exactly as if you were where the radio is located.</em></p>
+
+<p>If it works, it would allow me to permanently setup the radio at the remote house and use it whenever I wanted.</p>
+
+<h2 id="remote-server-setup">Remote Server Setup</h2>
+<p><label for="mf-id-3" class="margin-toggle">⊕</label><input type="checkbox" id="mf-id-3" class="margin-toggle" /><span class="marginnote"><img class="fullwidth" src="/stvlange.github.com/assets/img/pi-zero.jpg" /><br />My Raspberry Pi Zero (<a href="https://www.raspberrypi.com/products/raspberry-pi-zero/">LINK</a>)</span>To get up and running wfview can be setup on Windows, Mac OS or Linux. Since I didn’t have any spare desktops that I could dedicate to being the remote wfview server, I decided to try getting it setup on an old Raspberry PI Zero (512mb RAM) that I had been using at one point as a DNS server.</p>
+
+<p>This required me to re-image the system, and then re-setup the Adafruit Mini TFT display board that displays key system details such as IP address, CPU load, Memory, etc.</p>
+
+<h2 id="remote-access-setup">Remote Access Setup</h2>
+<p>The Raspberry Pi Zero OS image comes with an version of VNC installed called “wayvnc” to make remote configuration of the Pi easier. I wanted to use this with a Linux VNC viewer on my Chrome OS Flex laptop called “Remmina”.</p>
+
+<p>Remmina had issues dealing with the certificates that the Pi Zero setup making the connection impossible. Plus I really didn’t like the idea of opening VNC to the internet, so I decided to configure Remmina to tunnel VNC through SSH.</p>
+
+<p>Once the SSH connection to the Pi Zero was established, I could then just connect to localhost since I was already connected to the Pi Zero.</p>
+
+<p>It did require me to disable encryption in wayvnc and configure it to only listen on localhost, but that didn’t matter since I would be coming over an authenticated SSH connection.</p>
+
+<h2 id="installing-wfview-from-source">Installing “wfview” from Source</h2>
+
+<p>I then needed to get wfview installed on Pi Zero. Unfortunately the version that is available on the operating system that the Pi Zero runs on (Debian Bookworm), is significantly behind the current wfview release.</p>
+
+<p>The maintainers of wfview make a nice install script available for Debian that installs essential requirements, downloads the latest version of the wfview code, and starts a make compile process.</p>
+
+<h2 id="abort-failure-to-compile">Abort! Failure to Compile!</h2>
+<p>Trying to compile wfview on the Pi Zero is not a fast process. And the process kept aborting. From various forum messages I read the issue seemed to be due to lack of memory and swap space.</p>
+
+<p>Digging into the Pi config I saw that I could change the amount of memory dedicated to the GPU, so I scaled that down from 64 to 16 by editing the “/boot/firmware/config.txt” file as root changing the “gpu_mem” value.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c"># Change GPU memory</span>
+    <span class="c"># default is set to 64, comment below to return to default</span>
+    <span class="nv">gpu_mem</span><span class="o">=</span>16
+</code></pre></div></div>
+
+<p>Next I saw that the Pi Zero by default only had a 512MB swap file. This I upped to 2048 by editing the “/etc/dphys-swapfile” file as root and changing the value to 2048.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c"># set size to absolute value, leaving empty (default) then uses computed value</span>
+    <span class="c">#   you most likely don't want this, unless you have an special disk situation</span>
+    <span class="c">#CONF_SWAPSIZE=512</span>
+    <span class="nv">CONF_SWAPSIZE</span><span class="o">=</span>2048
+</code></pre></div></div>
+
+<p>Next I updated the build script to change it from using “make -j2” to just “make” to try and help alleviate the CPU and memory availability</p>
+
+<h2 id="praying-i-can-make-it">Praying I can “make” It</h2>
+<p>With all these changes in place, I once again kicked off the build script and silently began to pray it would be enough.</p>
+
+<p>Opening a second terminal window I fired up the “htop” command and sat watching the CPU being pegged at 100% and the memory jumping up and down getting dangerously close to the limit.</p>
+
+<p>Thankfully, the make process was able to complete and “wfview” was successfully installed on the Pi Zero!</p>
+
+<figure><img src="/stvlange.github.com/assets/img/wfview.png" /><figcaption class="maincolumn-figure">The &#8220;wfview&#8221; Interface seen via VNC over SSH on the Pi Zero</figcaption></figure>
+
+<h2 id="next-steps">Next Steps</h2>
+<p>Next I need to configure wfview for the ICOM 7300 and confirm that I am able to control the 7300. Look for a “Part 2” on this in the near future.</p>
+
+
+
+    </article>
+    <span class="print-footer">Rediscovering Radio (Part 1) - January 23, 2025 - Stephen Lange</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:stvlange@gmail.com"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//github.com/stvlange"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-rss2"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2025 &nbsp;&nbsp;STEPHEN LANGE</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for stephenlange.org </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
