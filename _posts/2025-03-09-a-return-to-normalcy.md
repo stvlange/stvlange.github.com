@@ -5,9 +5,9 @@ date:   2025-03-09 12:00:00
 categories: reflection injury normalcy
 ---
 
-{% marginfigure 'mf-id-1' 'assets/img/serenity.png' %}{% newthought "I am happy to report a return to normalcy at home." %} After all the various injuries and recoveries that our family has faced recently things are finally getting back to normal.<!--more-->
+{% newthought "I am happy to report a return to normalcy at home." %} After all the various injuries and recoveries that our family has faced recently things are finally getting back to normal.<!--more-->
 
-I think it is pretty common for people to feel like they are in a rut, stuck doing the same things day in or day out. This could manifest in any number of ways or environments, be it work or at home. There might be a longing for change or excitement, and in many situations it can be a catalyst for change.
+{% marginfigure 'mf-id-1' 'assets/img/serenity.png' %}I think it is pretty common for people to feel like they are in a rut, stuck doing the same things day in or day out. This could manifest in any number of ways or environments, be it work or at home. There might be a longing for change or excitement, and in many situations it can be a catalyst for change.
 
 But when you find your normal state being thrown into disarray due to illness or injury, the disruptive effect it can have on your "life" honestly makes most of those other complaints seem petty or irrelevant. As I look back on the last quarter the disruptions on life have been significant and ongoing.
 
