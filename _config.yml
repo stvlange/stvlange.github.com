@@ -7,7 +7,7 @@ description: stephenlange.org
 name: stvlange
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:short_year/:title
+permalink: /thoughts/:short_year/:title
 timezone: America/Chicago
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
