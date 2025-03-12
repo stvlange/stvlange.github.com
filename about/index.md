@@ -9,5 +9,5 @@ Stephen was first exposed to the design principles of Tufte during his explorati
 
 The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tufte](https://github.com/edwardtufte/tufte-css) and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials. All credit for this Jekyll design goes to [clayh53](https://github.com/clayh53/tufte-jekyll) whose excellent work has made this site possible.
 
-
+Stumble upon this site and like what you have seen? Feel free to drop me an email to say hello. Friendly feedback is always welcome, unfriendly feedback not so much.
 
