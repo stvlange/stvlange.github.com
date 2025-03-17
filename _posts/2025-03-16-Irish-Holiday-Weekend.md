@@ -11,7 +11,9 @@ categories: holiday
 
 This year we found ourselves invited to a party at our friends Mike & Jill's house on Saturday. I was particularly excited for this as it gave me an opportunity to get together with my old Army National Guard friends.
 
+
 {% maincolumn 'assets/img/guard-guys.jpg' 'From Left to Right: Giomi, Keo, Shaw, Joerns, Marchik, Pinder' %}
+
 I don't know why, but we never seem to get together enough, so when we do, it's always a big deal for me. I think something I have learned in life is that for most people the friends we have who are truly long term, have been forged in different crucibles we have lived through.
 
 One such group is my friends from my childhood neighborhood. It included people from the neighborhood and connected to the neighborhood by way of my friends Jim and Keith's house where we all hung out and acted as a central point in space that rooted us all together.
