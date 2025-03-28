@@ -11,6 +11,6 @@ The *Tufte-Jekyll* theme is a natural extension of the work done by [Edward Tuft
 
 One thing that is intentionally missing from this site is any and every form of advertising. Any use of pop-up windows or other cheap slight of hand intended to draw the reader's attention anywhere with the intention of monetization.
 
-Why? I have a full time job. This site is never going to mske me rich, why would I ever add things that would just infuriate me when I try to view the site? Let this be a safe refuge from that scourge.
+Why? First, I have a full time job. Second, this site is never going to make me rich. Third, why would I ever add things that would just infuriate me when I try to view the site? Let this be a safe refuge from the web scourge that is monetization.
 
 Stumble upon this site and like what you have seen? Feel free to drop me an email to say hello. Friendly feedback is always welcome, unfriendly feedback not so much.
