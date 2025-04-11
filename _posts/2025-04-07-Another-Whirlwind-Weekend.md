@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Home Improvements, Band Competition & Rosemont Theater"
+title: "Another Whirlwind Weekend"
 date: 2025-04-07 17:35:40
 categories: band home show
 ---
