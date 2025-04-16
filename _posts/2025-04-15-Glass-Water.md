@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Glass Water"
+title: "Glass Mirrored Water"
 date: 2025-04-15 21:54:15
 categories: lake canoe
 ---
 
-{% newthought "The Glass Water not only reflected the sky" %} but my thoughts as well. <!--more-->
+{% newthought "The Glass Mirrored Water not only reflected the sky" %} but my thoughts as well. <!--more-->
 
 {% marginfigure 'mf-id-1' 'assets/img/me-boat.jpg' %} On Friday I found myself on the road headed up to our house in Antioch. It had been almost a month since I had been up to the house, and I was itching to visit.
 
