@@ -7,13 +7,13 @@ categories: summer
 
 {% newthought "Hard to believe that Summer is already over!" %} But here we are once again on the cusp of another school year.<!--more-->
 
-And not just any year, but our youngest daughter's Senior year of high school. As mind-boggling as it seems to us, in no time she will be heading off to college to start her next big life adventure.
+{% maincolumn 'assets/img/IMG_6588.JPEG' 'Breckenridge 2025 - View of the river that runs through town.' %}And not just any year, but our youngest daughter's Senior year of high school. As mind-boggling as it seems to us, in no time she will be heading off to college to start her next big life adventure.
 
 But let's not rush things, school hasn't even started yet. And there is plenty that happened this Summer to talk about and more that *will happen* in the year to come.
 
 ### Successful Surgery
 
-The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery *and* took out her wisdom teeth.
+{% maincolumn 'assets/img/IMG_6574.JPEG' 'Breckenridge 2025 - Fox seen near the top of Peak 8' %}The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery *and* took out her wisdom teeth.
 
 Because she has braces they didn't have to wire her jaw shut thankfully, and over 6-8 weeks she went from being on a 100% puree based diet to soft pasta and finally regular food. She will likely have a nose and lip revision next summer that will be less traumatic.
 
