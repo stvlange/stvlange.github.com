@@ -13,14 +13,14 @@ But let's not rush things, school hasn't even started yet. And there is plenty t
 
 ### Successful Surgery
 
-{% marginfigure 'mf-id-2' 'assets/img/IMG_6574.JPEG' %}The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery *and* took out her wisdom teeth.
+The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery *and* took out her wisdom teeth.
 
 Because she has braces they didn't have to wire her jaw shut thankfully, and over 6-8 weeks she went from being on a 100% puree based diet to soft pasta and finally regular food. She will likely have a nose and lip revision next summer that will be less traumatic.
 
 ### Family Visit
 We were so fortunate this Summer that my sister and her family were able to visit from Bellingham, WA. It's been way too long since we had seen them (we owe you a trip out!) and we had a chance to hang with their whole family.
 
-It was a whirlwind tour of hiking, boating and dipping. Wait dipping? Yes there was a "Dip Off". What is that you are wondering? It was a get-together at my other Sister's house with the cousins, Aunt, Uncle and Betty.
+{% marginfigure 'mf-id-2' 'assets/img/IMG_6574.JPEG' %}It was a whirlwind tour of hiking, boating and dipping. Wait dipping? Yes there was a "Dip Off". What is that you are wondering? It was a get-together at my other Sister's house with the cousins, Aunt, Uncle and Betty.
 
 What did we do? Everyone brought two dips to share. One "Savory" and one "Sweet". They were all labeled (without names) and voted were collected. Sadly neither of our dips won, but it was all good fun.
 
