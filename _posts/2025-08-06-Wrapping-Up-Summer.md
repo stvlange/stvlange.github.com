@@ -13,16 +13,24 @@ But let's not rush things, school hasn't even started yet. And there is plenty t
 
 ### Successful Surgery
 
-The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery *and* took out her wisdom teeth.
+{% marginfigure 'mf-id-2' 'assets/img/IMG_6574.JPEG' %}The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery *and* took out her wisdom teeth.
 
 Because she has braces they didn't have to wire her jaw shut thankfully, and over 6-8 weeks she went from being on a 100% puree based diet to soft pasta and finally regular food. She will likely have a nose and lip revision next summer that will be less traumatic.
 
 ### Family Visit
 We were so fortunate this Summer that my sister and her family were able to visit from Bellingham, WA. It's been way too long since we had seen them (we owe you a trip out!) and we had a chance to hang with their whole family.
 
-{% marginfigure 'mf-id-2' 'assets/img/IMG_6574.JPEG' %}It was a whirlwind tour of hiking, boating and dipping. Wait dipping? Yes there was a "Dip Off". What is that you are wondering? It was a get-together at my other Sister's house with the cousins, Aunt, Uncle and Betty.
+{% maincolumn 'assets/img/IMG_6407.JPEG' 'Hiking with my sisters and the rest of the gang!' %}
+
+It was a whirlwind tour of hiking, boating and dipping. Wait dipping? Yes there was a "Dip Off". What is that you are wondering? It was a get-together at my other Sister's house with the cousins, Aunt, Uncle and Betty.
+
+{% maincolumn 'assets/img/IMG_5216.JPEG' 'Getting some much needed boat time in on the Chain' %}
 
 What did we do? Everyone brought two dips to share. One "Savory" and one "Sweet". They were all labeled (without names) and voted were collected. Sadly neither of our dips won, but it was all good fun.
+
+{% maincolumn 'assets/img/IMG_6433.JPEG' 'The 2025 Dip-Off! Entries for Savory and Sweet Classes' %}
+
+{% maincolumn 'assets/img/IMG_6439.JPEG' 'The Dip Off Winners! Congratulations!' %}
 
 ### First Family Trip Without Our Son
 This was a first that we weren't excited about, our first family trip without our son. We found ourselves with a timeshare week that was going to expire and needed to go somewhere in July. Unfortunately it was the busiest time at our son's job and getting time off was not an option.
@@ -40,7 +48,6 @@ We packed a lot into this trip. I would go back in a heartbeat. Here are some hi
 
 {% maincolumn 'assets/img/IMG_6650.JPEG' 'Breckenridge 2025 Troll Hike - Funny story about this hike, the Troll and the trailhead are behind the Breckenridge Ice Rink.' %}
 
-
 *Arts & Crafts*
 {% maincolumn 'assets/img/IMG_6673.JPEG' 'Breckenridge 2025 Arts & Craft Creations - Mom made a mosaic picture frame and Mia made this commemorative plate! Sadly the plate did not survive shipping home by the store.' %}
 
@@ -49,7 +56,6 @@ We packed a lot into this trip. I would go back in a heartbeat. Here are some hi
 
 *Sailing*
 {% maincolumn 'assets/img/IMG_6657.JPEG' 'Dillon Reservoir 2025 Sailing - Our first sailboat experience! We did a two hour charter and it ended up just being us! Such a fun form of boating!' %}
-
 
 *Theatre*
 {% maincolumn 'assets/img/IMG_6651.JPEG' 'Breckenridge 2025 Young Frankenstein - We loved seeing this musical in downtown Breckenridge.' %}
