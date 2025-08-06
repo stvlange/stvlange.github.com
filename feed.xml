@@ -1,31 +1,775 @@
----
-layout: null
-nav_exclude: true
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Stephen Lange</title>
+    <description>stephenlange.org</description>
+    <link>/stvlange.github.com/</link>
+    <atom:link href="/stvlange.github.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 Aug 2025 18:39:48 -0500</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2025 18:39:48 -0500</lastBuildDate>
+    <generator>Jekyll v4.3.4</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Wrapping Up Summer</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Hard to believe that Summer is already over!&lt;/span&gt;  But here we are once again on the cusp of another school year.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/IMG_6588.JPEG&quot; /&gt;&lt;br /&gt;&lt;/span&gt;And not just any year, but our youngest daughter’s Senior year of high school. As mind-boggling as it seems to us, in no time she will be heading off to college to start her next big life adventure.&lt;/p&gt;
+
+&lt;p&gt;But let’s not rush things, school hasn’t even started yet. And there is plenty that happened this Summer to talk about and more that &lt;em&gt;will happen&lt;/em&gt; in the year to come.&lt;/p&gt;
+
+&lt;h3 id=&quot;successful-surgery&quot;&gt;Successful Surgery&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/IMG_6574.JPEG&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The biggest news of this Summer was that our daughters major surgery was a success and there were no complications. This was the big one, double jaw surgery, upper and lower on both sides of here face. For good measure they also did chin surgery &lt;em&gt;and&lt;/em&gt; took out her wisdom teeth.&lt;/p&gt;
+
+&lt;p&gt;Because she has braces they didn’t have to wire her jaw shut thankfully, and over 6-8 weeks she went from being on a 100% puree based diet to soft pasta and finally regular food. She will likely have a nose and lip revision next summer that will be less traumatic.&lt;/p&gt;
+
+&lt;h3 id=&quot;family-visit&quot;&gt;Family Visit&lt;/h3&gt;
+&lt;p&gt;We were so fortunate this Summer that my sister and her family were able to visit from Bellingham, WA. It’s been way too long since we had seen them (we owe you a trip out!) and we had a chance to hang with their whole family.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6407.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Hiking with my sisters and the rest of the gang!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It was a whirlwind tour of hiking, boating and dipping. Wait dipping? Yes there was a “Dip Off”. What is that you are wondering? It was a get-together at my other Sister’s house with the cousins, Aunt, Uncle and Betty.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_5216.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Getting some much needed boat time in on the Chain&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;What did we do? Everyone brought two dips to share. One “Savory” and one “Sweet”. They were all labeled (without names) and voted were collected. Sadly neither of our dips won, but it was all good fun.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6433.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;The 2025 Dip-Off! Entries for Savory and Sweet Classes&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6439.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;The Dip Off Winners! Congratulations!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;first-family-trip-without-our-son&quot;&gt;First Family Trip Without Our Son&lt;/h3&gt;
+&lt;p&gt;This was a first that we weren’t excited about, our first family trip without our son. We found ourselves with a timeshare week that was going to expire and needed to go somewhere in July. Unfortunately it was the busiest time at our son’s job and getting time off was not an option.&lt;/p&gt;
+
+&lt;p&gt;We headed to Breckenridge Colorado and despite being in a terribly small room, had an absolute blast. We had never been to Breckenridge and let me just say, it was a delight.&lt;/p&gt;
+
+&lt;p&gt;The town is not large, you can easily walk from one end to the other without a problem. But it is packed with stores and restaurants. And not the normal boring stores you are used to seeing.&lt;/p&gt;
+
+&lt;p&gt;For example, the only fast food chain I saw was one Subway and one Starbucks, both with subdued signage. No McDonald’s, nothing. I loved it.&lt;/p&gt;
+
+&lt;p&gt;We packed a lot into this trip. I would go back in a heartbeat. Here are some highlights.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Great Hiking&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6693.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Breckenridge 2025 Waterfall Hike - This was actually on the Saturday before we left and the road to the trailhead was pretty rough and nerve wracking but the views made it all worth it!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6650.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Breckenridge 2025 Troll Hike - Funny story about this hike, the Troll and the trailhead are behind the Breckenridge Ice Rink.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Arts &amp;amp; Crafts&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6673.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Breckenridge 2025 Arts &amp;amp; Craft Creations - Mom made a mosaic picture frame and Mia made this commemorative plate! Sadly the plate did not survive shipping home by the store.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Fly Fishing&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_0252.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Breckenridge 2025 Rainbow Trout Caught Fly Fishing - mind blowingly beautiful water. I took a guided half day fly fishing trip. Had an amazing time. Caught three rainbow trout and three brook trout!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Sailing&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6657.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Dillon Reservoir 2025 Sailing - Our first sailboat experience! We did a two hour charter and it ended up just being us! Such a fun form of boating!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Theatre&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6651.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Breckenridge 2025 Young Frankenstein - We loved seeing this musical in downtown Breckenridge.&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/IMG_6653.JPEG&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Breckenridge 2025 Young Frankenstein - Bonus, the seats were comfy!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;All in all a very fun and activity packed week. Breckenridge exceeded our every expectation. I could very easily see ourselves retiring there.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Aug 2025 12:10:26 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Wrapping-Up-Summer</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Wrapping-Up-Summer</guid>
+        
+        
+        <category>summer</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Geting Summer Started</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The start of Summer has been largely a grind.&lt;/span&gt;  It came roaring in faster than we could believe and has been non-stop activity.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The big news of course is that our youngest is now going to be a Senior in high school. That fact is not lost on us that we, like every other parents in the world find ourselves dumbfounded by the speed at which the first three years of high school went by.&lt;/p&gt;
+
+&lt;p&gt;This is of course mildly amusing to us given that we have already gone through this exact same thing with our oldest. Memories fade quicker and quicker it seems.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-senior-trip-to-the-city&quot;&gt;A Senior Trip to the City&lt;/h3&gt;
+
+&lt;p&gt;With marching band about to start for the summer, our daughter and her friends decided that they needed to have an adventure. And the adventure they chose was to take the train to the city, ride the L to Lincoln park, and go to the zoo.&lt;/p&gt;
+
+&lt;p&gt;Sounds like a great time right? My wife and I were immediately worried about it. It is a funny thing to be one school year away from your kid going away to college, and be faced with a gut reaction to something as simple as a trip to the zoo with worry and conflicted opposition.&lt;/p&gt;
+
+&lt;p&gt;But we were experiencing it. It was a real feeling. Our first ask was to see if they could go down on Thursday, I am in the city usually on Tuesday’s and Thursday’s for work, and it would put one of us an hour and a half closer to them if they ran into trouble.&lt;/p&gt;
+
+&lt;p&gt;Thursday wasn’t possible. So I made the simple decision to just go into work on Wednesday. As it was their trip down and over to the Zoo was uneventful but colorful.&lt;/p&gt;
+
+&lt;p&gt;We had a good laugh at her describing the smells of the L and the interesting characters they encountered. Honestly this was a good thing for these kids who are so much more sheltered that our Gen X generation was.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/chicago-train.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Returning Home from their Zoo Trip&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;And I was able to meet them for their trip back which was a nice bonus for me.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/old-man-train.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;My Old Self on the Train&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;the-move-that-we-didnt-have-to-help-with&quot;&gt;The Move that We Didn’t Have to Help With&lt;/h3&gt;
+&lt;p&gt;At the start of June our oldest moved from Milwaukee to the Wicker Park neighborhood in Chicago with three of his friends from high school. This was a welcome change as it significantly reduced the daily commute he was doing from Milwaukee to Highland Park for his new internship.&lt;/p&gt;
+
+&lt;p&gt;After his accident at his previous job he had started to look for something that had more research aspects to the job. He accepted a full-time internship through the end of the year at the Chicago Botanic Gardens as a Horticulturalist and really likes the work.&lt;/p&gt;
+
+&lt;p&gt;And now he really loves the commute (30 minutes in the morning, 40 minutes coming home). So when it was time for him to move, we were all ready to head up to Milwaukee to help him pack.&lt;/p&gt;
+
+&lt;p&gt;To our surprise we were gently told that he had it covered and asked us to just meet him at his new apartment. I was, and my back was perfectly fine with this, Mom slightly less so but begrudgingly accepted it. Not needing your parents to move is one of this minor bridges you cross as your child moves further into full “Adult” status.&lt;/p&gt;
+
+&lt;p&gt;Oddly the landlord informed this group that they couldn’t get in until 3:00 PM. Strange for sure but it gave us an opportunity to get together with our friends Jim &amp;amp; Danielle who had just moved back to Chicago from Colorado and happened to live around three miles from our son’s new apartment.&lt;/p&gt;
+
+&lt;p&gt;One delicious brunch and some Goose Island beer tasting later we were saying our goodbyes and making our way over to meet our son.&lt;/p&gt;
+
+&lt;p&gt;It was then that we got a call from him, the previous tenants were pigs and the cleaning people wouldn’t be done until 8:30 PM! There was a possibility they would be able to get into one of the floors earlier, so we held our breath and headed over.&lt;/p&gt;
+
+&lt;p&gt;The first priority was to try and secure parking for his truck and car which his new girlfriend Delaney would be driving. Whom we were yet to meet I might add.&lt;/p&gt;
+
+&lt;p&gt;Delaney arrived first and attempted to parallel park in a spot we had found right in front of the apartment. I feel for her, trying to park in a small Chicago space in front of her boyfriend’s parents that she had never met. Rough.&lt;/p&gt;
+
+&lt;p&gt;And she was having a bit of a hard time of it at which point my wife gently offered to give it a shot which she gladly accepted. My wife still to this day retains her Chicago parking skills, and she nailed it right away.&lt;/p&gt;
+
+&lt;p&gt;Delaney was an absolute delight, and we immediately approved (as if our approval was needed). About ten minutes later our son pulled up in the U-Haul truck, and we vacated our parking spot for him.&lt;/p&gt;
+
+&lt;p&gt;I am happy to report all his time at his previous job driving a big F750 tanker truck paid off, and he parallel parked the truck like a pro.&lt;/p&gt;
+
+&lt;p&gt;At this point we decided to walk to an Asian fusion restaurant named Mott Street. Wow, I wish I had taken pictures of the food to say it was delicious really doesn’t do it justice. It was relaxed and gave us an opportunity to get to know Delaney a little more.&lt;/p&gt;
+
+&lt;p&gt;After lunch the cleaners were still cleaning, and since there was a large group of his high school friends there to help (and party), we said our goodbyes and gave him his house-warming gift (a candle and Goose Island beer) and made our way home.&lt;/p&gt;
+
+&lt;p&gt;We later heard from him that he couldn’t move in until 8:30 that night. But he was happy and excited about this new chapter of his life in Chicago, what more could we ask for.&lt;/p&gt;
+
+&lt;h3 id=&quot;some-needed-time-on-the-water&quot;&gt;Some Needed Time on the Water&lt;/h3&gt;
+&lt;p&gt;Fitting some time in on the boat scratched a growing itch I had for some boat time. We managed to get out twice so far, once with my sister and brother-in-law for some cruising and fishing.&lt;/p&gt;
+
+&lt;p&gt;My sister was the big fisherman of the trip catching this 17” Walleye! Way to go sis!&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/karen-fish.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;A nice sized Walleye was caught and released!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;On another weekend my wife and I got out for some time just the two of us, and she did some fishing too! We then had our friends park at the Antioch house and walk down to Captain’s Quarters to be picked up.&lt;/p&gt;
+
+&lt;p&gt;The boat always relaxes me, but with our daughter’s double jaw surgery coming up any diversion to take our minds off it is more than welcome.&lt;/p&gt;
+
+&lt;p&gt;This was also the first time that we have seen a full sized sailboat with sleeping quarters on the chain!&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/sailboat.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Larger Sailboat on the Chain&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;We have seen plenty of smaller sailboats on the chain, but this was our first time seeing something this big. It was really impressive.&lt;/p&gt;
+
+&lt;p&gt;That pretty much brings us up to date. This coming weekend is Father’s Day. Between my wife volunteering at Prairiefest and walking in the parade, my daughter taking the ACT and performing with the marching band in the parade, I’m not going to be able to get away.&lt;/p&gt;
+
+&lt;p&gt;But I will be going fly-fishing on the Fox on Saturday morning which should be fun. Until next time have a good one!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Jun 2025 15:49:28 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Getting-Summer-Started</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Getting-Summer-Started</guid>
+        
+        
+        <category>summer</category>
+        
+      </item>
+    
+      <item>
+        <title>Fly-fishing Foundations</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Fly-fishing is a new experience for me, radically different from what I did growing up.&lt;/span&gt;  This weekend I took the plunge and started to learn to fly fish.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/fly-fishing.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;@2025 Fly Fishing on the Fox River&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Recently my sister and I finally got around to going to through my Dad’s fishing gear. My Dad was an avid fisherman who loved every aspect of fishing. Fly-fishing with his brother Jim being one of the activities he really enjoyed but never had an opportunity to do as much as we imagine he would have like to.&lt;/p&gt;
+
+&lt;p&gt;To this day, his hesitancy to fish the local resource, be it the Fox river, the local park districts or even the Chain O’Lakes up in Antioch, still leave me with questions.&lt;/p&gt;
+
+&lt;p&gt;He had so many fishing resources available to him, and he didn’t take advantage of them. Why? Maybe it was less about the fishing and more about getting to fish with his brother, to be honest I don’t think we will ever know.&lt;/p&gt;
+
+&lt;p&gt;But we had been putting off going through his fishing gear, partly because of our own busy scheduled, but partly because it &lt;em&gt;was&lt;/em&gt; something so connected to the core of who he was. The thought of going through it was somehow deeper than other things.&lt;/p&gt;
+
+&lt;p&gt;Going through everything ended up taking way longer than either of us thought it would take. Seeing a lot of the older gear brought back a lot of great memories from our childhood going on our annual two-week vacations to Minnesota to fish, play and visit our Aunt and Uncle.&lt;/p&gt;
+
+&lt;p&gt;Back in the 70’s and 80’s family vacations really meant only one thing. We were going to Minnesota. We would be staying in a Mom &amp;amp; Pop fishing resort in a cabin. There would be fishing which we would try to avoid whenever possible.&lt;/p&gt;
+
+&lt;p&gt;There would be a resort store where we could get candy and pop on credit. And we would swim and have adventures every day until exhaustion.&lt;/p&gt;
+
+&lt;p&gt;And at some point we would go visit our Aunt &amp;amp; Uncle and our cousins. If we were lucky Grandma and Grandpa would also be up there at a different resort, never at the same resort mind you, they liked a certain lake which my Dad wasn’t all that fond of fishing.&lt;/p&gt;
+
+&lt;p&gt;Now when we go on vacation now, if our hotel has a kitchen we will generally make food 20% of the time and even then usually just breakfast and sometimes lunch.&lt;/p&gt;
+
+&lt;p&gt;On the vacations growing up my Mom would cook 90% of the meals in the cabin, with the remaining 10% split between going out and having dinner with my Aunt and Uncle (usually at their house). This was the norm, and of that 90% most of it was fresh fish that my Dad had caught and cleaned (almost exclusively deep-fried).&lt;/p&gt;
+
+&lt;p&gt;I mention all of this because these trips had a bigger impact on me than I would even know until much, much later in my life. They represent a core memory that is a big part of my childhood. And I would have to say that they represent Happy memories.&lt;/p&gt;
+
+&lt;p&gt;So when it came time to go through my Dad’s fishing gear it was a biter-sweet experience at times bringing up happy memories against feelings of loss and sadness at his passing.&lt;/p&gt;
+
+&lt;p&gt;In the end I found myself coming home with way more fishing gear than I knew what to do with. On top of that I now had access to Fly Fishing rods, reels and associated support gear.&lt;/p&gt;
+
+&lt;p&gt;Up until this last weekend all of my fishing to date had been with either spin-casting or bait-casting reels where you cast the lure out and reel the lure back in to the pole.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-is-fly-fishing-different-from-spin-casting&quot;&gt;How is fly fishing different from spin casting?&lt;/h3&gt;
+&lt;p&gt;According to our AI Overlords: “Fly fishing uses a long, flexible rod and a weighted fly line to propel a lightweight fly, while spin casting uses a shorter, stiffer rod and a lighter line to cast a weighted lure or bait.”&lt;/p&gt;
+
+&lt;p&gt;While I agree with this, it leaves out a big point. With fly fishing you aren’t generally reeling the line in between casts. You whip the line back behind you and reverse it back one or more times to reposition the lure.&lt;/p&gt;
+
+&lt;p&gt;If you have ever seen the movie “A River Runs Through It” they Fly fish the entire movie.  Fly-fishing is mostly done in rivers but there are no limitations on where you do it.&lt;/p&gt;
+
+&lt;p&gt;The nice thing about doing it on a river is that the current becomes the movement mechanism rather than reeling it back in. I say this as someone who doesn’t know the fine points of fly-fishing at all. Just some basics and even those may very likely be wrong.&lt;/p&gt;
+
+&lt;p&gt;So I did like anyone would do and started to watch Youtube videos on how to fly fish. I quickly realized I needed to get some practice before ever going out on the river.&lt;/p&gt;
+
+&lt;p&gt;But before I could do that, I need to change the reels over to what is called “Right-Hand retrieve”. What does this mean? Put simple, which hand are you going o use when you &lt;em&gt;do&lt;/em&gt; use the reel to reel in a fish.&lt;/p&gt;
+
+&lt;p&gt;For me since I will be holding the rod with my left hand, I will be using my right hand to reel the line in. As expected my Dad still had the instructions in the box, but they were woefully unhelpful. So off to Reddit I went to see if anyone could help.&lt;/p&gt;
+
+&lt;p&gt;To give you an idea, the instructions for taking the reel apart said: a) remove screw, b) remove drag wheel. Ok, seems simple enough but the drag wheel didn’t want to come off.&lt;/p&gt;
+
+&lt;p&gt;Much like my canoe dolly experience some provided the answer in the simplest of questions: “Did you unscrew the drag wheel?” Doh! Feeling a little stupid I did so and the fly-fishing real was now taken apart.&lt;/p&gt;
+
+&lt;p&gt;After a few trials and errors I now had the reels converted over to right-hand retrieve mode but now I had a new problem. The line was wrapped on the reel in the least optimal way.&lt;/p&gt;
+
+&lt;p&gt;I would come to learn (through more videos) that the best way for the line to be would was for it to exit the reel on the bottom, in the current config it was coming off the top of the reel. So I went about unwinding the line to rewind it in the direction that I wanted.&lt;/p&gt;
+
+&lt;p&gt;Let me just say that unwinding the line onto a spool that was being wound back up is how this operation &lt;em&gt;should always&lt;/em&gt; be done. My idea to carefully unwind it onto the floor was the worst possible choice I could make, and before I knew it I had a giant rats nest of line to untangle.&lt;/p&gt;
+
+&lt;p&gt;Talk about frustration at my own decision. But that’s how we learn right? Right? Anyway, once I got that situation taken care of I repeated the process on my second reel using a spool and it was blissfully easy to do.&lt;/p&gt;
+
+&lt;h3 id=&quot;heading-out-to-practice&quot;&gt;Heading out to Practice&lt;/h3&gt;
+&lt;p&gt;I then went out to practice in the large field by our house. Of course, it was way, way too windy so my results were less than stellar, but I started to get more of a feel for what it might be like.&lt;/p&gt;
+
+&lt;p&gt;This was followed up by more videos and by Friday (05/16) I made up my mind to actually go out to Hudson Crossing and venture out onto the Fox River to try Fly Fishing.&lt;/p&gt;
+
+&lt;p&gt;Friday was also the night of an incredibly rare dust storm that swept across Illinois and other surrounding states and come Saturday while the dust was gone what it left was higher than normal winds and cold temperatures.&lt;/p&gt;
+
+&lt;p&gt;But I was determined, so after dropping my daughter off at 6:45AM for a band function I headed over to the park to get ready.&lt;/p&gt;
+
+&lt;p&gt;Now I’ve never worn waders before and the pair I inherited from my Dad have socks at the end instead of formed boots like some waders have. This is great for me because I have much bigger feet than my Dad.&lt;/p&gt;
+
+&lt;p&gt;Real wader boots that go on over these footings are very expensive, so I improvised and used a pair of old running shoes. They would end up getting small rocks and gravel in them but I couldn’t honestly tell.&lt;/p&gt;
+
+&lt;p&gt;I am planning on getting a cheap pair of running gators to go over the shoes to keep the rocks out. That should be a much cheaper solution in the long run.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/river.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;@2025 Fox River&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Stepping out into the river the water was mostly knee-deep with a few areas coming up to my waist. Casting proved somewhat easier once the line was wet and I had moved to the other side of the river.&lt;/p&gt;
+
+&lt;p&gt;I was also able to see how the river current can be used to move the dry fly-fishing lures along naturally. There were as you can imagine some spectacular fails and a lot of poor casts.&lt;/p&gt;
+
+&lt;p&gt;Some lessons I learned. Be more patient on the back cast, going forward too soon can really much up your results. Keep your wrist and arm more locked together, trying to using your write to add power isn’t as effective.&lt;/p&gt;
+
+&lt;p&gt;One guide I read suggested tucking the end of your pole into your shirt or to put a thick rubber band around your wrist and pole. When I went out the next day I tried to keep this in mind and it did seem to improve my casts.&lt;/p&gt;
+
+&lt;p&gt;In the end I went out Saturday and Sunday morning with my brother-in-law Greg joining me on the short for some bait/spin casting while I was in the river.&lt;/p&gt;
+
+&lt;p&gt;I think fly-fishing is going to be a fun activity I can do here in Oswego. I am looking forward to doing more of it in the future. And to answer the question you might be wondering, I did not catch any fish. I had one &lt;em&gt;hit&lt;/em&gt; on Sunday but it didn’t take the bait. Next time for sure!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 May 2025 07:04:54 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Fly-Fishing</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Fly-Fishing</guid>
+        
+        
+        <category>outdoor</category>
+        
+        <category>fly-fishing</category>
+        
+        <category>fishing</category>
+        
+      </item>
+    
+      <item>
+        <title>Hands Off Project - Yorkville</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Today several hundred like-minded Democrats gathered to protest&lt;/span&gt;  the increasingly fascist and lawbreaking Trump administration. And I was one of them.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/hands-off.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The cornerstone of Democracy is freedom, and protesting against injustice peacefully is a right that all Americans should freely exercise. And yet, so few do, just as so few actually exercise their right to vote.&lt;/p&gt;
+
+&lt;p&gt;Today we joined the “Hands Off!” protest in Yorkville, IL with around four hundred other like-minded protesters. We made protest signs and chanted protest phrases. And we did it peacefully, in full view of the police without incident.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/protest.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Hands Off! Yorkville Protest again Trump/Republican Corruption&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/handmaid.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;And how was the opposition response you might be wondering? I think it could best be described as: Lackluster, Lame, Limp-Dicked? Yeah, that pretty well describes the five Pro-Trump counter-protesters with their ridiculous Pro-Trump fantasy propaganda.&lt;/p&gt;
+
+&lt;p&gt;What was amazing about this protest is that Kendall county has always traditionally been a “red” county. Not anymore if today is an indication. We certainly sent a clear message in the local elections a few weeks ago where all Republican candidates failed to get elected.&lt;/p&gt;
+
+&lt;p&gt;But if we have learned anything from the last presidential election, we cannot afford to make assumptions. Getting apathetic people to vote will continue to be an ongoing effort that we all need to put in time and volunteer to get the word out.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/no-kings.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The fight for Democracy has never been more important. Peaceful protest is an important American tradition that is our democratic right.&lt;/p&gt;
+
+&lt;p&gt;It played a significant role in changing the hearts and minds of the American people back in the late sixties and early seventies and helped to bring the end of the American involvement in the Vietnam war.&lt;/p&gt;
+
+&lt;p&gt;It can have an impact today as well. America has never faced the threat as insidious and dangerous as what it faces today from Trump and the GOP.&lt;/p&gt;
+
+&lt;p&gt;Peaceful protest can lead toward changing peoples minds, it can open the minds of people who have not voted in the past to exercise their rights and make their voice known through the ballot box. Get involved today, America needs your help.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Apr 2025 12:59:59 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Hands-Off</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Hands-Off</guid>
+        
+        
+        <category>protest</category>
+        
+      </item>
+    
+      <item>
+        <title>Glass Mirrored Water</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The Glass Mirrored Water not only reflected the sky&lt;/span&gt;  but my thoughts as well. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/me-boat.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt; On Friday I found myself on the road headed up to our house in Antioch. It had been almost a month since I had been up to the house, and I was itching to visit.&lt;/p&gt;
+
+&lt;p&gt;I could only imagine the amount of junk mail that I would find stuffed in the mailbox (it was packed solid with only two pieces of actual mail). I was confident though that I would be successful in the house maintenance that I had planned.&lt;/p&gt;
+
+&lt;p&gt;And I couldn’t stop thinking about taking the canoe out on Saturday. The weather looked like it would be perfect, Saturday couldn’t come soon enough.&lt;/p&gt;
+
+&lt;h3 id=&quot;captains-quarters-dinner&quot;&gt;Captain’s Quarters Dinner&lt;/h3&gt;
+
+&lt;p&gt;For dinner, I walked down to the Captain’s Quarters for a burger and some random chit-chat with the locals. The meal hit the spot, but the real treat of the evening was getting to say hello to “Cody” one of the friendliest German Shepherds I have ever met.&lt;/p&gt;
+
+&lt;p&gt;Normally my wife is the one always telling me about the therapy dogs that she gets to meet at her work when they are brought in for students. Here I meet one at bar?&lt;/p&gt;
+
+&lt;p&gt;I quickly sent her a text message, gloating in my luck. It was short-lived… She had seen four therapy dogs at school that very day. I couldn’t help but smile.&lt;/p&gt;
+
+&lt;p&gt;Some people have all the luck!&lt;/p&gt;
+
+&lt;h3 id=&quot;saturday-canoe-time&quot;&gt;Saturday Canoe Time&lt;/h3&gt;
+
+&lt;p&gt;It was just after seven when I started getting ready for some canoe time. The weather forcast called for temperatures in the high fifties for most of the day with a high of around sixty-two.&lt;/p&gt;
+
+&lt;p&gt;Heading out to the garage I got the canoe ready for transport and in no time was walking it down the road towards the Captain’s Quarters.&lt;/p&gt;
+
+&lt;p&gt;Last year Larry the owner said that I could use his boat launch for the canoe free of charge which I so appreciate. Water on the chain is still quite low, nowhere where it needs to be for most boats.&lt;/p&gt;
+
+&lt;p&gt;But for the canoe the water level wasn’t a problem. All I really had to do was keep an eye on how deep I went with the paddle/oars. Fox lake was like glass, as was Petite Lake.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/canoe-fox.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Fox Lake, 2025 - A quiet day with little wind and even less boat traffic made for water that was mirror calm. The water and sky reflected off each other much like my thoughts during this trip. This was a great start to the day!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;One evening earlier in the week I took some time to watch videos about different canoe strokes. I started off practicing the “J-Stroke” which allows you to only paddle on one side of the canoe solo.&lt;/p&gt;
+
+&lt;p&gt;It worked well but felt pretty slow. I wasn’t in a hurry, really I just wanted to enjoy the experience to fullest.&lt;/p&gt;
+
+&lt;p&gt;Soon after exiting the Captain’s Quarter marina onto Fox Lake I decided to try something I have never done before – Rowing a canoe!&lt;/p&gt;
+
+&lt;p&gt;When we got this canoe last year used the previous owner included a set of rowing oars with the canoe. He pointed out the two oar holders he had installed in two locations on the canoe.&lt;/p&gt;
+
+&lt;p&gt;I didn’t think much of it at the time, but I decided what better time than now to try them out. Wow, what a great surprise it turned out to be.&lt;/p&gt;
+
+&lt;p&gt;Rowing felt like it changed the whole dynamic of the canoe. I immediately felt more connected to both side of the canoe when rowing. It was very easy to make minute adjustments to either side as needed.&lt;/p&gt;
+
+&lt;p&gt;The oars really made the canoe solo exponentially faster. Before I knew it I was already halfway through Petite Lake. If you know the area, that was a significant distance for my first time out for the season.&lt;/p&gt;
+
+&lt;p&gt;And the lakes were practically empty. I say four fishing boats the entire time and a few people out and about in their yards. As an added bonus Petite Lake was absolutely crawling with giant white pelicans. They will soon migrate away from the chain, but this last saturday they were a sight to behold.&lt;/p&gt;
+
+&lt;p&gt;My apologies for the potato camera quality of the picture below, it was the closest I could get and the iPhone camera never ceases to disappoint me (I’m not salty at all, lol).&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/pelican.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Pelicans on Petite Lake, 2025 - There must have been more than seventy-five pelicans scattered across the lake or flying in the air. It was pretty amazing!&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;With every row I could feel the stress draining out of me. It was just what I needed. While I wish I could have kept going, I knew I had work to do back at the house.&lt;/p&gt;
+
+&lt;p&gt;Just before eleven I had the canoe back in the garage and I was off to buy supplies, but that is a story for another day.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Apr 2025 16:54:15 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Glass-Water</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Glass-Water</guid>
+        
+        
+        <category>lake</category>
+        
+        <category>canoe</category>
+        
+      </item>
+    
+      <item>
+        <title>Another Whirlwind Weekend</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Is it really a weekend if it’s not jam packed with activities?&lt;/span&gt;  I honestly don’t think so. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;I sometimes wonder what my weekends will be like once our daughter heads off to college. How much will out schedule calm down? And what will we do with the extra time?&lt;/p&gt;
+
+&lt;p&gt;I have a lot of ideas of what I would fill it with, and I am sure my wife has her own ideas as well. The benefit we have after being married all these years is that we have a pretty good idea of when to balance what we do, and when to focus on what each other wants to do.&lt;/p&gt;
+
+&lt;p&gt;But it will really be different once she goes to college. Since we didn’t really have any overlap between our kids high school years, what will it be like?&lt;/p&gt;
+
+&lt;h3 id=&quot;honey-do-items--done&quot;&gt;Honey Do Items – Done!&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/hanging-picture.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Until then, I think it worth mentioning what we were up to this last weekend. Saturday started with some honey do items at home. We installed a curtain rod and curtains in Grandma’s TV room and managed to do so with our any stress.&lt;/p&gt;
+
+&lt;p&gt;We also put up this nice print we have had for decades in her room to add a little something extra to the decor. And in the process I managed to tweak my shoulder while manually screwing in the screws for both activities. This was definitely a fun old guy “I can’t believe this made me sore” moment. More on this later…&lt;/p&gt;
+
+&lt;h3 id=&quot;we-are-with-the-band&quot;&gt;We are with the Band&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/hersey-band.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Well band parents at least who drove off to John Hersey 2025 Chicagoland Invitational Concert Band Festival. Oswego East did great and sounded amazing.&lt;/p&gt;
+
+&lt;p&gt;But our biggest complaint remains the fact that the percussion is always at the back. Combined with our daughter’s height (5.0 ft) we are lucky to even see the top of her head. It was especially annoying this time because she had a percussion solo which we had no idea she was even playing.&lt;/p&gt;
+
+&lt;h3 id=&quot;retiring-an-old-workhorse--disappointment&quot;&gt;Retiring an Old Workhorse &amp;amp; Disappointment&lt;/h3&gt;
+
+&lt;p&gt;Following the competition we high tailed it out of there over to the Abt Electronics showroom in Glenview, IL. This place is what an electronics showroom should be like.&lt;/p&gt;
+
+&lt;p&gt;It’s hard to accurately describe it other than to say it is massive and they have free fresh baked cookies, what isn’t to like? Our reason for visiting – To check out refrigerators and dishwashers.&lt;/p&gt;
+
+&lt;p&gt;Our fridge has been a workhorse still kicking twenty years after we bought it. But the shelves have gone to pot and the small side by side freezer has lost its charm.&lt;/p&gt;
+
+&lt;p&gt;Our dishwasher (Bosch) on the other hand has always been a disappointment other than it being incredibly quiet. Recently the door gasket has gone out resulting in the heavy door dropping like a rock when you lower it. That coupled with its piss poor drying capability put it firmly on the chopping block.&lt;/p&gt;
+
+&lt;p&gt;I am happy to report we found a replacement for both that will be delivered and installed this coming week. The refrigerator has french doors on the top with a water dispenser on the inside, with the freezer below. The dishwasher has a hearty heating element that promised to dry dishes expeditiously. Only time will tell.&lt;/p&gt;
+
+&lt;h3 id=&quot;national-deep-dish-pizza-day&quot;&gt;National Deep Dish Pizza Day&lt;/h3&gt;
+&lt;p&gt;Saturday was also &lt;em&gt;National Deep Dish Pizza Day&lt;/em&gt; so we of course had to honor this cultural celebration. To be honest, I had never heard of it before, and is the type of made up holiday that I would normally make fun of.&lt;/p&gt;
+
+&lt;p&gt;But, I love pizza, so damn it if we were not going to celebrate it the best way I could imagine with a Giordano’s stuffed pizza. This mushroom, spinach and half pepperoni masterpiece was amazing.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/giordanos.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;2025 National Deep Dish Pizza Day Celebration Pizza (Giordanos Pizza)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;new-tools--the-rosemont-theater&quot;&gt;New Tools &amp;amp; the Rosemont Theater&lt;/h3&gt;
+
+&lt;p&gt;So I mentioned earlier that my shoulder was killing me from screwing in some bolts on Saturday. You might be wondering why I was doing that. Well the answer is that my cordless drill died a few months ago, and I’ve been putting off replacing it for far too long.&lt;/p&gt;
+
+&lt;p&gt;Feeling sore we decided it was time to replace it and with Blain’s Farm &amp;amp; Fleet having a good sale, I decided to buy an awesome combo Milwaukee Drill combo set. This will be the first time I’ve owned a cordless impact drill to go along with a traditional drill. Cool stuff.&lt;/p&gt;
+
+&lt;p&gt;Finally, we headed over to Rosemont Theater for something we have been looking forward to for some time – Tina Fey &amp;amp; Amy Poehler in their “Restless Leg” tour.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/tina-amy.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Tina Fey &amp;amp; Amy Poehler @ Rosemont Theater (2025)&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;We have always loved watching these ladies in SNL, 30 Rock &amp;amp; Parks and Rec and I have to say their show was a solid 10 out of 10. Insanely fun time. After we had dinner at Hugo’s Frog Bar &amp;amp; Fish house.&lt;/p&gt;
+
+&lt;p&gt;We decided to start with four fresh oysters (2 West coast, 2 East coast) and then split a filet, mushrooms and a twice baked potato. A fantastic end to the day.&lt;/p&gt;
+
+&lt;p&gt;On top of all that we learned that our son and his friends were accepted for an apartment they applied for in Wicker Park. Even better he will only be a short distance from our long time friends Jim &amp;amp; Danielle who recently moved back to Chicago. A win-win for sure.&lt;/p&gt;
+
+&lt;p&gt;That’s about all, as you can see the weekend was jam packed and while it left us exhausted it also left a satisfaction that things were accomplished and items checked off the list.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Apr 2025 12:35:40 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Another-Whirlwind-Weekend</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Another-Whirlwind-Weekend</guid>
+        
+        
+        <category>band</category>
+        
+        <category>home</category>
+        
+        <category>show</category>
+        
+      </item>
+    
+      <item>
+        <title>Lost Wisdom, Fried Fish &amp; Getting Derailed</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;A week of lost wisdom and railway&lt;/span&gt;  drinks with friends.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;It sure feels like our weeks are filled to the brim &lt;em&gt;every&lt;/em&gt; week, and every weekend. I know it will only be a matter of time before we find ourselves &lt;em&gt;looking&lt;/em&gt; for things to do, but right now it is nothing but “Go! Go! Go!”&lt;/p&gt;
+
+&lt;h3 id=&quot;lost-wisdom-teeth&quot;&gt;Lost Wisdom (Teeth)&lt;/h3&gt;
+&lt;p&gt;The week started with Mia getting her two lower wisdom teeth taken out. The surgery went well but according to her the anesthesia didn’t have any effect on her, she wasn’t loopy at all.&lt;/p&gt;
+
+&lt;p&gt;Sorry to report Mia, you were out of it and could barely walk but we just smiled and helped you get where you needed to go.&lt;/p&gt;
+
+&lt;p&gt;She quickly returned to normal and aside from not liking protein smoothies (she much prefers ice cream milk shakes), her recovery seems to be going well.&lt;/p&gt;
+
+&lt;h3 id=&quot;family-fish-fry&quot;&gt;Family Fish Fry&lt;/h3&gt;
+&lt;p&gt;Come Friday we were off to Gilbert, IL to meet my sister Karin and her family, Grandma Kathy and my Uncle Fred and his kids and their families for a fish fry dinner at the Eagle’s Club.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/fish_fry.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Eagles Fish Fry with Family, 2025&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is I think our third year getting together at the Eagles and it’s a nice Non-Holiday get together that we can all make. Sadly Maverick couldn’t make it this year, but we surprised to see Z-Dog and his girlfriend!&lt;/p&gt;
+
+&lt;p&gt;Last year we like to joke about the service, half our group got their food order and the other half’s order didn’t come from another hour. This year it was &lt;em&gt;much&lt;/em&gt; better with only a few minutes between groups being served.&lt;/p&gt;
+
+&lt;p&gt;Grandma Kathy provided desert with fresh baked brownies and cake which almost immediately was eaten. No leftover here.&lt;/p&gt;
+
+&lt;h3 id=&quot;derailed-pub-crawl&quot;&gt;Derailed Pub Crawl&lt;/h3&gt;
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/derailed.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;This weekend was the annual “Derailed” pub crawl that our friends Rachel &amp;amp; Bill (and others) have been organizing for some time now. It is always near St. Patrick’s Day, but this year was the latest it has been.&lt;/p&gt;
+
+&lt;p&gt;And I have to admit that it was a lot nicer for two reasons. First the weather was better. The day, while cloudy was in the high sixties, lower seventies. Absolutely perfect weather for bar hopping.&lt;/p&gt;
+
+&lt;p&gt;Basically we ride Metra BNSF line toward Chicago and get off at Brookfield for our first pub stop, Irish Times. This is a fun bar with great food and at times slow service. But this year it was much better.&lt;/p&gt;
+
+&lt;p&gt;I split a burger with Karin and had a few libations over the two hours that had been allocated for this stop.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/irish-times.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Brookfield Stop @ Irish Times&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;What followed was another three stops heading back toward Aurora. The second to last bar I have to mention, the Uptown bar in Westmont.&lt;/p&gt;
+
+&lt;p&gt;The Uptown is a tiny dive bar, quite possibly the biggest dive bar of all dive bars. If has no charm, doesn’t pretend to have any and seems fairly welcoming.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/uptown.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;I always find myself wondering “Why do we keep coming to this shithole?” But it’s a shithole that has some undefinable charm that keeps it on the list every year.&lt;/p&gt;
+
+&lt;p&gt;Our last stop was in Lisle at Evviva Bar &amp;amp; Eatery. Great pizza, worth the order. We ended up heading to Lisle before the group’s schedule departure to grab some tables for everyone and more importantly get some pizza.&lt;/p&gt;
+
+&lt;p&gt;Stuffed and slightly buzzed we found ourselves on the 7:33PM train back to Aurora. We had zero desire to hit up the Roundhouse for drinks as we pulled into Aurora. To be honest we were pretty tired by that point and looking forward to getting home.&lt;/p&gt;
+
+&lt;p&gt;All in all it was a great time out with friends. And aside from a Metra patron (not with our group) getting into a verbal altercation with the conductor, no drama or excitement to note.&lt;/p&gt;
+
+&lt;h3 id=&quot;election-work&quot;&gt;Election Work&lt;/h3&gt;
+&lt;p&gt;We both slept in late (for us) on Sunday. Made our dinner plans for the week and grocery list. Today Karin had planned to walk around and put election material on doors for the Kendall County Democrats so I volunteered to drive and check off houses.&lt;/p&gt;
+
+&lt;p&gt;We happily finished before it started to rain and dropped off our friend Laura who helped distribute packets. Then it was off to Meijer for grocery shopping. Once again tired but ready for the week!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Mar 2025 12:04:48 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Derailed</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Derailed</guid>
+        
+        
+        <category>dental</category>
+        
+        <category>weekend</category>
+        
+        <category>derailed</category>
+        
+      </item>
+    
+      <item>
+        <title>Exploring Two Cities</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Exploring urban cities can be as much fun as exploring nature.&lt;/span&gt;  This last weekend while our daughter explored NYC, we had a weekend in Chicago.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;a-long-anticipated-trip-to-nyc&quot;&gt;A Long Anticipated Trip to NYC&lt;/h3&gt;
+
+&lt;p&gt;Last year we were excited to sign our daughter up for a trip to New York City being planned by her high school music department.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/church.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Unlike many school band trips, this trip would &lt;em&gt;not&lt;/em&gt; involve the student doing a performance as part of a competition or an evaluation. Instead it would focus on various aspects of the arts in NYC.&lt;/p&gt;
+
+&lt;p&gt;As parents we were immediately sold on the idea, our daughter had a more lukewarm response but was interested in going so we quickly signed up for the trip.&lt;/p&gt;
+
+&lt;p&gt;Over the last two months it was on our minds more often until last week started and the final countdown began for both trips.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/mia.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Oh I forgot to mention that my wife and I started discussing a weekend away in Chicago a few months ago. With everything that’s been going on it seemed like a great opportunity to get away.&lt;/p&gt;
+
+&lt;h3 id=&quot;nyc-bound&quot;&gt;NYC Bound&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/hades.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Thursday morning we were all up early which gave me a chance to see Mia before she left and I had to leave for work in the city. I had expected her to be a little more nervous but to be relief she seemed excited. My wife and I really hoped the trip would be filled with great memories.&lt;/p&gt;
+
+&lt;p&gt;Before I knew it the day was half over, and they were safely in New York and experiencing different sights and sounds.&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;I just saw some guy standing on a box with nothing but underwear in times square.&lt;/p&gt;&lt;footer&gt;Mia, &lt;cite&gt;NYC Band Trip, 2025&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;Along with seeing St. Patrick’s cathedral they went to Chinatown. Finally finishing the day with a singing dinner before heading to bed in their tiny hotel room with two full beds for four girls.&lt;/p&gt;
+
+&lt;h3 id=&quot;friday-fun&quot;&gt;Friday Fun&lt;/h3&gt;
+
+&lt;p&gt;Friday ramped up the fun in NYC with the group getting to go to a skyscraper observatory and the 9/11 Memorial.&lt;/p&gt;
+
+&lt;p&gt;Mia also told us she had the opportunity to &lt;em&gt;barter&lt;/em&gt; twice! Get those deals! They finished the night up going to see the Broadway show “Hadestown”.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-4&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-4&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/train.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Back here in the Chicago area we worked like we normally do, but were off to catch the 4:37 PM train back into the city. We would be staying the weekend at the Hotel Intercontinental on Michigan avenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-5&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-5&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/work.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The train is something I enjoy riding, unlike friends who refuse to take it for varying reasons, I appreciate its ability to bypass traffic. Stepping out of Union Station I convinced Karin to let me show her the upgrades they had made the last year at my office.&lt;/p&gt;
+
+&lt;p&gt;I am always talking about different aspects, so it was fun to walk her around and see what I’ve always been blabbing about. After that we were off to the hotel.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-6&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-6&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/sushi.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;The Intercontinental is a grand old hotel that our good friend Heather recommended. We wanted to go to a hotel that had a great spa where we could swim and get some spa treatments. The Intercontinental didn’t disappoint.&lt;/p&gt;
+
+&lt;p&gt;After check in we were ready for dinner, trying to get into the “Purple Pig” was a bust with an insane wait time, so we decided to put the pig off until Saturday for lunch. Instead we decided to give one of the restaurants in the hotel – Casa Chi.&lt;/p&gt;
+
+&lt;p&gt;Wow, what a great pick that turned out to be. We started with their ahi tuna guacamole that was beyond good. We followed this up with a mind blowing salmon sushi roll and finally hot stone tenderloin tacos that you cook on a super heated stone.&lt;/p&gt;
+
+&lt;p&gt;But the real star was the lemon cheesecake desert that was served in a chocolate lemon. The perfect end to our day.&lt;/p&gt;
+
+&lt;h3 id=&quot;outsiders--back-to-the-future&quot;&gt;Outsiders &amp;amp; Back to the Future&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-7&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-7&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/lemon.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Saturday started with later for us than it did for Mia. I have to admit to enjoying sleeping in.&lt;/p&gt;
+
+&lt;p&gt;In NYC they had a busy day planned with a matinee theatre production of the Outsiders. Mia absolutely loved it.&lt;/p&gt;
+
+&lt;p&gt;In the evening they were off to see the New York Philharmonic orchestra in the Back to the Future concert where they played the soundtrack while the audience watched the movie.&lt;/p&gt;
+
+&lt;p&gt;Here again they got another great experience where after the show they got to meet Robert Zemekis who talked about making the movie. Wow!&lt;/p&gt;
+
+&lt;p&gt;Back in Chicago we started the day with some Starbucks before our scheduled spa treatments. Up on the schedule was a facial for Karin followed by a couples massage.&lt;/p&gt;
+
+&lt;p&gt;It has probably been twenty years since I have had a massage, and I was very much looking forward to it. I’ve had some persistence neck and shoulder pain for a long time that I was really hoping that the guy would be able to focus on.&lt;/p&gt;
+
+&lt;p&gt;And focus on it he did. While my wife lay on a table next to me getting what I am sure was a nice relaxing massage, Miguel, aka “Iron Hands and Elbows” was giving me the most painful deep tissue massage one can imagine!&lt;/p&gt;
+
+&lt;p&gt;The pain was almost unbearable, but I just figured it was either a) normal, or b) because my neck and back were so stiff, so I just endured it counting the minutes until it was over.&lt;/p&gt;
+
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;I looked over and he was really digging into your back with his elbow.&lt;/p&gt;&lt;footer&gt;My Wife, &lt;cite&gt;Having a Relaxing Massage, 2025&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;At the end I could barely get up and I knew I would be sore later, and in even worse condition come Sunday. Returning to the room all I wanted was a scorching hot shower, but it was then they we discovered the only disappointment of the hotel. Terrible water pressure with equally bad hot water. Oh well.&lt;/p&gt;
+
+&lt;p&gt;But the day will still young so we headed out to do some shopping on Michigan avenue and have lunch at the “Purple Pig”. Karin had been here before and couldn’t stop talking about it.&lt;/p&gt;
+
+&lt;p&gt;And after eating there I now know why. Sublime perfection. I won’t bore you too much with the food, but the &lt;em&gt;Chicken Liver &amp;amp; Bacon Pâté&lt;/em&gt; with  Fried Sage + Grape Mostarda was remarkably well portioned.&lt;/p&gt;
+
+&lt;p&gt;We followed this with a peach and cheese combination that if I am being honest was very pretty, but a waste of money. Three toothpick portions was a disappointment.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/octopus.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Purple Pig Spanish Octopus&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;But the &lt;em&gt;Spanish Octopus&lt;/em&gt; with Marbled Potatoes, Jalapenos, Sambuca + Chimichurri has to die for. With or bellies full we decided to drop the shopping bag at the room and walk over to Navy Pier.&lt;/p&gt;
+
+&lt;p&gt;Karin has seen that they were featuring women artists so we thought it would be cool to see what was available. On the way over we started seeing more and more people covered in a multi-colored array of chalk dusk.&lt;/p&gt;
+
+&lt;p&gt;It was the Holi festival.&lt;label for=&quot;mn-id-1&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;Holi Festival @ Navy Pier - &lt;a href=&quot;https://www.wbez.org/communities/2025/03/23/holi-festival-navy-pier-spring-chicago&quot;&gt;LINK&lt;/a&gt; &lt;/span&gt; Attendees powdered in many hues dance, grin at Navy Pier, ushering in the new season and mending relationships in ancient Hindu rite.&lt;/p&gt;
+
+&lt;p&gt;Which was really cool to see, especially so after getting to Navy pier and finding that the woman’s showcase was more crafts that arts. Ah well, it was good to get out and walk.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/navy-pier.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Navy Pier, 03/2025&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;By now I was really starting to feel the after effects of the massage. My back and shoulders was killing me. I actually had to ask Karin to slow down while walking (which never happens) and had to sit down to take a break for a bit at Navy Pier. After a short cab ride we were back at the hotel.&lt;/p&gt;
+
+&lt;h3 id=&quot;dinner-at-mikes&quot;&gt;Dinner at Mike’s&lt;/h3&gt;
+
+&lt;p&gt;Having witnessed the achievements of the Bulls in the 90’s we couldn’t pass up trying the other restaurant at our hotel - Michael Jordan’s Steak House. An absolutely beautiful architectural stairway led us up to the kind of ambiance you would expect from a fine steak house.&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-8&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-8&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/drink.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;Drinks were mandatory and delish. As was my baked french onion soup and Karin’s Caesar salad. The real star however was the ten ounce filet that we split and the mashed potato trio (roasted garlic, lobster, sweet potato).&lt;/p&gt;
+
+&lt;p&gt;The steak practically melted in our mouths and what could be better than that potato combo? We were stuffed but decided to order Mascarpone Cheesecake with
+brown butter streusel, glazed berries, strawberry &amp;amp; blackberry coulis to go to have after Drunk Shakespeare.&lt;/p&gt;
+
+&lt;h3 id=&quot;drunk-shakespeare&quot;&gt;Drunk Shakespeare&lt;/h3&gt;
+
+&lt;p&gt;After getting a random private car to drive us to the theatre for $25 (thank you hotel bell captain!) we rode over in style. Probably the nicest and most expensive BMW we have ever been in to the Lion Theatre for Drunk Shakespeare.&lt;/p&gt;
+
+&lt;p&gt;Tucked between Taco Bell and Panda express the no-nonsense theatre was mysterious, shabby and equal parts exciting and enticing.&lt;/p&gt;
+
+&lt;p&gt;Stepping through the entrance into the bar and as quickly into the theatre you really got to appreciate how intimate of an experience it would be. And by that I mean small. Our seats were center stage, right by the chairs for the King and Queen.&lt;/p&gt;
+
+&lt;p&gt;The issue was that it was a wooden bench with no back support. I immediately knew I was in for trouble with as bad as my back felt earlier in the day. And I was right, by the end of the night my back was trashed.&lt;/p&gt;
+
+&lt;p&gt;But the performance was a delightfully funny and raunchy rendition of Macbeth with some surprise songs sung insanely well. It was a blast to watch.&lt;/p&gt;
+
+&lt;p&gt;And exactly the type of thing that makes us miss living in the city so much. I think too many people view Chicago through the lens of traffic, or museum visits or concerts with thousands of people. You know the events where getting to the city sours, or at the minimum takes away from the experience.&lt;/p&gt;
+
+&lt;p&gt;But when you live in the city, or at least visit it and take away that toil, your left with interesting experiences that just burst from every corner of the city.&lt;/p&gt;
+
+&lt;p&gt;With Saturday in the bag, we headed back to the hotel to collapse into a deep sleep.&lt;/p&gt;
+
+&lt;h3 id=&quot;930-am-how&quot;&gt;9:30 AM? How?&lt;/h3&gt;
+
+&lt;p&gt;We were dead to the world. The combination of fresh air, mini adventures and massages left us tired and exhausted. We both slept like rocks. I woke to a incredibly sore body.&lt;/p&gt;
+
+&lt;p&gt;In New York the group was headed to Studio 54 of all places to meet one of the cast from the Outsiders for Q&amp;amp;A session.&lt;/p&gt;
+
+&lt;p&gt;In Chicago we called for a late check out and headed down to the pool to have a swim. The pool in this hotel is something straight out of the gilded age.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/pool.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Chicago Hotel Intercontinental Pool&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out what this article&lt;label for=&quot;mn-id-2&quot; class=&quot;margin-toggle&quot;&gt; ⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mn-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;AWA Article - &lt;a href=&quot;https://accidentallywesanderson.com/places/intercontinental-chicago/#:~:text=Engineers%20developed%20a%20system%20similar,homage%20to%20its%20rich%20history.&quot;&gt;LINK&lt;/a&gt; &lt;/span&gt; has to say about the pool:&lt;/p&gt;
+
+&lt;p&gt;“At the time, the pool was one of the highest indoor pools in the world, and its fourteenth-floor location was heralded as an engineering achievement. Engineers developed a system similar to the support system used by railroad bridges to support the large quantity of water at the 14-story height.&lt;/p&gt;
+
+&lt;p&gt;The area around the pool showcases preserved classic architecture from the 1920s including a terra cotta fountain of Neptune, Spanish hand-painted tiles, marble pillars and stained-glass windows. It is known to many as the Johnny Weismuller pool, a testament to the famous Olympic athlete who trained in its waters.”&lt;/p&gt;
+
+&lt;p&gt;What surprised me most was that the pool was ten feet deep at one end. Something you don’t expect to see in a pool with swim lanes these days. In addition to the architecture which I am sure you will agree is stunning, the green fish scale stained glass windows was a real treat.&lt;/p&gt;
+
+&lt;h3 id=&quot;wrapping-things-up&quot;&gt;Wrapping Things Up&lt;/h3&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-10&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-10&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/dog.jpg&quot; /&gt;&lt;br /&gt;&lt;/span&gt;After checking out of the hotel we had the Bell Captain hold our luggage and went to have a bite to eat at the Albert restaurant. H&amp;amp;M Bagels with cream cheese, lox and sliced cucumbers along with eggs Benedict hit the spot.&lt;/p&gt;
+
+&lt;p&gt;The plans were to visit a museum but we honestly were pretty tired, so we decided to just grab some Garretts popcorn and head home. The rain that started only further cemented our decision.&lt;/p&gt;
+
+&lt;p&gt;It was a fabulous weekend but we were ready to head home. A quick train ride and Uber ride and we were back. A few hours later we picked up our daughter from her adventure. A great time all around.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Mar 2025 15:10:34 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Exploring-Cities</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Exploring-Cities</guid>
+        
+        
+        <category>chicago</category>
+        
+        <category>newyork</category>
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>St. Patrick&apos;s Day Weekend</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Embracing our shared Irish heritage&lt;/span&gt;  on St. Patrick’s Day weekend with friends is always a blast!&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;label for=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot;&gt;⊕&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;mf-id-1&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;marginnote&quot;&gt;&lt;img class=&quot;fullwidth&quot; src=&quot;/stvlange.github.com/assets/img/weekend.png&quot; /&gt;&lt;br /&gt;&lt;/span&gt;St. Patrick’s Day weekend is always one of those holidays that is a bit hit or miss in our family. Some years we have a ton of things going on, others we barely seem to do anything at all.&lt;/p&gt;
+
+&lt;p&gt;This year we found ourselves invited to a party at our friends Mike &amp;amp; Jill’s house on Saturday. I was particularly excited for this as it gave me an opportunity to get together with my old Army National Guard friends.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/guard-guys.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;From Left to Right: Giomi, Keo, Shaw, Joerns, Marchik, Pinder&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I don’t know why, but we never seem to get together enough, so when we do, it’s always a big deal for me. I think something I have learned in life is that for most people the friends we have who are truly long term, have been forged in different crucibles we have lived through.&lt;/p&gt;
+
+&lt;p&gt;One such group is my friends from my childhood neighborhood. It included people from the neighborhood and connected to the neighborhood by way of my friends Jim and Keith’s house where we all hung out and acted as a central point in space that rooted us all together.&lt;/p&gt;
+
+&lt;p&gt;Another are my friends I made in the Army National Guard. Over the course of my six years in the guard we went through a lot of good times and shared suffering out in the field. It really cemented our friendships.&lt;/p&gt;
+
+&lt;p&gt;You know the kind, where you get together and haven’t seen each out for months or years, and it doesn’t feel awkward or as if any time has past at all. Just the best if you ask me.&lt;/p&gt;
+
+&lt;p&gt;So off we went to party with Mike, Jill, Dan, Julie, Brian, Fran, Tom, John, Keo and Rachel. Along the way we drank too much, ate too much and just generally had a blast.&lt;/p&gt;
+
+&lt;p&gt;But at our age, my wife and I can’t party like we used to, so come 9PM we were saying our goodbyes and heading back home. Well worth the trip.&lt;/p&gt;
+
+&lt;p&gt;Sunday started with a good cup of coffee and some breakfast to get us moving again. Karin is our neighborhood Democratic precinct person, and we are sending out a mailer to our Democratic neighbors to remind them about the upcoming election and to encourage them to vote!&lt;/p&gt;
+
+&lt;p&gt;It’s more important than ever for people to exercise their rights and vote, if these letters even get a few people motivated to vote it will be worth the effort to get these almost 300 letters mailed.&lt;/p&gt;
+
+&lt;p&gt;Then it was off to the grocery store to get supplies for the week and dinner – Corned Beef &amp;amp; Cabbage! Add to that some homemade beer bread and we are in for a feast.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/corned-beef.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Corned Beef w/Potatoes &amp;amp; Carrots&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Honestly it’s been a long day and a lot of work, but the week ahead will be even busier. Mia is headed out on a school trip to New York on Thursday, so there will be a flurry of prep work to get ready for her leaving.&lt;/p&gt;
+
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/beer-bread.jpg&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Freshly Made Beer Bread&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;It seems like so long since we signed her up for this trip, for it to finally be here is unreal!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Mar 2025 13:10:05 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Irish-Holiday-Weekend</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Irish-Holiday-Weekend</guid>
+        
+        
+        <category>holiday</category>
+        
+      </item>
+    
+      <item>
+        <title>Journal Automation with GNU Emacs</title>
+        <description>&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Today I decided to add some more automation&lt;/span&gt;  to my journal writing with GNU Emacs and the yasnippet package.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;This journal uses markdown format for its posts &lt;label for=&quot;sn-id-2&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-2&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;Wikipedia Markdown Entry&lt;/a&gt; &lt;/span&gt;. As such there are certain required elements when preparing the journal entry.&lt;/p&gt;
+
+&lt;p&gt;This theme also has specific formatting that must be used for supported styles that can be used in the journal entry (e.g. marginfigures, sidenotes, marginnotes).&lt;/p&gt;
+
+&lt;p&gt;Prior to this today I was referring back to documentation and past journal entries to get examples formatting I needed. Not really all that efficient, and prone to error. Automation to the rescue!&lt;/p&gt;
+
+&lt;h3 id=&quot;gnu-emacs--yasnippet&quot;&gt;GNU Emacs &amp;amp; Yasnippet&lt;/h3&gt;
+&lt;p&gt;I use the GNU Emacs editor&lt;label for=&quot;sn-id-3&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-3&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://www.gnu.org/software/emacs/&quot;&gt;GNU Emacs&lt;/a&gt; &lt;/span&gt; when writing this journal. There are a variety of editor options out there, I like Emacs because of the multitude of add-ons that can be used with it to extend the capabilities.&lt;/p&gt;
+
+&lt;p&gt;It is an editor that has infuriated and enthralled many and I am by no means an expert, far far from it. The add-on package I am using for my automation is called “yasnippet”&lt;label for=&quot;sn-id-4&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-4&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;&lt;a href=&quot;https://github.com/joaotavora/yasnippet&quot;&gt;Yasnippet Github&lt;/a&gt; &lt;/span&gt; which is available in the emacs elpa package system or directly on the author’s github site.&lt;/p&gt;
+
+&lt;p&gt;With the yasnippet package it is possible to create custom snippets that to add preformatted text to emacs. Yasnippets allows you to configure prompting that allows you to tab trough and replace the prompt text with content you want to use.&lt;/p&gt;
+
+&lt;p&gt;Below are the yasnippets that I setup to make my journaling easier.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom-yasnippets&quot;&gt;Custom Yasnippets&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;jhead&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/jhead.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for journal header&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;mn&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/mn.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for marginnote&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;sn&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/sn.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for sidenote&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;mf&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/mf.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for marginfigure&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;mci&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/mci.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for maincolumn image&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;fwi&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/fwi.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for fullwidth image&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;lt;epi&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;/stvlange.github.com/assets/img/epigraph.png&quot; /&gt;&lt;figcaption class=&quot;maincolumn-figure&quot;&gt;Yasnippet code for epigraph&lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;how-does-it-work&quot;&gt;How does it work&lt;/h3&gt;
+
+&lt;p&gt;When I start a new journal entry I start with setting up the journal header. With the yasnippet in place, I simply type “&amp;lt;bt” (without the quotes) and press the TAB key on the keyboard.&lt;/p&gt;
+
+&lt;p&gt;The “&amp;lt;bt” is replaced by the content of the snippet and anything the is formatted with a “${#:NAME}” is accessed by pressing the TAB key.&lt;/p&gt;
+
+&lt;p&gt;I then press TAB to go to the next field and type the text I want to replace the NAME value. Quick, simple and always formatted correctly.&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;really&lt;/em&gt; saves time and makes quickly adding the different elements so easy. I am honestly kicking myself for not doing this sooner.&lt;/p&gt;
+
+&lt;p&gt;So there you have it, everything you ever wanted to know about my journal writing automation.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Mar 2025 08:20:36 -0500</pubDate>
+        <link>/stvlange.github.com/thoughts/25/Journal-Automation-With-Emacs</link>
+        <guid isPermaLink="true">/stvlange.github.com/thoughts/25/Journal-Automation-With-Emacs</guid>
+        
+        
+        <category>journal</category>
+        
+        <category>automation</category>
+        
+        <category>emacs</category>
+        
+      </item>
+    
   </channel>
 </rss>

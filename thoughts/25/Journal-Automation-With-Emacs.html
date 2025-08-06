@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Journal Automation with GNU Emacs</title>
+  <meta name="description" content="Today I decided to add some more automation  to my journal writing with GNU Emacs and the yasnippet package.">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+<!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+
+  <link rel="stylesheet" type="text/css" href="/stvlange.github.com/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/stvlange.github.com/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/stvlange.github.com/thoughts/25/Journal-Automation-With-Emacs">
+
+  <link rel="alternate" type="application/rss+xml" title="Stephen Lange" href="/stvlange.github.com/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	    <!--- original: <a href="/stvlange.github.com/"><img class="badge" src="/stvlange.github.com/assets/img/badge_2.png" alt="CH"></a> --> 
+	<a href="/stvlange.github.com/"><img class="badge" src="/stvlange.github.com/assets/img/square.png" alt="SL"></a>
+	
+		
+  	
+		
+		    
+		      <a href="/stvlange.github.com/">stephenlange.org</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/stvlange.github.com/about/">About</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/stvlange.github.com/css/print.css"></a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Journal Automation with GNU Emacs</h1>
+<p class="subtitle">March 15, 2025</p>
+
+<p><span class="newthought">Today I decided to add some more automation</span>  to my journal writing with GNU Emacs and the yasnippet package.<!--more--></p>
+
+<p>This journal uses markdown format for its posts <label for="sn-id-2" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-2" class="margin-toggle" /><span class="sidenote"><a href="https://en.wikipedia.org/wiki/Markdown">Wikipedia Markdown Entry</a> </span>. As such there are certain required elements when preparing the journal entry.</p>
+
+<p>This theme also has specific formatting that must be used for supported styles that can be used in the journal entry (e.g. marginfigures, sidenotes, marginnotes).</p>
+
+<p>Prior to this today I was referring back to documentation and past journal entries to get examples formatting I needed. Not really all that efficient, and prone to error. Automation to the rescue!</p>
+
+<h3 id="gnu-emacs--yasnippet">GNU Emacs &amp; Yasnippet</h3>
+<p>I use the GNU Emacs editor<label for="sn-id-3" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-3" class="margin-toggle" /><span class="sidenote"><a href="https://www.gnu.org/software/emacs/">GNU Emacs</a> </span> when writing this journal. There are a variety of editor options out there, I like Emacs because of the multitude of add-ons that can be used with it to extend the capabilities.</p>
+
+<p>It is an editor that has infuriated and enthralled many and I am by no means an expert, far far from it. The add-on package I am using for my automation is called “yasnippet”<label for="sn-id-4" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-4" class="margin-toggle" /><span class="sidenote"><a href="https://github.com/joaotavora/yasnippet">Yasnippet Github</a> </span> which is available in the emacs elpa package system or directly on the author’s github site.</p>
+
+<p>With the yasnippet package it is possible to create custom snippets that to add preformatted text to emacs. Yasnippets allows you to configure prompting that allows you to tab trough and replace the prompt text with content you want to use.</p>
+
+<p>Below are the yasnippets that I setup to make my journaling easier.</p>
+
+<h3 id="custom-yasnippets">Custom Yasnippets</h3>
+
+<p><em>&lt;jhead</em></p>
+<figure><img src="/stvlange.github.com/assets/img/jhead.png" /><figcaption class="maincolumn-figure">Yasnippet code for journal header</figcaption></figure>
+
+<p><em>&lt;mn</em></p>
+<figure><img src="/stvlange.github.com/assets/img/mn.png" /><figcaption class="maincolumn-figure">Yasnippet code for marginnote</figcaption></figure>
+
+<p><em>&lt;sn</em></p>
+<figure><img src="/stvlange.github.com/assets/img/sn.png" /><figcaption class="maincolumn-figure">Yasnippet code for sidenote</figcaption></figure>
+
+<p><em>&lt;mf</em></p>
+<figure><img src="/stvlange.github.com/assets/img/mf.png" /><figcaption class="maincolumn-figure">Yasnippet code for marginfigure</figcaption></figure>
+
+<p><em>&lt;mci</em></p>
+<figure><img src="/stvlange.github.com/assets/img/mci.png" /><figcaption class="maincolumn-figure">Yasnippet code for maincolumn image</figcaption></figure>
+
+<p><em>&lt;fwi</em></p>
+<figure><img src="/stvlange.github.com/assets/img/fwi.png" /><figcaption class="maincolumn-figure">Yasnippet code for fullwidth image</figcaption></figure>
+
+<p><em>&lt;epi</em></p>
+<figure><img src="/stvlange.github.com/assets/img/epigraph.png" /><figcaption class="maincolumn-figure">Yasnippet code for epigraph</figcaption></figure>
+
+<h3 id="how-does-it-work">How does it work</h3>
+
+<p>When I start a new journal entry I start with setting up the journal header. With the yasnippet in place, I simply type “&lt;bt” (without the quotes) and press the TAB key on the keyboard.</p>
+
+<p>The “&lt;bt” is replaced by the content of the snippet and anything the is formatted with a “${#:NAME}” is accessed by pressing the TAB key.</p>
+
+<p>I then press TAB to go to the next field and type the text I want to replace the NAME value. Quick, simple and always formatted correctly.</p>
+
+<p>This <em>really</em> saves time and makes quickly adding the different elements so easy. I am honestly kicking myself for not doing this sooner.</p>
+
+<p>So there you have it, everything you ever wanted to know about my journal writing automation.</p>
+
+
+
+    </article>
+    <span class="print-footer">Journal Automation with GNU Emacs - March 15, 2025 - Stephen Lange</span>
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:stvlange@gmail.com"><span class="icon-mail3"></span></a></li>    
+    
+      <li>
+        <a href="//github.com/stvlange"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-rss2"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2025 &nbsp;&nbsp;STEPHEN LANGE</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for stephenlange.org </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
